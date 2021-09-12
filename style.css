@@ -264,3 +264,50 @@ background: rgba(18, 28, 43, 0.82);
     color: red;
 }
 
+/* faculty css end  */
+
+.date_discription{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.caloander_card{
+    position: relative;
+    width: 88px;
+    height: 96px;
+    background: #060606;
+    flex: 1;
+}
+
+.calander_front_card{
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    background: #153E90;
+}
+.calander_front_card p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    padding-top: 5px;
+    color: #FFFFFF;    
+}
+.caloander_card_date{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42.2069px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.notice_details{
+    
+}
