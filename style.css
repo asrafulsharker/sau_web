@@ -267,16 +267,21 @@ background: rgba(18, 28, 43, 0.82);
 /* faculty css end  */
 
 .date_discription{
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    /* justify-content: center; */
+}
+
+.single_date_discription{
+    display: flex;
+    align-items: center;
 }
 .caloander_card{
     position: relative;
     width: 88px;
     height: 96px;
     background: #060606;
-    flex: 1;
+    
 }
 
 .calander_front_card{
@@ -284,6 +289,10 @@ background: rgba(18, 28, 43, 0.82);
     width: 88px;
     height: 26px;
     background: #153E90;
+    margin-top: -26px;
+}
+.calander_front_card_news{
+    background-color: #049906 !important;
 }
 .calander_front_card p{
     font-family: Roboto;
@@ -304,10 +313,53 @@ background: rgba(18, 28, 43, 0.82);
     line-height: 49px;
     text-align: center;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
-    padding-top: 10px;
+    color: #FFFFFF; 
+    position: absolute;
+    z-index: 10;
+    margin-top: -83px;
+    margin-left: 20px;
+}
+.notice_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notice_details{
+    /* width: 300px; */
+    padding-left: 45px;
+}
+.notice_details_p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+
+    color: #1882FF;
+}
+.read_me{
+    display: flex;
+    align-items: center;
 }
 
-.notice_details{
-    
+.read_me p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    margin: 0 0 0px;
+    color:red;
+    margin-right: 5px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.notice_mid_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
