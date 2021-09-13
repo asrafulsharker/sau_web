@@ -363,3 +363,44 @@ background: rgba(18, 28, 43, 0.82);
     align-items: center;
     justify-content: center;
 }
+
+.ranking_1_img{
+    position: relative;
+}
+.ranking_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ranking{
+    position: absolute;
+    z-index: 10;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+.ranking_line_img{
+    position: absolute;
+    z-index: 10;
+}
+
+.ranking_details_1{
+    position: absolute;
+    z-index: 10;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.1001px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-top: 70px;
+    background: #049906;
+    padding: 14px 52px;
+}
