@@ -406,3 +406,65 @@ background: rgba(18, 28, 43, 0.82);
     background: #049906;
     padding: 14px 52px;
 }
+
+
+/* f&f css start  */
+
+.fandf{
+    background-image: url("./image/f&f_background.png"); 
+  background-color: #cccccc; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  color: #FFFFFF;
+  padding: 50px 0px;
+}
+
+.fandf_p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38.4px;
+    line-height: 45px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.fandf_p img{
+    padding-bottom: 50px;
+}
+
+.fandf_counter_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fandf_counter_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48.8569px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.fandf_counter_p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23.5521px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+/* f&f css end */
