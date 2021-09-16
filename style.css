@@ -632,3 +632,26 @@ background: rgba(18, 28, 43, 0.82);
     color: #FFFFFF;
     border: 0;
 }
+
+/* footer end  */
+
+/* footer bottom start  */
+
+.footer_bottom_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_bottom_left{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex: 3;
+}
+
+.footer_bottom_right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex: 7;
+}
