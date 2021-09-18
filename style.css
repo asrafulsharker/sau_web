@@ -429,8 +429,8 @@ background: rgba(18, 28, 43, 0.82);
 .faculty_right_slider_one{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
 /* faculty css end  */
 /* notice start  */
