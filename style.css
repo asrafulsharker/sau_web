@@ -277,7 +277,11 @@ background: rgba(18, 28, 43, 0.82);
     color: #FFFFFF;
     padding: 50px 0px;
   }
-
+.admission_bottom_1 a{
+    background: rgba(25, 130, 254, 0.5);
+    padding: 10px 35px;
+    margin-top: 25px;
+}
 
 .admission_bottom_heading{
     font-family: Roboto;
@@ -376,6 +380,7 @@ background: rgba(18, 28, 43, 0.82);
     display: flex;
     flex-direction: column;
     padding: 22px;
+    height: 200px;
 }
 .faculty_left_heading{
     font-family: Roboto;
@@ -419,6 +424,13 @@ background: rgba(18, 28, 43, 0.82);
     border-radius: 17.0233px;
     padding: 16px;
     margin-top: 8px;
+}
+
+.faculty_right_slider_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 /* faculty css end  */
 /* notice start  */
