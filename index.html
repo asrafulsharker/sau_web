@@ -131,7 +131,7 @@
                     <p>Faculty Of VETERINARY, ANIMAL AND BIOMEDICAL SCIENCES</p>
                     <img src="./image/faculty_line.png">
 
-                    <div class="faculty_right_slider afflitoion_slider">
+                    <div class="faculty_right_slider faculty_slider">
                         <div class="faculty_right_slider_one col-md-12">
                             <img src="./image/admition_img1.png">
                             <img src="./image/admition_img1.png">
@@ -704,6 +704,42 @@
 
         // affilition slider 
         $('.afflitoion_slider').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 7,
+        slidesToScroll: 4,
+        responsive: [
+            {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
+            },
+            {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+        });
+
+        $('.faculty_slider').slick({
         dots: true,
         infinite: false,
         speed: 300,
