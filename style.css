@@ -398,14 +398,27 @@ background: rgba(18, 28, 43, 0.82);
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 19.9992px;
+    font-size: 15.999px;
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.01em;
-
+    margin-bottom: 25px;
+}
+.faculty_right_heading{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
     color: #000000;
 }
-
+.daculty_item a{
+    text-decoration: none;
+    color: #000000;
+    margin-right: 20px;
+}
 
 .facilty_input_text{
     position: relative;
