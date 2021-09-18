@@ -439,6 +439,54 @@ background: rgba(18, 28, 43, 0.82);
 .faculty_right_slider_one .col-md-12{
     padding: 0px !important;
 }
+
+
+.faculty_1_img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.faculty_slider_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faculty_slider_p1{
+    position: absolute;
+    z-index: 10;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+.faculty_line_img{
+    position: absolute;
+    z-index: 10;
+}
+
+.faculty_details_1{
+    position: absolute;
+    z-index: 10;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.1001px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-top: 70px;
+    background: #049906;
+    padding: 14px 52px;
+}
+
+/* .faculty_slider_main{
+    background: url(./image/admition_img1.png);
+} */
 /* faculty css end  */
 /* notice start  */
 .notice{
