@@ -374,6 +374,9 @@ background: rgba(18, 28, 43, 0.82);
 
 
 /* faculty css start  */
+.faculty{
+    padding: 50px 0px;
+}
 .faculty_left{
     background: #ECECEC;
     border-radius: 22.5708px;
