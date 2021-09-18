@@ -431,7 +431,7 @@ background: rgba(18, 28, 43, 0.82);
     flex-direction: column;
     /* align-items: center;
     justify-content: center; */
-    padding: 0px;
+    padding: 0px !important;
 }
 /* faculty css end  */
 /* notice start  */
