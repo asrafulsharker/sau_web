@@ -437,7 +437,8 @@ background: rgba(18, 28, 43, 0.82);
     padding: 0px;
 }
 .faculty_right_slider_one .col-md-12{
-    padding: 0px !important;
+    /* padding: 0px !important; */
+    padding: 3px !important;
 }
 
 
