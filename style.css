@@ -464,6 +464,7 @@ background: rgba(18, 28, 43, 0.82);
     letter-spacing: 0.01em;
     color: #FFFFFF;
     margin-bottom: 70px;
+    margin-bottom: 56px !important;
 }
 .faculty_line_img{
     position: absolute;
@@ -481,8 +482,9 @@ background: rgba(18, 28, 43, 0.82);
     letter-spacing: 0.01em;
     color: #FFFFFF;
     margin-top: 70px;
-    background: #049906;
-    padding: 14px 52px;
+    background: rgba(25, 130, 254, 0.5);
+    /* padding: 14px 52px; */
+    padding: 7px 25px;
 }
 
 /* .faculty_slider_main{
