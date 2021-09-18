@@ -199,6 +199,105 @@ background: rgba(18, 28, 43, 0.82);
     margin-top: 6vh;
 }
 
+/* admission css start  */
+.admission{
+    margin: 50px 0px 160px 0px;
+}
+.admission_bottom_1{
+    /* position: relative; 
+    background: rgba(18, 28, 43, 0.438);
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+    /* background-image: url(./image/admition_img1.png); */
+}
+.admission_bottom_1::after{
+    /* background-image: url(./image/admition_img1.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute; */
+    /* z-index: -1;    */
+}
+.admission_top_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.admission_top_link a{
+    margin-left: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+.admission_bottom {
+    display: flex;
+}
+.admission_bottom_1 {
+    /* height: 100vh; */
+    position: relative;
+    /* padding-top: 20vh; */
+    background: rgba(18, 28, 43, 0.82);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    margin: 0px 7px;
+  }
+  
+  .admission_bottom_1::after {
+    content: "";
+    background: url(./image/admition_img1.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    background-color: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #FFFFFF;
+    padding: 50px 0px;
+  }
+
+
+.admission_bottom_heading{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.admission_bottom_btn{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.6086px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #FFECEC;
+}
+
+/* admission css end  */
+
 /* vice chansalor start  */
 
 .vice_C{
