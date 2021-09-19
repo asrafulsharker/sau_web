@@ -523,6 +523,16 @@ background: rgba(18, 28, 43, 0.82);
     letter-spacing: 0.01em;
     color: #000000;
 }
+
+.notice_right_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
 .date_discription{
     display: flex;
     align-items: center;
