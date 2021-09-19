@@ -725,6 +725,27 @@ background: rgba(18, 28, 43, 0.82);
 
 /* green campus css end  */
 
+.green_campus_left_p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 49.8605px;
+    line-height: 58px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.green_campus_left a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38.4px;
+    line-height: 45px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
 /* start footer section--- */
 .footer{
     background-color: #000;
