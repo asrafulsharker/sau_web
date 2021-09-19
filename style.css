@@ -751,6 +751,13 @@ background: rgba(18, 28, 43, 0.82);
     color: #000000;
 }
 
+.green_campus_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 /* start footer section--- */
 .footer{
     background-color: #000;
