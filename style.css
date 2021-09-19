@@ -760,6 +760,12 @@ background: rgba(18, 28, 43, 0.82);
     width: 100%;
     height: 170px;
 }
+
+.green_campus_slider_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* .green_campus_right{
     display: flex;
     flex-direction: column;
