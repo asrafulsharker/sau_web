@@ -724,7 +724,9 @@ background: rgba(18, 28, 43, 0.82);
 }
 
 /* green campus css end  */
-
+.green_campus_main{
+    padding: 50px 0px;
+}
 .green_campus_left_p{
     font-family: Roboto;
     font-style: normal;
