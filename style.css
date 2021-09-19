@@ -783,6 +783,8 @@ background: rgba(18, 28, 43, 0.82);
     border: 1px solid #A6A6A6;
     box-sizing: border-box;
     padding: 25px;
+    height: 170px;
+    width: 190px;
 }
 
 /* start footer section--- */
