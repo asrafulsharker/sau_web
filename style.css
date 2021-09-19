@@ -714,6 +714,16 @@ background: rgba(18, 28, 43, 0.82);
 }
 /* f&f css end */
 
+/* green campus css start  */
+
+.green_campus_left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* green campus css end  */
 
 /* start footer section--- */
 .footer{
