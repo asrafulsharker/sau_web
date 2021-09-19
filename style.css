@@ -510,6 +510,7 @@ background: rgba(18, 28, 43, 0.82);
 /* notice start  */
 .notice{
     margin: 50px 0px;
+    background: #F3F3F3;
 }
 .date_discription{
     display: flex;
