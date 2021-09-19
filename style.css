@@ -739,6 +739,10 @@ background: rgba(18, 28, 43, 0.82);
     letter-spacing: 0.01em;
     color: #000000;
 }
+.green_campus_left img{
+    height: 216px;
+    padding: 27px 0px;
+}
 
 .green_campus_left a{
     font-family: Roboto;
