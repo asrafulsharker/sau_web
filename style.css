@@ -674,6 +674,16 @@ background: rgba(18, 28, 43, 0.82);
     padding: 14px 52px;
 }
 
+.notice_view_more{
+    background: #049906;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.2717px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #FFECEC;
+}
 
 /* f&f css start  */
 
