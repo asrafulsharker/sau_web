@@ -606,6 +606,16 @@ background: rgba(18, 28, 43, 0.82);
     /* width: 300px; */
     padding-left: 45px;
 }
+.notice_details_notice_P{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #1882FF;
+}
 .notice_details_p{
     font-family: Roboto;
     font-style: normal;
@@ -615,7 +625,7 @@ background: rgba(18, 28, 43, 0.82);
     letter-spacing: 0.01em;
     text-decoration-line: underline;
 
-    color: #1882FF;
+    color: #049906;
 }
 .read_me{
     display: flex;
