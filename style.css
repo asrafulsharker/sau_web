@@ -68,7 +68,6 @@ p{
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.05em;
-
     color: #FFFFFF;
 }
 
@@ -339,6 +338,7 @@ background: rgba(18, 28, 43, 0.82);
     letter-spacing: 0.01em;
     color: #FFFFFF;
     padding-top: 20px;
+    font-size: 45px !important;
 }
 
 .vice_bottom_p1{
