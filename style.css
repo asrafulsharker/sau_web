@@ -368,6 +368,7 @@ background: rgba(18, 28, 43, 0.82);
     margin-top: 25px;
     padding-left: 40px;
     padding-bottom: 20px;
+    font-size: 23px !important;
 }
 
 .vice_bottom_p2 a{
@@ -419,6 +420,7 @@ background: rgba(18, 28, 43, 0.82);
     letter-spacing: 0.01em;
     text-transform: capitalize;
     color: #000000;
+    font-size: 25px !important;
 }
 .daculty_item a{
     text-decoration: none;
