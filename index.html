@@ -69,6 +69,7 @@
                 <a href="#">Admission</a>
                 <a href="#test">Convocation</a>
                 <a href="#">C-19 Update</a>
+                <button onclick="myFunction()">C-19 Update</button>
             </div>
             <div class="admission_bottom ">
                 <div class="admission_bottom_1 col-md-4">
@@ -83,9 +84,6 @@
                     <p class="admission_bottom_heading">Undergraduate<br/>Admission</p>
                     <a class="admission_bottom_btn" href="">Details</a>
                 </div>
-            </div>
-            <div class="test" id="test">
-                <h1>Hello...........</h1>
             </div>
         </div>
     </section>
@@ -909,6 +907,10 @@
             // instead of a settings object
         ]
         });
+
+        function myFunction() {
+        document.querySelector("#demo").innerHTML = "Hello World!";
+        }
     </script>
 </body>
 
