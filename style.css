@@ -411,6 +411,9 @@ background: rgba(18, 28, 43, 0.82);
     letter-spacing: 0.01em;
     margin-bottom: 25px;
 }
+.faculty_right{
+    padding-left: 40px;
+}
 .faculty_right_heading{
     font-family: Roboto;
     font-style: normal;
