@@ -856,6 +856,7 @@ background: rgba(18, 28, 43, 0.82);
     font-size: 13.5719px;
     line-height: 3px;
     letter-spacing: 0.01em;
+    line-height: 15px !important;
     
 }
 .footer_1st_col .uName{
@@ -879,6 +880,7 @@ background: rgba(18, 28, 43, 0.82);
     
     height: 150px;
     margin-bottom: 12px;
+    height: 122px !important;
 }
 
 .footer_2nd_col{
