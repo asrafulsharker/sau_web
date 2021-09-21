@@ -614,7 +614,8 @@ background: rgba(18, 28, 43, 0.82);
     line-height: 16px;
     letter-spacing: 0.01em;
     text-decoration-line: underline;
-    color: #1882FF;
+    color: #FFFFFF;
+    background-color: #1882FF;
 }
 .notice_details_p{
     font-family: Roboto;
@@ -624,7 +625,8 @@ background: rgba(18, 28, 43, 0.82);
     line-height: 16px;
     letter-spacing: 0.01em;
     text-decoration-line: underline;
-    color: #153E90;
+    color: #FFFFFF;
+    background-color: #049906;
     padding: 15px 40px;
     margin-left: -15px;
 }
