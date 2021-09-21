@@ -654,6 +654,10 @@ background: rgba(18, 28, 43, 0.82);
     margin-left: -15px;
     background-color: #049906;
 }
+
+.notice_right_bottom{
+    margin-bottom: 10px;
+}
 .read_me{
     display: flex;
     align-items: center;
