@@ -656,11 +656,12 @@ background: rgba(18, 28, 43, 0.82);
 }
 
 .notice_right_bottom{
-    margin-bottom: 10px;
+    margin-bottom: 60px;
 }
 .read_me{
     display: flex;
     align-items: center;
+    padding: 7px 0px;
 }
 
 .read_me p{
