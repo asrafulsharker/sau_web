@@ -749,6 +749,8 @@ background: rgba(18, 28, 43, 0.82);
     padding: 22px;
     border-radius: 50%;
     position: absolute;
+    margin-top: -134px;
+    margin-left: -2%;
 }
 .arrow_next {
     width: 70.26px;
@@ -757,6 +759,8 @@ background: rgba(18, 28, 43, 0.82);
     padding: 22px;
     border-radius: 50%;
     position: absolute;
+    margin-top: -134px;
+    margin-left: 76%;
 }
 
 /* achivement css end  */
