@@ -762,6 +762,13 @@ background: rgba(18, 28, 43, 0.82);
     margin-left: 76%;
     margin-left: 1060px;
 }
+
+.achivement{
+    padding: 50px 0px;
+}
+.event{
+    padding: 50px 0px;
+}
 .event_slider{
     position: relative;
 }
