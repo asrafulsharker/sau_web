@@ -740,11 +740,11 @@ background: rgba(18, 28, 43, 0.82);
 /* achivement css start  */
 
 .arrow_next {
-    width: 89.26px;
-    height: 89.26px;
+    width: 70.26px;
+    height: 70.26px;
     background: #284E8D;
+    padding: 22px;
     border-radius: 50%;
-    padding: 10px;
 }
 
 /* achivement css end  */
