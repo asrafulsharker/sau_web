@@ -738,7 +738,13 @@ background: rgba(18, 28, 43, 0.82);
     color: #FFECEC;
 }
 /* achivement css start  */
-
+.arrow_prev{
+    width: 70.26px;
+    height: 70.26px;
+    background: #ECECEC;
+    padding: 22px;
+    border-radius: 50%;
+}
 .arrow_next {
     width: 70.26px;
     height: 70.26px;
