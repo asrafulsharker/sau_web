@@ -738,11 +738,10 @@ background: rgba(18, 28, 43, 0.82);
     color: #FFECEC;
 }
 /* achivement css start  */
-
-.event_slider{
+.achivement_slider{
     position: relative;
 }
-.arrow_prev{
+.achievement_arrow_prev{
     width: 70.26px;
     height: 70.26px;
     background: #ECECEC;
@@ -752,7 +751,31 @@ background: rgba(18, 28, 43, 0.82);
     margin-top: -134px;
     margin-left: -2%;
 }
-.arrow_next {
+.achievement_arrow_next{
+    width: 70.26px;
+    height: 70.26px;
+    background: #284E8D;
+    padding: 22px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -134px;
+    margin-left: 76%;
+    margin-left: 1060px;
+}
+.event_slider{
+    position: relative;
+}
+.event_arrow_prev{
+    width: 70.26px;
+    height: 70.26px;
+    background: #ECECEC;
+    padding: 22px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -134px;
+    margin-left: -2%;
+}
+.event_arrow_next {
     width: 70.26px;
     height: 70.26px;
     background: #284E8D;

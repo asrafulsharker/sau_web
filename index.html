@@ -486,6 +486,12 @@
                     </div>
                 </div>
             </div>
+            <div class="achievement_arrow_prev">
+                <span><img src="./image/prev_arrow1.png"></span>
+            </div>
+            <div class="achievement_arrow_next">
+                <span><img src="./image/next_arrow1.png"></span>
+            </div>
         </div>
     </section>
 
@@ -553,10 +559,10 @@
                     </div>
                 </div>
             </div>
-            <div class="arrow_prev">
+            <div class="event_arrow_prev">
                 <span><img src="./image/prev_arrow1.png"></span>
             </div>
-            <div class="arrow_next">
+            <div class="event_arrow_next">
                 <span><img src="./image/next_arrow1.png"></span>
             </div>
             
@@ -837,6 +843,8 @@
     $(function(){
             $('.achivement_slider').slick({
         // prevArrow: '.arrow_prev',
+        prevArrow: '.achievements_arrow_prev',
+        nextArrow: '.achievements_arrow_next',
         dots: false,
         arrows:true,
         infinite: false,
@@ -876,8 +884,8 @@
 
         $(function(){
             $('.event_slider').slick({
-        prevArrow: '.arrow_prev',
-        nextArrow: '.arrow_next',
+        prevArrow: '.event_arrow_prev',
+        nextArrow: '.event_arrow_next',
         dots: false,
         arrows:true,
         infinite: false,
