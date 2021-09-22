@@ -705,7 +705,7 @@ background: rgba(18, 28, 43, 0.82);
     text-align: center;
     letter-spacing: 0.01em;
     color: #FFFFFF;
-    margin-bottom: 70px;
+    margin-bottom: 70px !important;
 }
 .ranking_line_img{
     position: absolute;
