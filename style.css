@@ -78,13 +78,30 @@ p{
 .nav_pop_bar{
     position: absolute;
     z-index: 100;
+    width: 100%;
+    height: 100vh;
 }
 
 .nav_pop_bar_main{
     background: #141414;
     backdrop-filter: blur(200px);
+    height: 100vh;
+    padding:0px 20px;
 }
 
+.nav_pop_icon{
+    display: flex;
+}
+
+.nav_main_options{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav_2ndlebel_option{
+    display: flex;
+    flex-wrap: wrap;
+}
 /* nav css pobar end  */
 
 /* home section  */
