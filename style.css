@@ -924,32 +924,33 @@ background: rgba(18, 28, 43, 0.82);
     align-items: center;
     justify-content: center;
 }
-
+.afflitoion_slider{
+    position: relative;
+}
 .afflition_slider_component{
     border: 1px solid #A6A6A6;
     box-sizing: border-box;
     padding: 25px;
     height: 140px;
     width: 145px;
+    
 }
 .afflition_arrow_prev{
     width: 46.05px;
     height: 46.05px;
-    left: 233.05px;
-    top: 7100.72px;
     background: #CFD0CF;
     padding: 10px 14px;
     border-radius: 50%;
+    position: absolute;
 }
 .afflition_arrow_next{
     transform: rotate(-180deg);
     width: 46.05px;
     height: 46.05px;
-    left: 1685.95px;
-    top: 7054.67px;
     background: #049906;
     padding: 10px 14px;
     border-radius: 50%;
+    position: absolute;
 }
 /* start footer section--- */
 .footer{
