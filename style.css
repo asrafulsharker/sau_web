@@ -109,6 +109,7 @@ p{
 .nav_main_options{
     display: flex;
     flex-wrap: wrap;
+    margin: 10% 0% 0% 0%;
 }
 
 .nav_main_options a{
@@ -128,6 +129,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     font-family: Roboto;
+    margin: 10% 0% 0% 0%;
 }
 .nav_2ndlebel_option .nav_2ndlebel_option_add a{
     font-style: normal;
@@ -138,7 +140,7 @@ p{
     text-transform: uppercase;
     color: #FFFFFF;
     margin-right: 50px;
-    margin: 16% 0%;
+    margin: 10% 0%;
     margin-right: 8px;
 }
 .nav_2ndlebel_option .nav_2ndlebel_option_add img{
@@ -150,7 +152,7 @@ p{
     justify-content: center;
 }
 .nav_bottom_btn{
-    margin-top: 50%;
+    margin-top: 20%;
 }
 .nav_bottom_btn a{
     background: #54E346;
