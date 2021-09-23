@@ -948,6 +948,8 @@ background: rgba(18, 28, 43, 0.82);
     left: 1685.95px;
     top: 7054.67px;
     background: #049906;
+    padding: 10px 14px;
+    border-radius: 50%;
 }
 /* start footer section--- */
 .footer{
