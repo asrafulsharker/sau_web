@@ -108,7 +108,15 @@ p{
 }
 
 .nav_main_options a{
-    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-bottom: 1px solid #54E346;
 }
 .nav_2ndlebel_option{
     display: flex;
