@@ -80,6 +80,8 @@ p{
     z-index: 100;
     width: 100%;
     height: 100vh;
+    left: 100%;
+    transition: all .5s;
 }
 
 .nav_pop_bar_main{
@@ -171,6 +173,12 @@ p{
 .nav_botton_btn_signin{
     background: #404040;
     color: #54E346;
+}
+
+
+
+#check{
+    display: none;
 }
 /* nav css pobar end  */
 
