@@ -139,6 +139,10 @@ p{
     color: #FFFFFF;
     margin-right: 50px;
     margin: 16% 0%;
+    margin-right: 8px;
+}
+.nav_2ndlebel_option .nav_2ndlebel_option_add img{
+    margin-right: 45px;
 }
 .nav_2ndlebel_option_add{
     display: flex;
