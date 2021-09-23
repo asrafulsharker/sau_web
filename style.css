@@ -292,11 +292,13 @@ background: rgba(18, 28, 43, 0.82);
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
-    line-height: 37px;
+    /* font-size: 32px;
+    line-height: 37px; */
     text-align: center;
     letter-spacing: 0.01em;
     color: #FFFFFF;
+    font-size: 25px;
+    line-height: 30px;
 }
 
 .admission_bottom_btn{
