@@ -101,11 +101,15 @@ p{
     box-sizing: border-box;
 }
 
+
 .nav_main_options{
     display: flex;
     flex-wrap: wrap;
 }
 
+.nav_main_options a{
+    
+}
 .nav_2ndlebel_option{
     display: flex;
     flex-wrap: wrap;
