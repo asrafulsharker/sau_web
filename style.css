@@ -136,6 +136,18 @@ p{
     color: #FFFFFF;
 }
 
+.nav_bottom_btn a{
+    background: #54E346;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #000000;
+}
 /* nav css pobar end  */
 
 /* home section  */
