@@ -180,6 +180,10 @@ p{
 #check{
     display: none;
 }
+
+#check:checked ~ .nav_pop_bar{
+    left: 0;
+}
 /* nav css pobar end  */
 
 /* home section  */
