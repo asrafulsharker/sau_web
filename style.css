@@ -942,6 +942,8 @@ background: rgba(18, 28, 43, 0.82);
     padding: 10px 14px;
     border-radius: 50%;
     position: absolute;
+    margin-top: -85px;
+    cursor: pointer;
 }
 .afflition_arrow_next{
     transform: rotate(-180deg);
@@ -951,6 +953,9 @@ background: rgba(18, 28, 43, 0.82);
     padding: 10px 14px;
     border-radius: 50%;
     position: absolute;
+    margin-left: 1080px;
+    margin-top: -85px;
+    cursor: pointer;
 }
 /* start footer section--- */
 .footer{
