@@ -745,7 +745,7 @@ background: rgba(18, 28, 43, 0.82);
 /* achivement css start  */
 
 .achivement{
-    margin: 90px 0px;
+    margin: 90px 0px 10px 0px;
 }
 .achivement_slider{
     position: relative;
@@ -778,7 +778,7 @@ background: rgba(18, 28, 43, 0.82);
     padding: 50px 0px;
 }
 .event{
-    padding: 50px 0px;
+    padding: 10px 0px 90px 0px;
 }
 .event_slider{
     position: relative;
