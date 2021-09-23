@@ -71,6 +71,20 @@ p{
     letter-spacing: 0.05em;
     color: #FFFFFF;
 }
+/* nav css end  */
+
+/* nav popbar css start  */
+
+.nav_pop_bar{
+    position: absolute;
+    z-index: 100;
+}
+
+.nav_main{
+    
+}
+
+/* nav css pobar end  */
 
 /* home section  */
 
