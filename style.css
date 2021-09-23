@@ -80,8 +80,9 @@ p{
     z-index: 100;
 }
 
-.nav_main{
-    
+.nav_pop_bar_main{
+    background: #141414;
+    backdrop-filter: blur(200px);
 }
 
 /* nav css pobar end  */
