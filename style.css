@@ -728,7 +728,9 @@ background: rgba(18, 28, 43, 0.82);
     background: #049906;
     padding: 14px 52px;
 }
-
+.ranking_details_event{
+    background: #153E90 !important;
+}
 .notice_view_more{
     background: #049906;
     font-family: Roboto;
