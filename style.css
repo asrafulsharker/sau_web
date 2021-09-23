@@ -129,17 +129,25 @@ p{
     flex-wrap: wrap;
     font-family: Roboto;
 }
-.nav_2ndlebel_option a{
+.nav_2ndlebel_option .nav_2ndlebel_option_add a{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 25px;
     letter-spacing: 0.01em;
     text-transform: uppercase;
     color: #FFFFFF;
-    border-right: 1px solid #54E346;
+    margin-right: 50px;
+    margin: 16% 0%;
 }
-
+.nav_2ndlebel_option_add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_bottom_btn{
+    margin-top: 50%;
+}
 .nav_bottom_btn a{
     background: #54E346;
     text-decoration: none;
