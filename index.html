@@ -42,7 +42,37 @@
     </section>
     <!-- home start  -->
     <section class="home">
-        <div class="slider" id="home">
+        <div class="home_slider" id="home">
+            <div class="main_home">
+                <img class="mujib_logo" src="./image/mujib_100_logo 1.png">
+                <div class="mid_home">
+                    <p class="home_heading_text">Center of Excellence for <br/>Agriculture Studies.</p>
+                    <p class="home_p_text">Welcome to green and clean campus of Sylhet Agricultural University (SAU). SAU has 7 (Seven)   faculties <br> and 47 (forty seven) departments under those faculties.</p>
+                    <div class="home_btn">
+                        <a class="home_btn_one" href="#">Read More</a>
+                        <a class="home_btn_two" href="#">Explore</a>
+                    </div>
+                    <a class="home_bottom_arrow" href="#admission"><img src="./image/down_arrow.png"></a>
+                </div>
+                <p class="home_update">   
+                    journey on the 13th of February 1991 with only three departments: Physics, Chemistry and Economics, 13 teachers and 205 students. It has now expanded to 7 schools, 27 departments , 
+                </p>
+            </div>
+            <div class="main_home">
+                <img class="mujib_logo" src="./image/mujib_100_logo 1.png">
+                <div class="mid_home">
+                    <p class="home_heading_text">Center of Excellence for <br/>Agriculture Studies.</p>
+                    <p class="home_p_text">Welcome to green and clean campus of Sylhet Agricultural University (SAU). SAU has 7 (Seven)   faculties <br> and 47 (forty seven) departments under those faculties.</p>
+                    <div class="home_btn">
+                        <a class="home_btn_one" href="#">Read More</a>
+                        <a class="home_btn_two" href="#">Explore</a>
+                    </div>
+                    <a class="home_bottom_arrow" href="#admission"><img src="./image/down_arrow.png"></a>
+                </div>
+                <p class="home_update">   
+                    journey on the 13th of February 1991 with only three departments: Physics, Chemistry and Economics, 13 teachers and 205 students. It has now expanded to 7 schools, 27 departments , 
+                </p>
+            </div>
             <div class="main_home">
                 <img class="mujib_logo" src="./image/mujib_100_logo 1.png">
                 <div class="mid_home">
@@ -881,7 +911,46 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript">
     
-
+    $(function(){
+            $('.home_slider').slick({
+        prevArrow: '.achievement_arrow_prev',
+        nextArrow: '.achievement_arrow_next',
+        dots: false,
+        arrows:true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 4,
+        responsive: [
+            {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+            }
+            },
+            {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+        });
+        });
         $(function(){
             $('.achivement_slider').slick({
         prevArrow: '.achievement_arrow_prev',
