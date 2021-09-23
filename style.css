@@ -166,6 +166,11 @@ p{
     text-transform: uppercase;
     color: #000000;
     padding: 20px 40px;
+    margin-right: 40px;
+}
+.nav_botton_btn_signin{
+    background: #404040;
+    color: #54E346;
 }
 /* nav css pobar end  */
 
