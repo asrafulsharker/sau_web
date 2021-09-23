@@ -99,6 +99,9 @@ p{
 .nav_pop_icon a img{
     border: 1px solid #54E346;
     box-sizing: border-box;
+    width: 85px;
+    height: 85px;
+    padding: 20px;
 }
 
 
