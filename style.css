@@ -754,6 +754,7 @@ background: rgba(18, 28, 43, 0.82);
     position: absolute;
     margin-top: -134px;
     margin-left: -2%;
+    cursor: pointer;
 }
 .achievement_arrow_next{
     width: 70.26px;
@@ -765,6 +766,7 @@ background: rgba(18, 28, 43, 0.82);
     margin-top: -134px;
     margin-left: 76%;
     margin-left: 1060px;
+    cursor: pointer;
 }
 
 .achivement{
@@ -785,6 +787,7 @@ background: rgba(18, 28, 43, 0.82);
     position: absolute;
     margin-top: -134px;
     margin-left: -2%;
+    cursor: pointer;
 }
 .event_arrow_next {
     width: 70.26px;
@@ -796,6 +799,7 @@ background: rgba(18, 28, 43, 0.82);
     margin-top: -134px;
     margin-left: 76%;
     margin-left: 1060px;
+    cursor: pointer;
 }
 
 /* achivement css end  */
