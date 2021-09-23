@@ -944,6 +944,7 @@ background: rgba(18, 28, 43, 0.82);
     position: absolute;
     margin-top: -85px;
     cursor: pointer;
+    margin-left: -15px;
 }
 .afflition_arrow_next{
     transform: rotate(-180deg);
