@@ -91,6 +91,14 @@ p{
 
 .nav_pop_icon{
     display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 80px 40px;
+}
+
+.nav_pop_icon a img{
+    border: 1px solid #54E346;
+    box-sizing: border-box;
 }
 
 .nav_main_options{
