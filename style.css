@@ -932,7 +932,21 @@ background: rgba(18, 28, 43, 0.82);
     height: 140px;
     width: 145px;
 }
-
+.afflition_arrow_prev{
+    width: 46.05px;
+    height: 46.05px;
+    left: 233.05px;
+    top: 7100.72px;
+    background: #CFD0CF;
+}
+.afflition_arrow_next{
+    transform: rotate(-90deg);
+    width: 46.05px;
+    height: 46.05px;
+    left: 1685.95px;
+    top: 7054.67px;
+    background: #049906;
+}
 /* start footer section--- */
 .footer{
     background-color: #000;
