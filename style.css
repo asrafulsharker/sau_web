@@ -938,9 +938,11 @@ background: rgba(18, 28, 43, 0.82);
     left: 233.05px;
     top: 7100.72px;
     background: #CFD0CF;
+    padding: 10px 14px;
+    border-radius: 50%;
 }
 .afflition_arrow_next{
-    transform: rotate(-90deg);
+    transform: rotate(-180deg);
     width: 46.05px;
     height: 46.05px;
     left: 1685.95px;
