@@ -758,7 +758,7 @@ background: rgba(18, 28, 43, 0.82);
     border-radius: 50%;
     position: absolute;
     margin-top: -134px;
-    margin-left: -2%;
+    margin-left: -20px;
     cursor: pointer;
 }
 .achievement_arrow_next{
@@ -791,7 +791,7 @@ background: rgba(18, 28, 43, 0.82);
     border-radius: 50%;
     position: absolute;
     margin-top: -134px;
-    margin-left: -2%;
+    margin-left: -20px;
     cursor: pointer;
 }
 .event_arrow_next {
