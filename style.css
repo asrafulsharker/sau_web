@@ -124,7 +124,18 @@ p{
 .nav_2ndlebel_option{
     display: flex;
     flex-wrap: wrap;
+    font-family: Roboto;
 }
+.nav_2ndlebel_option a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 /* nav css pobar end  */
 
 /* home section  */
