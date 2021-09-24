@@ -343,16 +343,17 @@ background: rgba(18, 28, 43, 0.82);
     opacity: 1;
     color: #fff;
     margin-top: -170px;
-    border: 1px solid red;
+    border: 1px solid #ffff;
     border-radius: 50%;
-    
+    font-size: 15px;
 }
 
 .slick-dots li button::before {
     margin-top: -170px;
-    border: 1px solid red;
+    border: 1px solid #ffff;
     border-radius: 50%;
     color: #fff;
+    font: 0px;
 }
 /* home css end  */
 
