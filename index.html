@@ -132,6 +132,12 @@
                     journey on the 13th of February 1991 with only three departments: Physics, Chemistry and Economics, 13 teachers and 205 students. It has now expanded to 7 schools, 27 departments , 
                 </p>
             </div>
+            <div class="home_arrow_prev">
+                <span><img src="./image/prev_arrow1.png"></span>
+            </div>
+            <div class="home_arrow_next">
+                <span><img src="./image/next_arrow1.png"></span>
+            </div>
           </div>
     </section>
     <!-- home end  -->
@@ -1002,11 +1008,11 @@
     
     $(function(){
             $('.home_slider').slick({
-        // prevArrow: '.achievement_arrow_prev',
-        // nextArrow: '.achievement_arrow_next',
+        prevArrow: '.home_arrow_prev',
+        nextArrow: '.home_arrow_next',
         dots: true,
         arrows:true,
-        infinite: false,
+        infinite: true,
         speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -1014,7 +1020,7 @@
             {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 3,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true
