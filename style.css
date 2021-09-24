@@ -184,7 +184,7 @@ p{
 }
 
 .nav_pop_bar.close{
-    visibility: hidden;
+    visibility: hidden !important;
     z-index: 0;
 }
 
