@@ -34,12 +34,9 @@
                 <div class="nav_icon_main">
                     <p class="nav_icon">En</p>
                 </div>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
                     <div class="nav_icon_main">
                         <img  class="nav_icon" src="./image/bar_icon.png" alt="bar">
                     </div>
-                </label>
             </div>
         </div>
     </section>
@@ -76,7 +73,7 @@
                         <div class="nav_2ndlebel_option_add"><a href="#">RESEARCH</a><img src="./image/nav_2ndlabel_line.png"></div>
                         <div class="nav_2ndlebel_option_add"><a href="#">JOBS & OPS</a><img src="./image/nav_2ndlabel_line.png"></div>   
                     </div>
-                    <div class="nav_bottom_btn">
+                    <div class="nav_bottom_btn" id="nav_bottom_btn">
                         <a href="">SIGN UP</a>
                         <a class="nav_botton_btn_signin" href="">SIGN IN</a>
                     </div>
@@ -957,6 +954,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript">
+
+    // pop bar js 
+
+
+
+        $(document).ready(function(){
+            $('#nav_bottom_btn').click(function(){
+                $('nav_pop_bar').toggleClass('show');
+            });
+        });
+
+
+
+
     
     $(function(){
             $('.home_slider').slick({
@@ -1161,6 +1172,8 @@
         function myFunction() {
         document.querySelector("#demo").innerHTML = "Hello World!";
         }
+
+
     </script>
 </body>
 
