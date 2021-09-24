@@ -914,6 +914,48 @@ background: rgba(18, 28, 43, 0.82);
 .achivement{
     margin: 90px 0px 10px 0px;
 }
+
+
+.select{
+    padding: 8px 12px;
+    color: #3333;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+
+    color: #878787;
+    cursor: pointer;
+    /* border-radius: 5px; */
+
+    /* replace default styling (arrow)  */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(./image/drop_down_icon.png);
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    padding-right: 30px;
+    border: none;
+    border-bottom: 2px solid #878787;
+
+}
+
+
+.select:focus,
+.select:hover{
+    outline: none;
+    /* border: 1px solid #bbbbbb; */
+}
+
+.select option{
+    background-color: #ffff;
+
+}
+
 .achivement_slider{
     position: relative;
 }
