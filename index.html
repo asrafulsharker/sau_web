@@ -51,7 +51,7 @@
                     <div class="nav_pop_icon">
                         <a href="#"><img src="./image/nav_search.png"></a>
                         <a href="#"><img src="./image/nav_ball.png"></a>
-                        <a class="nav_pop_icon_coros" href="#"><img src="./image/nav_coros.png"></a>
+                        <a class="nav_pop_icon_coros nav-toggler" href="#"><img src="./image/nav_coros.png"></a>
                     </div>
                     <div class="nav_main_options">
                         <a href="#">ABOUT US</a>
@@ -984,7 +984,7 @@
             console.log("hi");
             navTogglerCoros.classList.toggle("active");
             const nav = document.querySelector(".nav_pop_bar");
-            nav.classList.toggle("");
+            nav.classList.toggle("open");
             // if(nav.classList.contains("close")){
             //     nav.style.maxHeight = nav.scrollHeight + "px";
             // }

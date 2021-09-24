@@ -80,10 +80,10 @@ p{
     z-index: 100;
     width: 100%;
     height: 100vh;
-    /* left:  100%; */
+    left:  100%;
     transition: all .5s ease;
     visibility: hidden;
-    /* overflow: hidden; */
+    overflow: hidden;
     max-height: 0px;
 }
 
@@ -114,7 +114,7 @@ p{
 .nav_main_options{
     display: flex;
     flex-wrap: wrap;
-    margin: 10% 0% 0% 0%;
+    margin: 5% 0% 0% 0%;
 }
 
 .nav_main_options a{
@@ -145,7 +145,7 @@ p{
     text-transform: uppercase;
     color: #FFFFFF;
     margin-right: 50px;
-    margin: 10% 0%;
+    margin: 5% 0%;
     margin-right: 8px;
 }
 .nav_2ndlebel_option .nav_2ndlebel_option_add img{
@@ -174,24 +174,31 @@ p{
     margin-right: 40px;
 }
 .nav_botton_btn_signin{
-    background: #404040;
-    color: #54E346;
+    background: #404040 !important;
+    color: #54E346 !important;
 }
 
 .nav_pop_bar.open{
     visibility: visible !important;
-    z-index: 1000 !important;
+    z-index: 1000 ;
+    left:  0% !important;
+    overflow: visible;
 }
 
 .nav_pop_bar.close{
-    visibility: hidden !important;
-    z-index: 0 !important;
+    visibility: hidden ;
+    z-index: 0 ;
 }
 
 
 .nav-toggler{
     cursor: pointer;
+    /* z-index: 60000; */
 }
+
+/* .nav_pop_icon_coros{
+    z-index: -10; 
+} */
 
 /* nav css pobar end  */
 
