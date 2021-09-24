@@ -180,6 +180,7 @@ p{
 
 .nav_pop_bar.open{
     visibility: visible;
+    z-index: 1000;
 }
 /* nav css pobar end  */
 
