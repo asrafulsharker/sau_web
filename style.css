@@ -182,6 +182,11 @@ p{
     visibility: visible;
     z-index: 1000;
 }
+
+.nav-toggler{
+    cursor: pointer;
+}
+
 /* nav css pobar end  */
 
 /* home section  */
