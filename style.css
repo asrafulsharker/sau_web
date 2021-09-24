@@ -82,6 +82,9 @@ p{
     height: 100vh;
     /* left:  100%; */
     transition: all .5s ease;
+    visibility: hidden;
+    overflow: hidden;
+    max-height: 0px;
 }
 
 .nav_pop_bar_main{
