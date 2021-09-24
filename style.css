@@ -82,7 +82,7 @@ p{
     height: 100vh;
     /* left:  100%; */
     transition: all .5s ease;
-    /* visibility: hidden; */
+    visibility: hidden;
     /* overflow: hidden; */
     max-height: 0px;
 }
