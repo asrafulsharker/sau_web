@@ -179,12 +179,12 @@ p{
 }
 
 .nav_pop_bar.open{
-    visibility: visible;
+    visibility: visible !important;
     z-index: 1000;
 }
 
 .nav_pop_bar.close{
-    visibility: hidden !important;
+    visibility: hidden ;
     z-index: 0;
 }
 
