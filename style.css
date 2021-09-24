@@ -354,15 +354,17 @@ background: rgba(18, 28, 43, 0.82);
     border-radius: 50%;
     color: #fff;
     font: 0px;
-    margin-top: -50vh;
-    margin-left: 8vw;
+
 }
 
 .home_arrow_prev{
-    background-color: red;
+    /* background-color: red; */
+    margin-top: -50vh;
+    margin-left: 8vw;
+    position: absolute;
 }
 .home_arrow_next{
-    background-color: red;
+    /* background-color: red; */
     margin-left: 92vw;
     margin-top: -50vh;
     position: absolute;
