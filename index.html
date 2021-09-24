@@ -959,12 +959,20 @@
 
 
 
-        $(document).ready(function(){
-            $('#nav_icon_main').click(function(){
-                $('nav_pop_bar').toggleClass('show');
-            });
-        });
+        const navToggler = document.querySelector(".nav_icon_main");
+        navToggler.addEventListener("click", navToggle);
 
+        function navToggle() {
+            navToggler.classList.toggle("active");
+            const nav = document.querySelector(".nav_pop_bar");
+            nav.classList.toggle("open");
+            if(nav.classList.contains("open")){
+                nav.style.maxHeight = nav.scrollHeight + "px";
+            }
+            else{
+                nav.removeAttribute("style");
+            }
+        }
 
 
 
