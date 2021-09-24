@@ -180,7 +180,7 @@ p{
 
 .nav_pop_bar.open{
     visibility: visible !important;
-    z-index: 1000;
+    z-index: 1000 !important;
 }
 
 .nav_pop_bar.close{
