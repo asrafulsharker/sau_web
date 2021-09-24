@@ -349,7 +349,7 @@ background: rgba(18, 28, 43, 0.82);
 }
 
 .slick-dots li button::before {
-    margin-top: -170px;
+    margin-top: -140px;
     border: 1px solid #ffff;
     border-radius: 50%;
     color: #fff;
