@@ -368,6 +368,7 @@ background: rgba(18, 28, 43, 0.82);
     margin-left: 92vw;
     margin-top: -50vh;
     position: absolute;
+    transform: rotate(-180deg);
 }
 
 /* home css end  */
