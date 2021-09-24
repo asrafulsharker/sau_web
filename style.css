@@ -337,7 +337,7 @@ background: rgba(18, 28, 43, 0.82);
     justify-content: center;
     align-items: center;
     /* margin-top: 6vh; */
-    margin-top: 3vh !important;
+    margin-top: 4vh !important;
 }
 
 .slick-dots li.slick-active button::before {
