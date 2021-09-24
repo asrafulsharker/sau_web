@@ -80,8 +80,8 @@ p{
     z-index: 100;
     width: 100%;
     height: 100vh;
-    left:  100%;
-    transition: all .5s;
+    /* left:  100%; */
+    transition: all .5s ease;
 }
 
 .nav_pop_bar_main{
@@ -175,8 +175,8 @@ p{
     color: #54E346;
 }
 
-.nav_pop_bar.show{
-    left: 0;
+.nav_pop_bar.open{
+    visibility: visible;
 }
 /* nav css pobar end  */
 
