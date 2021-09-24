@@ -83,7 +83,7 @@ p{
     /* left:  100%; */
     transition: all .5s ease;
     visibility: hidden;
-    overflow: hidden;
+    /* overflow: hidden; */
     max-height: 0px;
 }
 
