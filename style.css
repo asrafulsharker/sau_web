@@ -175,13 +175,7 @@ p{
     color: #54E346;
 }
 
-
-
-#check{
-    display: none;
-}
-
-#check:checked ~ .nav_pop_bar{
+.nav_pop_bar.show{
     left: 0;
 }
 /* nav css pobar end  */
