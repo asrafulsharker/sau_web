@@ -360,8 +360,9 @@ background: rgba(18, 28, 43, 0.82);
 .home_arrow_prev{
     /* background-color: red; */
     margin-top: -50vh;
-    margin-left: 8vw;
+    margin-left: 4vw;
     position: absolute;
+    cursor: pointer;
 }
 .home_arrow_next{
     /* background-color: red; */
@@ -369,6 +370,7 @@ background: rgba(18, 28, 43, 0.82);
     margin-top: -50vh;
     position: absolute;
     transform: rotate(-180deg);
+    cursor: pointer;
 }
 
 /* home css end  */
