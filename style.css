@@ -355,6 +355,14 @@ background: rgba(18, 28, 43, 0.82);
     color: #fff;
     font: 0px;
 }
+
+.home_arrow_prev{
+    background-color: red;
+}
+.home_arrow_next{
+    background-color: red;
+}
+
 /* home css end  */
 
 /* admission css start  */
