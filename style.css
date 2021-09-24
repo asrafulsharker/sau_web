@@ -183,6 +183,12 @@ p{
     z-index: 1000;
 }
 
+.nav_pop_bar.close{
+    visibility: hidden;
+    z-index: 0;
+}
+
+
 .nav-toggler{
     cursor: pointer;
 }
