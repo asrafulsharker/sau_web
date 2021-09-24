@@ -34,7 +34,7 @@
                 <div class="nav_icon_main">
                     <p class="nav_icon">En</p>
                 </div>
-                    <div class="nav_icon_main nav-toggler" id="nav_icon_main">
+                    <div class="nav_icon_main nav-toggler " id="nav_icon_main">
                         <img  class="nav_icon" src="./image/bar_icon.png" alt="bar">
                     </div>
             </div>
@@ -973,7 +973,7 @@
             // else{
             //     nav.removeAttribute('style');
             // }
-            nav.classList.toggle("close");
+            // nav.classList.toggle("close");
         }
 
 
@@ -984,14 +984,15 @@
             console.log("hi");
             navTogglerCoros.classList.toggle("active");
             const nav = document.querySelector(".nav_pop_bar");
-            nav.classList.toggle("close");
+            nav.classList.toggle("");
             // if(nav.classList.contains("close")){
             //     nav.style.maxHeight = nav.scrollHeight + "px";
             // }
             // else{
             //     nav.removeAttribute('style');
             // }
-            nav.classList.toggle("open");
+            // nav.classList.toggle("open");
+            nav.removeAttribute('style');
         }
 
 
