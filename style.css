@@ -955,7 +955,9 @@ background: rgba(18, 28, 43, 0.82);
     background-color: #ffff;
 
 }
-
+.achivement_top{
+    margin-bottom: 20px;
+}
 .achivement_slider{
     position: relative;
 }
@@ -1153,6 +1155,22 @@ background: rgba(18, 28, 43, 0.82);
 .affilition{
     margin: 90px 0px;
 }
+
+.afflition_top{
+    margin-bottom: 20px;
+}
+
+.afflition_text_p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+
 .afflitoion_slider .col-md-12 {
     display: flex;
     align-items: center;
