@@ -317,7 +317,8 @@ background: rgba(18, 28, 43, 0.82);
     padding: 50px 0px;
 }
 .home_bottom_arrow{
-    padding-top: 5%;
+    padding-top: 60vh;
+    cursor: pointer;
 }
 
 .home_update{
@@ -336,20 +337,20 @@ background: rgba(18, 28, 43, 0.82);
     justify-content: center;
     align-items: center;
     margin-top: 6vh;
-    margin-top: 9vh !important;
+    margin-top: 20vh !important;
 }
 
 .slick-dots li.slick-active button::before {
     opacity: 1;
     color: #fff;
-    margin-top: -170px;
+    margin-top: -22vh;
     border: 1px solid #ffff;
     border-radius: 50%;
     font-size: 15px;
 }
 
 .slick-dots li button::before {
-    margin-top: -140px;
+    margin-top: -22vh;
     border: 1px solid #ffff;
     border-radius: 50%;
     color: #fff;
