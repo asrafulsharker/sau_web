@@ -196,6 +196,22 @@ p{
     /* z-index: 60000; */
 }
 
+
+/* nav responsive css  */
+
+@media screen and (max-width: 1280px) {
+    .left_nav img{
+        height: 152px;
+    }
+    .logo_text {
+        font-size: 29.191px;
+        line-height: 30px;
+    }
+  }
+
+
+/* nav responsive css end  */
+
 /* .nav_pop_icon_coros{
     z-index: -10; 
 } */
@@ -292,7 +308,7 @@ background: rgba(18, 28, 43, 0.82);
     height: 61px;
     background: #54E346;
     padding: 20px 51px;
-    text-decoration: none;
+    text-decoration: none !important;
     margin-right: 10px;
 
 }
@@ -309,7 +325,7 @@ background: rgba(18, 28, 43, 0.82);
     height: 61px;
     border: 1px solid #54E346;
     padding: 20px 51px;
-    text-decoration: none;
+    text-decoration: none !important;
     margin-left: 10px;
 }
 
@@ -398,6 +414,19 @@ background: rgba(18, 28, 43, 0.82);
     
   }
 
+  @media screen and (max-width: 1280px) {
+    .home_bottom_arrow {
+        padding-top: 5vh !important;
+    }
+    .home_heading_text {
+        font-size: 43.99px;
+        line-height: 52px;
+    }
+  }
+
+
+
+
 
 /* home responsive css end  */
 
@@ -451,6 +480,7 @@ background: rgba(18, 28, 43, 0.82);
 }
 .admission_bottom {
     display: flex;
+    flex-wrap: wrap;
 }
 .admission_bottom_1 {
     /* height: 100vh; */
@@ -464,6 +494,7 @@ background: rgba(18, 28, 43, 0.82);
     flex-direction: column;
     padding: 50px 0px;
     margin: 0px 7px;
+    width: 100px;
   }
   
   .admission_bottom_1::after {
@@ -474,13 +505,14 @@ background: rgba(18, 28, 43, 0.82);
     bottom: 0;
     right: 0;
     position: absolute;
+    width: 100%;
     z-index: -1;   
     background-color: cover;
-    background-position: center; 
+    /* background-position: center;  */
     background-repeat: no-repeat;
     background-size: cover; 
     color: #FFFFFF;
-    padding: 50px 0px;
+    /* padding: 50px 0px; */
   }
 .admission_bottom_1 a{
     background: rgba(25, 130, 254, 0.5);
@@ -510,6 +542,19 @@ background: rgba(18, 28, 43, 0.82);
     letter-spacing: 0.01em;
     color: #FFECEC;
 }
+
+/* admission responsive css  */
+
+@media screen and (max-width: 1280px) {
+    .admission_bottom_1 {
+        width: 345px;
+    }
+  }
+
+
+
+
+/* admission responsive css end  */
 
 /* admission css end  */
 
