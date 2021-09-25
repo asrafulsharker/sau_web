@@ -255,6 +255,11 @@ background: rgba(18, 28, 43, 0.82);
     right: 0;
     position: absolute;
     z-index: -1;   
+    background-color: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+
   }
 .mujib_logo{
     background: radial-gradient(102.08% 50% at 45.09% 50%, #FFFFFF 15.42%, rgba(255, 255, 255, 0) 100%);
@@ -424,7 +429,22 @@ background: rgba(18, 28, 43, 0.82);
     }
   }
 
-
+  
+  @media screen and (max-width: 1024px) {
+    .mujib_logo {
+        margin-top: -100px;
+    }
+    .home_bottom_arrow {
+        padding-top: 31vh !important;
+    }
+    .home_heading_text {
+        margin-top: 12vh;
+    }
+    .home_update {
+        font-size: 11px;
+        margin-top: 3vh !important;
+    }
+  }
 
 
 
@@ -496,6 +516,7 @@ background: rgba(18, 28, 43, 0.82);
     margin: 0px 7px;
     /* width: 100px; */
     /* width: 345px; */
+    width: 30.3%;
   }
   
   .admission_bottom_1::after {
@@ -553,7 +574,17 @@ background: rgba(18, 28, 43, 0.82);
   }
 
 
+  @media screen and (max-width: 1440px) {
+    .admission_bottom_1 {
+        width: 355px;
+    }
+  }
 
+  @media screen and (max-width: 1024px) {
+    .admission_bottom_1 {
+        width: 296px;
+    }
+  }
 
 /* admission responsive css end  */
 
@@ -761,6 +792,26 @@ background: rgba(18, 28, 43, 0.82);
     /* padding: 14px 52px; */
     padding: 7px 25px;
 }
+
+
+/* faculty responsive css  */
+
+@media screen and (max-width: 1024px) {
+    .faculty_left {
+        padding: 15px;
+        height: 180px;
+    }
+    .faculty_left_heading {
+        font-size: 19.492px;
+    }
+    .faculty_right_heading {
+        font-size: 22px !important;
+    }
+  }
+
+
+/* faculty responsive css end  */
+
 
 /* .faculty_slider_main{
     background: url(./image/admition_img1.png);
@@ -1324,7 +1375,7 @@ background: rgba(18, 28, 43, 0.82);
     font-size: 16.8055px;
     line-height: 21px;
     letter-spacing: 0.01em;
-
+    text-align: center;
     color: #FFFFFF;
 }
 .footer_1st_col{
