@@ -1125,6 +1125,19 @@ background: rgba(18, 28, 43, 0.82);
 .achivement{
     padding: 50px 0px;
 }
+
+
+/* achivement responsive css  */
+
+@media screen and (max-width: 1024px) {
+    .achievement_arrow_next {
+        margin-left: 880px;
+    }
+  }
+
+
+/* achivement responsive css end  */
+
 .event{
     padding: 10px 0px 90px 0px;
 }
@@ -1154,6 +1167,18 @@ background: rgba(18, 28, 43, 0.82);
     margin-left: 1060px;
     cursor: pointer;
 }
+
+
+/* event responsive css  */
+
+@media screen and (max-width: 1024px) {
+    .event_arrow_next {
+        margin-left: 880px;
+    }
+  }
+
+
+/* event responsive css end  */
 
 /* achivement css end  */
 /* f&f css start  */
@@ -1339,6 +1364,20 @@ background: rgba(18, 28, 43, 0.82);
     margin-top: -85px;
     cursor: pointer;
 }
+
+
+/* affilition responsive css    */
+
+@media screen and (max-width: 1024px) {
+    .afflition_arrow_next {
+        margin-left: 900px;
+    }
+  }
+
+  /* affilition responsive css end   */
+
+/* .affilition css end  */
+
 /* start footer section--- */
 .footer{
     background-color: #000;
