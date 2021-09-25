@@ -374,6 +374,38 @@ background: rgba(18, 28, 43, 0.82);
     cursor: pointer;
 }
 
+
+
+/* home responsive css start  */
+
+@media screen and (max-width: 1440px) {
+
+    .nav_main {
+        padding: 2px 0px;
+    }
+
+    .home_bottom_arrow{
+        padding-top: 10vh !important;
+    }
+
+    .slick-dots li.slick-active button::before {
+        margin-top: -28vh;
+    }
+
+    .home_update{
+        font-size: 15px;
+    }
+    
+  }
+
+
+/* home responsive css end  */
+
+
+
+
+
+
 /* home css end  */
 
 /* admission css start  */
@@ -404,7 +436,7 @@ background: rgba(18, 28, 43, 0.82);
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 20px;
 }
 
 .admission_top_link a{
