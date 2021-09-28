@@ -730,7 +730,24 @@ background: rgba(18, 28, 43, 0.82);
         padding-bottom: 20px;
         font-size: 14px !important;
     }
+    .vice_left img {
+        margin-top: 82px;
+        margin-left: 245px;
+    }
 
+    .vice_bottom_left img{
+        vertical-align: middle;
+        border-style: none;
+        height: 110px;
+    }
+
+    .vice_bottom_p2 {
+        padding-left: 15px;
+    }
+
+    .vice_bottom_p1 {
+        text-align: center;
+    }
 }
 /* vice responsive end  */
 /* vice chansalor end  */
