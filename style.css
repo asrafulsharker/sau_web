@@ -1378,11 +1378,40 @@ background: rgba(18, 28, 43, 0.82);
     }
 
     .achievement_arrow_next {
+        width: 45.26px;
+        height: 45.26px;
+        padding: 7px;
         margin-left: 650px;
         margin-top: -78px;
     }
 
     .achievement_arrow_next span img{
+        margin-left: 650px;
+        margin-top: -78px;
+    }
+
+    .event_arrow_prev {
+        width: 45.26px;
+        height: 45.26px;
+        padding: 7px;
+        margin-top: -107px;
+        margin-left: -13px;
+    }
+
+    .event_arrow_prev span img{
+        height: 25px;
+        padding: 9px;
+    }
+
+    .event_arrow_next {
+        width: 45.26px;
+        height: 45.26px;
+        padding: 7px;
+        margin-left: 650px;
+        margin-top: -78px;
+    }
+
+    .event_arrow_next span img{
         margin-left: 650px;
         margin-top: -78px;
     }
@@ -1539,12 +1568,36 @@ background: rgba(18, 28, 43, 0.82);
     justify-content: center;
     align-items: center;
 }
-/* .green_campus_right{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
+
+
+/* green campus responsive css start  */
+
+@media screen and (max-width :800px) {
+    .green_campus_left_p {
+        font-size: 29.861px;
+        line-height: 35px;
+    }
+
+    .green_row{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .green_campus_left a {
+        font-size: 30.4px;
+        line-height: 45px;
+    }
+
+    .green_campus_left img {
+        height: 180px;
+        padding: 26px 0px;
+    }
+
+}
+
+/* green campus responsive css end  */
+
+/* green campus css end  */
 
 /* .afflition css start  */
 
@@ -1606,6 +1659,51 @@ background: rgba(18, 28, 43, 0.82);
     margin-top: -85px;
     cursor: pointer;
 }
+
+
+/* .affilition responsive css start  */
+
+@media screen and (max-width :800px) {
+    .afflition_slider_component {
+        padding: 15px;
+        height: 70px;
+        width: 70px;
+    }
+
+    .afflition_text_p {
+        font-size: 20px;
+        line-height: 8px;
+    }
+
+    .select{
+        font-size: 20px;
+    }
+    .afflition_arrow_prev {
+        width: 25.05px;
+        height: 25.05px;
+        padding: 0px 5px;
+        margin-top: -76px;
+        cursor: pointer;
+        margin-left: 66px;
+    }
+
+    .afflition_arrow_next {
+        margin-left: 598px;
+        width: 25.05px;
+        height: 25.05px;
+        padding: 0px 5px;
+        margin-top: -76px;
+        cursor: pointer;
+    }
+}
+
+
+/* .affilition responsive css end  */
+
+
+/* afflition css end */
+
+
 /* start footer section--- */
 .footer{
     background-color: #000;
