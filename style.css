@@ -1749,6 +1749,43 @@ background: rgba(18, 28, 43, 0.82);
     }
 }
 
+@media screen and (max-width :360px) {
+    .achivement_text_p {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0px 0px 0px 10px;
+    }
+    .select {
+        font-size: 15px;
+        margin: 0px 10px 0px 0px;
+        padding: 0px 8px 0px 5px;
+    }
+
+    .achivement_text img {
+        margin-left: -5px;
+        height: 4px;
+    }
+
+    .achievement_arrow_prev {
+        margin-top: -100px;
+    }
+
+    .achievement_arrow_next {
+        margin-left: 298px;
+        margin-top: -100px;
+    }
+
+    .event_arrow_prev {
+        margin-top: -100px;
+    }
+
+    .event_arrow_next {
+        margin-left: 298px;
+        margin-top: -100px;
+    }
+}
+
+
 /* event responsive css end  */
 
 
