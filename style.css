@@ -559,6 +559,60 @@ background: rgba(18, 28, 43, 0.82);
     }
   }
 
+
+  @media screen and (max-width: 360px) {
+    .mujib_logo {
+        width: 155px;
+        height: 110px;
+        padding: 22px 38px;
+    }
+    .mujib_logo {
+        margin-top: -50px;
+        margin-left: 100px;
+    }
+
+    .home_heading_text {
+        font-size: 18.99px;
+        line-height: 20px;
+    }
+
+    .home_p_text {
+        font-size: 7px;
+        line-height: 8px;
+    }
+
+    .home_btn {
+        padding: 25px 0px;
+    }
+
+    .home_btn_one {
+        font-size: 7.012px;
+        line-height: 22px;
+        padding: 4px 12px;
+    }
+
+    .home_btn_two {
+        font-size: 7.012px;
+        line-height: 22px;
+        padding: 4px 12px;
+    }
+
+    .home_bottom_arrow {
+        padding-top: 26vh !important;
+    }
+
+    .home_arrow_prev span img {
+        height: 30px;
+    }
+
+    .home_arrow_next span img{
+        height: 30px;
+    }
+
+    .home_bottom_arrow img{
+        height: 20px;
+    }
+  }
 /* home responsive css end  */
 
 
@@ -1118,6 +1172,13 @@ background: rgba(18, 28, 43, 0.82);
   }
 
 
+  @media screen and (max-width :800px) {
+    .faculty_left {
+        margin-bottom: 20px;
+    }
+  }
+
+
 
 /* faculty responsive css end  */
 
@@ -1588,6 +1649,53 @@ background: rgba(18, 28, 43, 0.82);
 
 }
 
+@media screen and (max-width :600px) {
+    .achievement_arrow_prev {
+        width: 35.26px;
+        height: 35.26px;
+        padding: 1px;
+        margin-top: -57px;
+        margin-left: -6px;
+    }
+
+    .achievement_arrow_next {
+        width: 35.26px;
+        height: 35.26px;
+        padding: 1px;
+        margin-left: 474px;
+        margin-top: -56px;
+    }
+
+    .event_arrow_prev {
+        width: 35.26px;
+        height: 35.26px;
+        padding: 1px;
+        margin-top: -57px;
+        margin-left: -6px;
+    }
+
+    .event_arrow_next {
+        width: 35.26px;
+        height: 35.26px;
+        padding: 1px;
+        margin-left: 474px;
+        margin-top: -56px;
+    }
+
+
+    .ranking {
+        font-size: 15px;
+        margin-bottom: 25px !important;
+    }
+
+    .ranking_details_1 {
+        font-size: 8.1px;
+        line-height: 15px;
+        margin-top: 35px;
+        padding: 3px 15px;
+    }
+}
+
 /* event responsive css end  */
 
 
@@ -1677,6 +1785,16 @@ background: rgba(18, 28, 43, 0.82);
   }
 
 
+  @media screen and (max-width :600px) {
+    .fandf_counter_p2 {
+        font-size: 11.552px;
+        line-height: 10px;
+        padding-bottom: 30px;
+    }
+      }
+
+
+
 /* responsive css f&f end  */
 
 
@@ -1763,6 +1881,13 @@ background: rgba(18, 28, 43, 0.82);
     }
 
 }
+@media screen and (max-width :400px) {
+    .green_campus_left a {
+        margin-bottom: 12px;
+    }
+
+}
+
 
 /* green campus responsive css end  */
 
@@ -1871,6 +1996,16 @@ background: rgba(18, 28, 43, 0.82);
         padding: 0px 5px;
         margin-top: -76px;
         cursor: pointer;
+    }
+}
+
+@media screen and (max-width :800px) {
+    .afflition_arrow_prev {
+        margin-left: 37px;
+    }
+
+    .afflition_arrow_next {
+        margin-left: 448px;
     }
 }
 
