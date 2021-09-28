@@ -1202,6 +1202,47 @@ background: rgba(18, 28, 43, 0.82);
     letter-spacing: 0.01em;
     color: #FFECEC;
 }
+
+
+/* responsive notice start  */
+
+
+@media screen and (max-width :800px) {
+    .notice_main{
+        display: block;
+    }
+    .left_notice{
+        max-width: 100%;
+    }
+    .notice_mid_line{
+        display: none;
+    }
+
+    .notice_left_p1{
+        margin-left: -15px;
+    }
+    .right_notice{
+        max-width: 100%;
+    }
+
+    .notice_line{
+        margin-left: -15px;
+    }
+
+    .notice_right_p1 {
+        margin-top: 56px;
+        margin-left: -15px;
+    }
+    .latest_news_line{
+        margin-left: -15px;
+    }
+  }
+
+/* responsive notice end  */
+
+
+
+/* notice css end  */
 /* achivement css start  */
 
 .achivement{
@@ -1379,6 +1420,34 @@ background: rgba(18, 28, 43, 0.82);
     letter-spacing: 0.01em;
     color: #FFFFFF;
 }
+
+
+/* responsive css f&f start  */
+
+@media screen and (max-width :800px) {
+.fandf_counter_p2 {
+    font-size: 11.552px;
+    line-height: 10px;
+}
+
+.fandf_counter_p1 {
+    font-size: 35.857px;
+    line-height: 40px;
+}
+
+.fandf_p {
+    font-size: 30.4px;
+}
+.fandf_p img {
+    padding-bottom: 25px;
+    height: 32px;
+}
+  }
+
+
+/* responsive css f&f end  */
+
+
 /* f&f css end */
 
 /* green campus css start  */
@@ -1723,3 +1792,33 @@ background: rgba(18, 28, 43, 0.82);
     border-left: 0.5px solid #666666;
 }
 
+
+/* bottom resoinsve css start  */
+
+
+@media screen and (max-width :800px) {
+    .footer_bottom_right{
+        flex-wrap: wrap;
+    }
+
+    .footer_bottom_left {
+        font-size: 12.289px;
+      }
+
+      .footer_bottom_right_a{
+
+      }
+
+      .footer_bottom_right a {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 1px;
+        padding: 0px 10px;
+    }
+
+}
+
+/* bottom responsive css end  */
+
+
+/* bottom footer css end  */
