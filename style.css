@@ -1526,7 +1526,7 @@ background: rgba(18, 28, 43, 0.82);
     }
 
     .achievement_arrow_prev span img{
-        height: 25px;
+        height: 36px;
         padding: 9px;
     }
 
@@ -1541,7 +1541,7 @@ background: rgba(18, 28, 43, 0.82);
     .achievement_arrow_next span img{
         /* margin-left: 650px;
         margin-top: -78px; */
-        height: 25px;
+        height: 36px;
         padding: 9px;
     }
 
@@ -1554,7 +1554,7 @@ background: rgba(18, 28, 43, 0.82);
     }
 
     .event_arrow_prev span img{
-        height: 25px;
+        height: 36px;
         padding: 9px;
     }
 
@@ -1569,8 +1569,20 @@ background: rgba(18, 28, 43, 0.82);
     .event_arrow_next span img{
         /* margin-left: 650px;
         margin-top: -78px; */
-        height: 25px;
+        height: 36px;
         padding: 9px;
+    }
+
+    .ranking {
+        font-size: 20px;
+        margin-bottom: 50px !important;
+    }
+
+    .ranking_details_1 {
+        font-size: 10.1px;
+        line-height: 15px;
+        margin-top: 50px;
+        padding: 5px 20px;
     }
 
 
