@@ -211,6 +211,40 @@ p{
   }
 
 
+  @media screen and (max-width: 600) {
+    .logo_text {
+        font-size: 10.191px;
+        line-height: 10px;
+    }
+
+    .left_nav img {
+        height: 65px;
+    }
+
+    .nav_icon_main {
+        width: 45px;
+        height: 45px;
+        border: 1px solid #54E346;
+        margin-left: 10px;
+    }
+
+    .nav_icon_1 {
+        height: 48px !important;
+    }
+
+    .nav_icon_2 {
+        font-size: 24px !important;
+        line-height: 30px !important;
+    }
+
+    .nav_icon_3 {
+        height: 30px;
+    }
+  }
+
+
+
+
 /* nav responsive css end  */
 
 /* .nav_pop_icon_coros{
@@ -1618,8 +1652,16 @@ background: rgba(18, 28, 43, 0.82);
     letter-spacing: 0.01em;
     color: #000000;
 }
-
-
+.afflition_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.afflition_text img {
+    margin-top: 8px;
+    margin-left: -25px;
+}
 .afflitoion_slider .col-md-12 {
     display: flex;
     align-items: center;
