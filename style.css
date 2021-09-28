@@ -211,7 +211,7 @@ p{
   }
 
 
-  @media screen and (max-width: 600) {
+  @media screen and (max-width: 600px) {
     .logo_text {
         font-size: 10.191px;
         line-height: 10px;
@@ -494,6 +494,70 @@ background: rgba(18, 28, 43, 0.82);
     }
   }
 
+
+  @media screen and (max-width: 600px) {
+    .home_heading_text {
+        font-size: 30.99px;
+        line-height: 32px;
+    }
+
+    .home_arrow_prev   span img{
+        height: 45px;
+    }
+    .home_arrow_next  span img{
+        height: 45px;
+    }
+
+    .home_p_text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .home_btn_one {
+        font-size: 15.012px;
+        line-height: 22px;
+        padding: 10px 25px;
+    }
+
+    .home_btn_two{
+        font-size: 15.012px;
+        line-height: 22px;
+        padding: 10px 25px;
+    }
+
+    .home_update {
+        font-size: 7px;
+    }
+
+    .home_update {
+        font-size: 7px;
+    }
+    .home_update {
+        font-size: 11px;
+        margin-top: 6vh !important;
+    }
+
+    .home_update {
+        font-size: 20.5833px;
+        height: 37px;
+        margin-top: 6vh;
+        margin-top: 4vh !important;
+    }
+
+    .mujib_logo {
+        margin-top: -124px;
+    }
+
+    .mujib_logo {
+        width: 180px;
+        height: 127px;
+        padding: 15px 43px;
+    }
+
+    .home_bottom_arrow {
+        padding-top: 31vh !important;
+    }
+  }
 
 /* home responsive css end  */
 
