@@ -526,7 +526,7 @@ background: rgba(18, 28, 43, 0.82);
     }
 
     .home_update {
-        font-size: 7px;
+        font-size: 6px !important;
     }
 
     .home_update {
@@ -555,7 +555,7 @@ background: rgba(18, 28, 43, 0.82);
     }
 
     .home_bottom_arrow {
-        padding-top: 31vh !important;
+        padding-top: 39vh !important;
     }
   }
 
@@ -710,6 +710,28 @@ background: rgba(18, 28, 43, 0.82);
 }
   }
 
+  @media screen and (max-width :600px) {
+    .admission_top_link a {
+        font-size: 20px;
+    }
+
+    .admission_bottom_1 {
+        width: 150px;
+        height: 180px;
+    }
+
+    .admission_bottom_heading {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .admission_bottom_1 a {
+        padding: 5px 20px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+  }
+
 /* admission responsive css end  */
 
 /* admission css end  */
@@ -845,6 +867,31 @@ background: rgba(18, 28, 43, 0.82);
 
     .vice_bottom_p1 {
         text-align: center;
+    }
+}
+
+@media screen and (max-width :600px) {
+    .vice_right p {
+        margin-left: -140px;
+    }
+
+    .vice_right img {
+        padding-top: -9px !important;
+        margin-left: -145px;
+    }
+
+    .vice_left img {
+        margin-top: 82px;
+        margin-left: 145px;
+    }
+
+    .faculty_main_row{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faculty_left {
+        width: 90%;
     }
 }
 /* vice responsive end  */
@@ -1457,8 +1504,16 @@ background: rgba(18, 28, 43, 0.82);
     margin-left: 1060px;
     cursor: pointer;
 }
+.achivement_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
-
+.achivement_text img {
+    margin-left: -65px;
+}
 /* event responsive css start  */
 
 @media screen and (max-width :800px) {
@@ -1484,8 +1539,10 @@ background: rgba(18, 28, 43, 0.82);
     }
 
     .achievement_arrow_next span img{
-        margin-left: 650px;
-        margin-top: -78px;
+        /* margin-left: 650px;
+        margin-top: -78px; */
+        height: 25px;
+        padding: 9px;
     }
 
     .event_arrow_prev {
@@ -1510,8 +1567,10 @@ background: rgba(18, 28, 43, 0.82);
     }
 
     .event_arrow_next span img{
-        margin-left: 650px;
-        margin-top: -78px;
+        /* margin-left: 650px;
+        margin-top: -78px; */
+        height: 25px;
+        padding: 9px;
     }
 
 
