@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     font-family: Roboto;
@@ -427,6 +428,9 @@ background: rgba(18, 28, 43, 0.82);
         font-size: 43.99px;
         line-height: 52px;
     }
+    .slick-dots li.slick-active button::before {
+        margin-top: -22vh;
+    }
   }
 
   
@@ -446,6 +450,15 @@ background: rgba(18, 28, 43, 0.82);
     }
   }
 
+
+  @media screen and (max-width :800px) {
+    .home_bottom_arrow {
+        padding-top: 27vh !important;
+    }
+    .home_update {
+        font-size: 9px;
+    }
+  }
 
 
 /* home responsive css end  */
@@ -586,6 +599,19 @@ background: rgba(18, 28, 43, 0.82);
     }
   }
 
+  @media screen and (max-width :800px) {
+    .admission_bottom_1 {
+        width: 215px;
+        height: 180px;
+    }
+    
+
+.admission_bottom_heading {
+    font-size: 20px;
+    line-height: 25px;
+}
+  }
+
 /* admission responsive css end  */
 
 /* admission css end  */
@@ -656,6 +682,57 @@ background: rgba(18, 28, 43, 0.82);
 .vice_bottom_p2 a{
     color: red;
 }
+
+/* vice responsive css start  */
+
+
+
+@media screen and (max-width :800px) {
+    .vice_left img {
+
+        position: absolute;
+        margin-top: 245px;
+        height: 180px;
+
+    }
+    .vice_right {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 111px;
+    }
+
+    .vice_right p {
+        font-weight: 500;
+        line-height: 40px;
+        font-size: 58px;
+        padding-top: 15px;
+        font-size: 21px !important;
+        margin-left: 0px;
+    }
+
+    .vice_right img {
+        height: 4px;
+        padding-top: -2px;
+    }
+
+    .vice_bottom_p1 {
+        margin-top: 215px;
+        font-size: 20px;
+    }
+
+    .vice_bottom_p2 {
+        font-size: 32px;
+        line-height: 28px;
+        margin-top: 25px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+        font-size: 14px !important;
+    }
+
+}
+/* vice responsive end  */
 /* vice chansalor end  */
 
 
@@ -808,6 +885,53 @@ background: rgba(18, 28, 43, 0.82);
         font-size: 22px !important;
     }
   }
+
+
+  @media screen and (max-width: 800px) {
+    .daculty_item {
+        font-size: 11px;
+    }
+
+    .facilty_input_text {
+        padding-left: 25px;
+        font-size: 12px;
+    }
+
+    .faculty_input_arrow {
+        padding: 9px;
+        height: 31px;
+    }
+
+    .faculty_left {
+        padding: 15px;
+        height: 160px;
+    }
+
+    .faculty_right_heading {
+        font-size: 16px !important;
+    }
+    .faculty_right_heading {
+        font-size: 32px;
+        line-height: 15px;
+        letter-spacing: 0.01em;
+        font-size: 25px !important;
+    }
+
+    .faculty_slider_p1 {
+        position: absolute;
+        font-size: 16px;
+        line-height: 0px;
+        margin-bottom: 35px !important;
+    }
+
+    .faculty_details_1 {
+        font-size: 10.1px;
+        line-height: 15px;
+        margin-top: 40px;
+        padding: 5px 15px;
+    }
+  }
+
 
 
 /* faculty responsive css end  */
@@ -1125,19 +1249,6 @@ background: rgba(18, 28, 43, 0.82);
 .achivement{
     padding: 50px 0px;
 }
-
-
-/* achivement responsive css  */
-
-@media screen and (max-width: 1024px) {
-    .achievement_arrow_next {
-        margin-left: 880px;
-    }
-  }
-
-
-/* achivement responsive css end  */
-
 .event{
     padding: 10px 0px 90px 0px;
 }
@@ -1167,18 +1278,6 @@ background: rgba(18, 28, 43, 0.82);
     margin-left: 1060px;
     cursor: pointer;
 }
-
-
-/* event responsive css  */
-
-@media screen and (max-width: 1024px) {
-    .event_arrow_next {
-        margin-left: 880px;
-    }
-  }
-
-
-/* event responsive css end  */
 
 /* achivement css end  */
 /* f&f css start  */
@@ -1364,20 +1463,6 @@ background: rgba(18, 28, 43, 0.82);
     margin-top: -85px;
     cursor: pointer;
 }
-
-
-/* affilition responsive css    */
-
-@media screen and (max-width: 1024px) {
-    .afflition_arrow_next {
-        margin-left: 900px;
-    }
-  }
-
-  /* affilition responsive css end   */
-
-/* .affilition css end  */
-
 /* start footer section--- */
 .footer{
     background-color: #000;
@@ -1597,3 +1682,4 @@ background: rgba(18, 28, 43, 0.82);
     padding: 0px 25px;
     border-left: 0.5px solid #666666;
 }
+
