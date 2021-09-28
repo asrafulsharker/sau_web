@@ -949,6 +949,29 @@ background: rgba(18, 28, 43, 0.82);
     }
   }
 
+  @media screen and (max-width :800px) {
+    .faculty_left_heading {
+        font-size: 14.492px;
+    }
+
+    .facilty_input_text {
+        padding-left: 15px;
+        font-size: 12px;
+    }
+    .facilty_input_text {
+        height: 45.72px;
+        padding-left: 25px;
+    }
+
+    .faculty_input_arrow {
+        margin-left: -47px;
+    }
+
+    .faculty_right_heading {
+        font-size: 16px !important;
+    }
+  }
+
 
 
 /* faculty responsive css end  */
