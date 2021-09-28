@@ -1909,6 +1909,18 @@ background: rgba(18, 28, 43, 0.82);
     align-items: center;
 }
 
+.green_campus_right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.green_campus_right img{
+    width: 25%;
+    margin: 3px;
+}
+
 
 /* green campus responsive css start  */
 
