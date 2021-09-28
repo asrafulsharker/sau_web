@@ -1360,6 +1360,40 @@ background: rgba(18, 28, 43, 0.82);
     cursor: pointer;
 }
 
+
+/* event responsive css start  */
+
+@media screen and (max-width :800px) {
+    .achievement_arrow_prev {
+        width: 45.26px;
+        height: 45.26px;
+        padding: 7px;
+        margin-top: -107px;
+        margin-left: -13px;
+    }
+
+    .achievement_arrow_prev span img{
+        height: 25px;
+        padding: 9px;
+    }
+
+    .achievement_arrow_next {
+        margin-left: 650px;
+        margin-top: -78px;
+    }
+
+    .achievement_arrow_next span img{
+        margin-left: 650px;
+        margin-top: -78px;
+    }
+
+
+}
+
+/* event responsive css end  */
+
+
+
 /* achivement css end  */
 /* f&f css start  */
 
