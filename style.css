@@ -786,6 +786,20 @@ background: rgba(18, 28, 43, 0.82);
     }
   }
 
+  @media screen and (max-width :360px) {
+    .admission_top_link a {
+        font-size: 12px;
+    }
+
+    .admission_bottom_1 {
+        width: 100%;
+        height: 150px;
+        margin-top: 10px;
+    }
+  }
+
+
+
 /* admission responsive css end  */
 
 /* admission css end  */
@@ -947,6 +961,45 @@ background: rgba(18, 28, 43, 0.82);
     .faculty_left {
         width: 90%;
     }
+}
+
+@media screen and (max-width :360px) {
+    .vice_right p {
+        margin-left: -130px;
+    }
+
+    .vice_right img {
+        margin-left: -130px;
+    }
+
+    .vice_left img {
+        margin-top: 75px;
+        margin-left: 72px;
+    }
+
+    .vice_left img {
+        height: 165px;
+    }
+
+    .vice_bottom_p1 {
+        margin-top: 206px;
+        font-size: 16px;
+    }
+    .vice_bottom_p1 {
+        line-height: 10px;
+    }
+
+    .vice_bottom_p2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: justify;
+        letter-spacing: 0.01em;
+    }
+
+
 }
 /* vice responsive end  */
 /* vice chansalor end  */
