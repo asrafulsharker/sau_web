@@ -284,6 +284,53 @@ p{
 
 /* nav popbar responsive css start  */
 
+@media screen and (max-width :550px) {
+    .nav_pop_icon {
+        padding: 8px 0px;
+    }
+
+    .nav_pop_icon a img {
+        width: 35px;
+        height: 35px;
+        padding: 9px;
+        margin-left: 5px;
+    }
+
+    .nav_pop_bar_main {
+        padding: 0px 35px;
+    }
+
+    .nav_main_options a {
+        font-size: 10px;
+        line-height: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+    .nav_2ndlebel_option .nav_2ndlebel_option_add a {
+        font-size: 8px;
+        line-height: 15px;
+        margin-right: 50px;
+        margin-right: 3px;
+    }
+
+    .nav_2ndlebel_option .nav_2ndlebel_option_add img {
+        margin-right: 8px;
+        height: 8px;
+    }
+
+    .nav_bottom_btn a {
+        font-size: 8px;
+        padding: 5px 15px;
+        margin-right: 5px;
+    }
+
+    .nav_main_options {
+        margin: 35% 0% 0% 0%;
+    }
+
+}
+
 @media screen and (max-width :360px) {
     .nav_pop_icon {
         padding: 8px 0px;
@@ -671,6 +718,25 @@ background: rgba(18, 28, 43, 0.82);
     .home_p_text {
         font-size: 7px;
         line-height: 10px;
+    }
+  }
+
+  @media screen and (max-width: 373px) {
+    .mujib_logo {
+        margin-left: 100px !important;
+    }
+  }
+
+  @media screen and (max-width: 373px) {
+    .mujib_logo {
+        margin-left: 100px !important;
+    }
+  }
+
+  @media screen and (max-width: 445px) {
+    .mujib_logo {
+        margin-top: -80px;
+        margin-left: 125px;
     }
   }
 
