@@ -1232,6 +1232,17 @@ background: rgba(18, 28, 43, 0.82);
   }
 
 
+  @media screen and (max-width :360px) {
+    .faculty_right_heading {
+        font-size: 11px !important;
+    }
+
+    .faculty_right_heading img{
+        height: 4px;
+        margin-bottom: 15px;
+    }
+  }
+
 
 /* faculty responsive css end  */
 
@@ -1494,6 +1505,57 @@ background: rgba(18, 28, 43, 0.82);
     }
     .latest_news_line{
         margin-left: -15px;
+    }
+  }
+
+  @media screen and (max-width :360px) {
+    .notice_left_p1 {
+        font-size: 20px;
+        line-height: 0px;
+    }
+
+    .notice_line {
+        margin-left: -15px;
+        height: 3.5px;
+    }
+
+    .notice_details p {
+        font-size: 12px;
+        margin-left: -28px;
+    }
+
+    .notice_details_notice_P {
+        margin-left: -28px;
+    }
+
+    .notice_view_more {
+        font-size: 10.272px;
+        line-height: 18px;
+        padding: 5px 15px;
+    }
+
+    .notice_right_bottom {
+        margin-bottom: 15px;
+    }
+
+    .notice_right_p1 {
+        font-size: 20px;
+        line-height: 0px;
+    }
+
+    .latest_news_line {
+        margin-left: -15px;
+        height: 3.5px;
+    }
+
+    .notice_details_p {
+        margin-left: -28px !important;
+    }
+
+    .latest_news_view_more {
+        font-size: 10.272px;
+        line-height: 18px;
+        padding: 5px 15px;
     }
   }
 
@@ -1991,6 +2053,31 @@ background: rgba(18, 28, 43, 0.82);
 }
 
 
+@media screen and (max-width :360px) {
+    .green_campus_left_p {
+        font-size: 20.861px;
+        line-height: 35px;
+    }
+
+    .green_campus_left img {
+        height: 150px;
+    }
+
+    .green_campus_left a {
+        font-size: 20.4px;
+    }
+
+    .green_campus_left img {
+        padding: 15px 0px;
+    }
+
+    .green_campus_right img {
+        margin: 1px;
+        height: 60px !important;
+    }
+
+}
+
 /* green campus responsive css end  */
 
 /* green campus css end  */
@@ -2110,6 +2197,14 @@ background: rgba(18, 28, 43, 0.82);
         margin-left: 448px;
     }
 }
+
+@media screen and (max-width :360px) {
+    .afflition_text {
+        margin-left: 10px;
+    }
+}
+
+
 
 
 /* .affilition responsive css end  */
@@ -2283,6 +2378,55 @@ background: rgba(18, 28, 43, 0.82);
     border: 0;
 }
 
+/* footer responsive css start  */
+
+@media screen and (max-width :360px) {
+    .footer_1st_col img {
+        height: 100px !important;
+        margin-bottom: 2px;
+    }
+
+    .footer_1st_col .uName {
+        font-size: 13.805px;
+    }
+
+    .footerIcon i {
+        padding: 6px;
+        margin: 0px 2px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .footerIcon {
+        margin-bottom: 15px;
+    }
+
+    .footer_2nd_col a {
+        padding: 10px 0px;
+    }
+
+    .footer_3rd_col a {
+        padding: 10px 0px;
+    }
+
+    .footer_4th_col a {
+        padding: 10px 0px;
+    }
+
+    .footer_3rd_col .top_footer_txt {
+        margin-top: 20px;
+    }
+
+    .footer_4th_col .top_footer_txt {
+        margin-top: 20px;
+    }
+}
+
+/* footer responsive css end  */
+
+
+
+
 /* footer end  */
 
 /* footer bottom start  */
@@ -2360,6 +2504,21 @@ background: rgba(18, 28, 43, 0.82);
         line-height: 12px;
         margin-top: 1px;
         padding: 0px 10px;
+    }
+
+}
+
+@media screen and (max-width :800px) {
+    .footer_bottom {
+        padding: 10px 15px;
+    }
+
+    .footer_bottom_left a {
+        font-size: 6px;
+    }
+
+    .footer_bottom_right a {
+        font-size: 5px;
     }
 
 }
