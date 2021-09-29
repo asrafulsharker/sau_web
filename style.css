@@ -658,11 +658,19 @@ background: rgba(18, 28, 43, 0.82);
   }
   @media screen and (max-width: 521px) {
     .home_bottom_arrow {
-        padding-top: 25vh !important;
+        padding-top: 30vh !important;
     }
     .mujib_logo {
         margin-top: -80px;
         margin-left: 155px;
+    }
+    .home_heading_text {
+        font-size: 20.99px;
+        line-height: 20px;
+    }
+    .home_p_text {
+        font-size: 7px;
+        line-height: 10px;
     }
   }
 
