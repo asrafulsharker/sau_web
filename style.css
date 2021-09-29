@@ -72,6 +72,90 @@ p{
     letter-spacing: 0.05em;
     color: #FFFFFF;
 }
+
+
+/* nav responsive css  */
+
+@media screen and (max-width: 1280px) {
+    .left_nav img{
+        height: 152px;
+    }
+    .logo_text {
+        font-size: 29.191px;
+        line-height: 30px;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .logo_text {
+        font-size: 10.191px;
+        line-height: 10px;
+    }
+
+    .left_nav img {
+        height: 65px;
+    }
+
+    .nav_icon_main {
+        width: 45px;
+        height: 45px;
+        border: 1px solid #54E346;
+        margin-left: 10px;
+    }
+
+    .nav_icon_1 {
+        height: 48px !important;
+    }
+
+    .nav_icon_2 {
+        font-size: 24px !important;
+        line-height: 30px !important;
+    }
+
+    .nav_icon_3 {
+        height: 30px;
+    }
+  }
+
+
+  @media screen and (max-width :360px) {
+    .left_nav img {
+        height: 45px;
+    }
+
+    .left_nav img {
+        height: 45px;
+    }
+
+    .nav_icon_1 {
+        height: 37px !important;
+    }
+
+
+    .nav_icon_2 {
+        font-size: 15px !important;
+    }
+
+    .nav_icon_3 {
+        height: 27px;
+    }
+
+    .nav_icon_main {
+        width: 35px;
+        height: 35px;
+        border: 1px solid #54E346;
+        margin-left: 5px;
+    }
+
+}
+
+
+
+
+/* nav responsive css end  */
+
+
 /* nav css end  */
 
 /* nav popbar css start  */
@@ -198,54 +282,58 @@ p{
 }
 
 
-/* nav responsive css  */
+/* nav popbar responsive css start  */
 
-@media screen and (max-width: 1280px) {
-    .left_nav img{
-        height: 152px;
-    }
-    .logo_text {
-        font-size: 29.191px;
-        line-height: 30px;
-    }
-  }
-
-
-  @media screen and (max-width: 600px) {
-    .logo_text {
-        font-size: 10.191px;
-        line-height: 10px;
+@media screen and (max-width :360px) {
+    .nav_pop_icon {
+        padding: 8px 0px;
     }
 
-    .left_nav img {
-        height: 65px;
+    .nav_pop_icon a img {
+        width: 35px;
+        height: 35px;
+        padding: 9px;
+        margin-left: 5px;
     }
 
-    .nav_icon_main {
-        width: 45px;
-        height: 45px;
-        border: 1px solid #54E346;
-        margin-left: 10px;
+    .nav_pop_bar_main {
+        padding: 0px 35px;
     }
 
-    .nav_icon_1 {
-        height: 48px !important;
+    .nav_main_options a {
+        font-size: 10px;
+        line-height: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
     }
 
-    .nav_icon_2 {
-        font-size: 24px !important;
-        line-height: 30px !important;
+    .nav_2ndlebel_option .nav_2ndlebel_option_add a {
+        font-size: 8px;
+        line-height: 15px;
+        margin-right: 50px;
+        margin-right: 3px;
     }
 
-    .nav_icon_3 {
-        height: 30px;
+    .nav_2ndlebel_option .nav_2ndlebel_option_add img {
+        margin-right: 8px;
+        height: 8px;
     }
-  }
+
+    .nav_bottom_btn a {
+        font-size: 8px;
+        padding: 5px 15px;
+        margin-right: 5px;
+    }
+
+    .nav_main_options {
+        margin: 35% 0% 0% 0%;
+    }
+
+}
 
 
 
-
-/* nav responsive css end  */
+/* nav popbar responsive css end  */
 
 /* .nav_pop_icon_coros{
     z-index: -10; 
