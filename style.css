@@ -362,17 +362,17 @@ p{
 .main_home {
     height: 100vh;
     /* display: block; */
-    position: relative;
+    /* position: relative;
     padding-top: 20vh;
     
-background: rgba(18, 28, 43, 0.82);
+background: rgba(18, 28, 43, 0.82); */
   }
   
   .main_home::after {
-    content: "";
-    background: url(./image/home_img.png);
+    /* content: "";
+    background: url(./image/home_img.png); */
     /* opacity: 0.5; */
-    top: 0;
+    /* top: 0;
     left: 0;
     bottom: 0;
     right: 0;
@@ -381,7 +381,7 @@ background: rgba(18, 28, 43, 0.82);
     background-color: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;  */
 
   }
 .mujib_logo{
