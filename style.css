@@ -2508,7 +2508,7 @@ background: rgba(18, 28, 43, 0.82);
 
 }
 
-@media screen and (max-width :800px) {
+@media screen and (max-width :360px) {
     .footer_bottom {
         padding: 10px 15px;
     }
