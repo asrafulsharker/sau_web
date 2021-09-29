@@ -550,37 +550,31 @@ p{
 
 /* collspase css start  */
 
-.t_collspase{
-    display: flex !important;
-    flex-wrap: wrap;
+
+.dropdown_1{
+    width: 38rem;
 }
 
-/* .collapse{
-    background-color: #54E346;
-} */
-.t_collspase_main1{
-    background: #F7F7F7;
-    width: 20%;
+.dropdown_select{
+    padding: 1.5rem;
+    border-radius: 4px;
+    background-color: #ffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    cursor: pointer;
 }
 
-.t_collspase_main2{
-    background-color:#54E346;
-}
-.t_colspase_single1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.dropdown_list{
+    border-radius: 4rem;
+    background-color: #ffff;
 }
 
-.t_colspase_single2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.t_colspase_single3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.dropdown_list_item{
+    padding: 1rem;
+    font-size: ;
 }
 
 /* collspase css end  */
