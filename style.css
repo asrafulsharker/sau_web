@@ -441,6 +441,12 @@ background: rgba(18, 28, 43, 0.82);
 
 }
 
+.home_btn_one:hover{
+    color: #000000;
+}
+
+
+
 .home_btn_two{
     font-family: Roboto;
     font-style: normal;
@@ -455,6 +461,10 @@ background: rgba(18, 28, 43, 0.82);
     padding: 20px 51px;
     text-decoration: none !important;
     margin-left: 10px;
+}
+
+.home_btn_two:hover{
+    color: #ffff;
 }
 
 .home_btn{
