@@ -727,7 +727,7 @@ background: rgba(18, 28, 43, 0.82);
     }
   }
 
-  @media screen and (max-width: 373px) {
+  @media screen and (max-width: 381px) {
     .mujib_logo {
         margin-left: 100px !important;
     }
@@ -1154,6 +1154,29 @@ background: rgba(18, 28, 43, 0.82);
     }
 }
 
+
+@media screen and (max-width: 381px) {
+    .vice_left img {
+        margin-top: 82px;
+        margin-left: 70px;
+    }
+
+    .vice_right p {
+        margin-left: -125px;
+    }
+
+    .vice_right img {
+        margin-left: -135px;
+    }
+
+    .vice_bottom_p1 {
+        margin-top: 235px;
+        font-size: 15px;
+        line-height: 0px;
+    }
+
+  }
+
 @media screen and (max-width :360px) {
     .vice_right p {
         margin-left: -130px;
@@ -1422,6 +1445,16 @@ background: rgba(18, 28, 43, 0.82);
     }
   }
 
+  @media screen and (max-width :381px) {
+    .faculty_right_heading {
+        font-size: 11px !important;
+    }
+
+    .faculty_right_heading img{
+        height: 4px;
+        margin-bottom: 15px;
+    }
+  }
 
   @media screen and (max-width :360px) {
     .faculty_right_heading {
@@ -1999,6 +2032,12 @@ background: rgba(18, 28, 43, 0.82);
         line-height: 15px;
         margin-top: 35px;
         padding: 3px 15px;
+    }
+}
+
+@media screen and (max-width :481x) {
+    .achivement_text {
+        margin-left: 10px;
     }
 }
 
