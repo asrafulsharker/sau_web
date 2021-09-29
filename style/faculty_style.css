@@ -198,8 +198,7 @@ p{
     width: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    border-bottom: 1px solid red;
+    border: 0.715055px solid #BABABA;
     text-align: center;
     background-color: #000;
     z-index: 111111;
@@ -208,10 +207,7 @@ p{
     font-weight: 900;
     font-size: 32px;
     line-height: 37px;
-
-    /* identical to box height */
     letter-spacing: 0.06em;
-
     color: #FFFFFF;
 }
 
@@ -222,9 +218,139 @@ p{
 
 .faculty_home_left_box a{
     padding: 18px;
-    background-color: red;
+    background: #F7F7F7;
     width: 100%;
     text-align: center;
     border-bottom: 1px solid black;
+    text-decoration: none;
+    color: black;
 }
+
+.faculty_home_left_box a:hover{
+    background: #049906;
+    color: black;
+}
+/* .faculty_home_right_top_cover{
+    background-image: url();
+} */
+
+.faculty_home_right_top_cover {
+    height: 20vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+  }
+  
+  .faculty_home_right_top_cover::after {
+    content: "";
+    background: url(../image/faculty_home_right_top_cover.png);
+    /* opacity: 0.5; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    background-color: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+  }
+
+  .faculty_home_right_t_details{
+    background: #0E4A0F;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 3%;
+    margin-top: 20px;
+  }
+
+  .faculty_home_right_t_details img{
+    height: 290px;
+  }
+
+  .t_details{
+    padding: 3%
+  }
+
+  .t_details_p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-top: 25px;
+  }
+
+  .t_details_heading{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+  }
+
+  .t_discription{
+    padding: 5%;
+    border: 1px solid #C8BCBC;
+    box-sizing: border-box;
+  }
 /* faculty home css end  */
+
+
+/* collspase css start  */
+
+.t_collspase{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+/* .collapse{
+    background-color: #54E346;
+} */
+.t_collspase_main1{
+    background: #F7F7F7;
+    width: 20%;
+}
+
+.t_collspase_main2{
+    background-color:#54E346;
+}
+.t_colspase_single1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t_colspase_single2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t_colspase_single3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* collspase css end  */
+
+
+
