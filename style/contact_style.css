@@ -669,6 +669,93 @@ p{
 }
 /* campus map css end  */
 
+
+/* feedback css start  */
+
+.feedback_contact{
+    margin: 20px 0px;
+}
+
+.feedback_contact_main{
+    padding: 1%;
+    border: 0.879205px solid #C8BCBC;
+}
+
+.feedback_a{
+    background: #1882FF;
+    padding: 15px;
+}
+
+
+.feedback_a a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24.1153px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.feedback_input_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback_input_single_item{
+    width: 49%;
+    padding: 2%;
+    margin:8px 5px ;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24.1153px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    outline: none;
+}
+.feedback_input_single_item_text_area{
+    width: 100%;
+    margin:0px 5px ;
+    padding: 2%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24.1153px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    outline: none;
+    margin:8px 5px ;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+}
+
+.form_send{
+    background: #1882FF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24.1153px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    text-decoration: none !important;
+    color: #FFECEC;
+    padding: 12px 50px;
+}
+
+
+
+/* feedback css end  */
+
+
+
 /* start footer section--- */
 .footer{
     background-color: #000;
