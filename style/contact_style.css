@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     font-family: Roboto;
@@ -397,77 +396,17 @@ p{
 
 
 
-/* faculty css start  */
 
 
-.faculty_home_main_option{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: justify;
-    letter-spacing: 0.01em;
-    margin-top: 20%;
-    color: #049906;
-    margin-bottom: 2% !important;
-
+/* contact cover start css  */
+.contact_cover{
+    margin-top: 20vh;
 }
 
-.faculty_home_bottom{
-
+.contact_cover_main{
+    padding: 0 !important;
 }
-
-.faculty_home_left_box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: #F7F7F7;
-}
-
-
-.nevigate_faculty{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    border: 0.715055px solid #BABABA;
-    text-align: center;
-    background-color: #000;
-    /* z-index: 111111; */
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 37px;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-}
-
-
-.nevigate_faculty p{
-    padding: 18px;
-}
-
-.faculty_home_left_box a{
-    padding: 18px;
-    background: #F7F7F7;
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid black;
-    text-decoration: none;
-    color: black;
-}
-
-.faculty_home_left_box a:hover{
-    background: #049906;
-    color: black;
-}
-/* .faculty_home_right_top_cover{
-    background-image: url();
-} */
-
-.faculty_home_right_top_cover {
+.contact_img {
     height: 20vh;
     position: relative;
     display: flex;
@@ -477,17 +416,17 @@ p{
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 42.2019px;
+    line-height: 49px;
     text-align: center;
     letter-spacing: 0.06em;
-
+    
     color: #FFFFFF;
   }
   
-  .faculty_home_right_top_cover::after {
+  .contact_img::after {
     content: "";
-    background: url(../image/faculty_home_right_top_cover.png);
+    background: url(../image/contact_cover.png);
     /* opacity: 0.5; */
     top: 0;
     left: 0;
@@ -502,309 +441,233 @@ p{
 
   }
 
-  .faculty_home_right_t_details{
-    background: #0E4A0F;
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    padding: 3%;
-    margin-top: 20px;
-  }
 
-  .faculty_home_right_t_details img{
-    height: 290px;
-  }
-
-  .t_details{
-    padding: 3%
-  }
-
-  .t_details_p{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.01em;
-    color: #FFFFFF;
-    margin-top: 25px;
-  }
-
-  .t_details_heading{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.01em;
-    color: #FFFFFF;
-  }
-
-  .t_discription{
-    padding: 5%;
-    border: 1px solid #C8BCBC;
-    box-sizing: border-box;
-  }
-/* faculty home css end  */
-
-
-/* collspase css start  */
-
-
-.dropdown_1{
-    width: 38rem;
-    position: relative;
+.contact_img img{
+    height: 10px;
+    margin-top: 15px;
 }
 
-.dropdown_1:hover .dropdown_list{
-    opacity: 1;
-    visibility: visible;
-}
-
-.dropdown_select{
-    padding: 1.5rem;
-    border-radius: 4px;
-    background-color: #ffff;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1.6rem;
-    cursor: pointer;
-}
-
-.dropdown_list{
-    border-radius: 4rem;
-    background-color: #ffff;
-    position: absolute;
-    /* top: 110%; */
-    left: 0;
-    right: 0;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s linear, visibility 0.2s linear;
-}
-
-.dropdown_list_item{
-    padding: 1rem;
-    font-size: 1.4rem;
-}
-
-/* collspase css end  */
-
-
-
-/* glance css start  */
-.glance{
-    padding: 20px 0px;
-}
-.glance_main{
+.contact_cover_bottom{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* flex-wrap: wrap; */
-}
-
-.glance_left{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.glance_left_p1{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15.464px;
-    line-height: 32px;
-    letter-spacing: 0.01em;
-    color: #000000;
-    text-align: center;
-}
-
-.glance_left_p2{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25.464px;
-    line-height: 25px;
-    letter-spacing: 0.01em;
-    text-decoration-line: underline;
-    color: #000000;
-    text-align: center;
-}
-
-.glance_right img {
-    height: 115px !important;
-    padding: 3px;
-}
-
-
-.glance_left img{
-    height: 170px;
-    padding: 15px;
-}
-.glance_right{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.glance_right img{
-    height: 100px;
-}
-/* glance css end  */
-
-/* candc css start  */
-.candc{
-    padding: 20px 0px;
-}
-.candc_left{
-    /* background-color: #54E346; */
-    padding: 0px !important;
-}
-
-.candc-right{
-    /* background-color: red; */
-}
-
-.candc_left_p1{
-    background: #0E4A0F;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22.2767px;
-    line-height: 26px;
-    letter-spacing: 0.01em;
-    width: 100%;
-    color: #FFFFFF;
-    padding: 20px 15px;
-}
-
-.candc_left_p2{
-    background: #1E1E1E;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16.7075px;
-    line-height: 20px;
-    letter-spacing: 0.01em;
-    color: #FFFFFF;
-    padding: 15px;
-}
-
-.candc_left_p3{
-    background: #1E1E1E;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16.7075px;
-    line-height: 20px;
-    letter-spacing: 0.01em;
-    color: #FFFFFF;
-    margin-top: 5px;
-    padding: 15px;
-}
-
-
-.candc_right_p1{
     background: #153E90;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22.2767px;
-    line-height: 26px;
-    letter-spacing: 0.01em;
-    width: 100%;
-    color: #FFFFFF;
-    padding: 20px 15px;
 }
 
-.candc_right_p2{
-    background: #1E1E1E;
+
+.contact_cover_bottom a{
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
-    font-size: 16.7075px;
-    line-height: 20px;
-    letter-spacing: 0.01em;
+    font-weight: 900;
+    font-size: 20.0008px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.06em;
     color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 24.052px;
+    padding: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px 12px;
+}
+/* contact cover css end  */
+
+
+.address_contact_main{
+    padding: 1%;
+    border: 0.879205px solid #C8BCBC;
+}
+
+
+/* address cover css start  */
+
+.address_contact{
+    margin: 20px 0px;
+}
+.address_a{
+    background: #1882FF;
     padding: 15px;
 }
 
-.candc_right_p3{
-    background: #1E1E1E;
+.address_a a{
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
-    font-size: 16.7075px;
-    line-height: 20px;
-    letter-spacing: 0.01em;
+    font-weight: 900;
+    font-size: 24.1153px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.06em;
     color: #FFFFFF;
-    margin-top: 5px;
+}
+
+
+.address_part1{
+    font-family: Roboto;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 20.1153px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin: 20px 0px;
+    border-bottom: 1px solid #B7B7B7;
+}
+
+.address_part1 p{
+    margin-bottom: 15px !important;
+}
+
+.address_part2{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20.1153px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding: 0px 4%;
+    margin: 20px 0px;
+    border-bottom: 1px solid #B7B7B7;
+}
+
+.address_part2 p{
+    margin-bottom: 15px !important;
+}
+
+.address_part3{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20.1153px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding: 0px 4%;
+    margin: 20px 0px;
+    /* border-bottom: 1px solid #B7B7B7; */
+}
+
+.address_part3{
+    margin-bottom: 15px !important;
+}
+
+/* address cover css end  */
+
+/* map css start  */
+
+
+.map_contact{
+    margin: 20px 0px;
+}
+
+.map_contact_main{
+    padding: 1%;
+    border: 0.879205px solid #C8BCBC;
+}
+
+.map_a{
+    background: #1882FF;
     padding: 15px;
 }
 
-/* candc css end  */
 
-/* services css start  */
-.services{
-    padding: 20px 0px;
-}
-.card{
-    margin:0px 1.5%;
-}
-
-.card-body{
-    background: #F7F7F7 !important;
-    padding: 1rem !important;
-}
-.services_arrow_p1{
+.map_a a{
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
-    font-size: 19.0268px;
-    line-height: 22px;
+    font-weight: 900;
+    font-size: 24.1153px;
+    line-height: 28px;
+    text-align: center;
     letter-spacing: 0.06em;
-    color: #000000;
-    margin-top: 8px;
+    color: #FFFFFF;
 }
 
-.services_arrow_p2{
+
+.map_area{
+    margin: 30px 0px 15px 0px;
+}
+/* map css end  */
+
+/* how to css start  */
+.how_to_contact{
+    margin: 20px 0px;
+}
+
+.how_to_contact_main{
+    padding: 1%;
+    border: 0.879205px solid #C8BCBC;
+}
+
+.how_to_a{
+    background: #1882FF;
+    padding: 15px;
+}
+
+
+.how_to_a a{
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
-    font-size: 11.0943px;
-    line-height: 13px;
+    font-weight: 900;
+    font-size: 24.1153px;
+    line-height: 28px;
+    text-align: center;
     letter-spacing: 0.06em;
-    color: #000000;
-    margin-top: 8px;
+    color: #FFFFFF;
 }
 
-.services_card_bottom_link{
-    display: flex;
-    align-items: center;
-    margin-top: 8px;
+.how_to_item{
+    background: #C4C4C4;
+    border-radius: 36.5px;
+    padding: 15px 35px;
+    margin-top: 20px;
 }
 
-.services_card_bottom_link p{
+.how_to_item a{
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
-    font-size: 13.4972px;
-    line-height: 16px;
+    font-weight: 900;
+    font-size: 24.1153px;
+    line-height: 28px;
     letter-spacing: 0.06em;
-    color: #000000;
-    margin-left: 10px;
+    color: #FFFFFF;
 }
 
-.card-img-top {
-    height: 130px !important;
-}
-/* services css end  */
 
+/* how to css end  */
+
+/* campus map css start  */
+
+.campus_contact{
+    margin: 20px 0px;
+}
+
+.campus_contact_main{
+    padding: 1%;
+    border: 0.879205px solid #C8BCBC;
+}
+
+.campus_a{
+    background: #1882FF;
+    padding: 15px;
+}
+
+
+.campus_a a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24.1153px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+
+.campus_area{
+    margin: 30px 0px 15px 0px;
+}
+/* campus map css end  */
 
 /* start footer section--- */
 .footer{
