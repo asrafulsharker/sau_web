@@ -429,7 +429,7 @@ p {
 .faculty_agriculture_box {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     background: #153E90;
     padding: 15px 20px 15px 15px;
     margin-bottom: 3px;
@@ -445,6 +445,7 @@ p {
     letter-spacing: 0.01em;
     color: #FFFFFF;
     text-decoration: none;
+    margin-right: 8px;
 }
 
 .faculty_agriculture_item {
@@ -763,20 +764,247 @@ p {
 
 
 
+.faculty_member_person_main{
+
+}
+
+
+
+.faculty_member_person_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vh;
+}
 
 
 
 
+.faculty_member_image {
+    position: relative;
+    width: 260px;
+}
+
+.faculty_member_image__img_bottom{
+    width: 220px !important;
+}
+
+.faculty_member_image__img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.faculty_member_image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.faculty_member_image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.faculty_member_image__overlay--primary {
+    /* background: #009578; */
+    border-radius: 50%;
+}
+
+.faculty_member_image__overlay--secondery{
+    border-radius: 50%;
+    width: 220px !important;
+}
+
+.faculty_member_image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.faculty_member_image__overlay:hover {
+    opacity: 1;
+}
+
+.faculty_member_image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.faculty_member_image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.faculty_member_image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9.90552px;
+    line-height: 10px;
+    letter-spacing: 0.01em;
+    color: #FFF8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(21, 62, 144, 0.68);
+    padding: 12px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.faculty_member_image__description p{
+    margin-right: 5px;
+}
+
+
+.faculty_member_image__description img{
+    transform: rotate(-90deg);
+}
+
+.faculty_name_person{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.4468px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    margin: 5px 0px;
+    color: #212121;
+}
+
+.faculty_name_position{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.0669px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    margin: 5px 0px;
+    color: #212121;
+}
+
+.faculty_member_person_icon{
+    margin: 10px 0px;
+    display: flex;
+}
+.faculty_member_person_icon div{
+    background-color: #1882FF;
+    padding: 7px 12px 9px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+
+.popover{
+    background-color: #1882FF !important;
+
+}
+
+.popover-body{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #FFFBFB;
+}
+.popover-header{
+    background-color: #1882FF;
+    border: 0px !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFBFB;
+}
+
+.bs-popover-auto[x-placement^="left"] .arrow::after, .bs-popover-left .arrow::after{
+    border-left-color: #187AF1 !important;
+}
 
 
 
-
-
-
-
-
-
-
+.bs-popover-auto[x-placement^="right"] .arrow::after, .bs-popover-right .arrow::after {
+    left: 1px;
+    border-right-color: #187AF1 !important;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Background Styles Only */
+  
+  @import url('https://fonts.googleapis.com/css?family=Raleway');
+  
+  * {
+      font-family: Raleway;
+  }
+  
+  .side-links {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  
+  .side-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+    width: 180px;
+    padding: 10px 0;
+    border-radius: 10px;
+  }
+  
+  .side-link-youtube {
+    background-color: red;
+  }
+  
+  .side-link-twitter {
+    background-color: #1DA1F2;
+  }
+  
+  .side-link-github {
+    background-color: #6e5494;
+  }
+  
+  .side-link-text {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .side-link-icon {
+    color: white;
+    font-size: 30px;
+  }
 
 
 
