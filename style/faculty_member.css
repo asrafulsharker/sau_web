@@ -517,11 +517,11 @@ p {
 }
 
 .contentBx.active .label::before {
-    content: '-' !important;
+    content: 'x' !important;
     z-index: 10;
     top: 11%;
     /* color: red; */
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .content {
