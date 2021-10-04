@@ -445,13 +445,446 @@ p {
 
 
 
+/* dept_home css start  */
+
+
+.dept_home {
+    /* margin-top: 20vh; */
+    padding: 2vh 5vw 0vw 5vw;
+}
+
+.dept_home_main{
+    display: flex;
+}
+
+
+.dept_home_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #153E90;
+    padding: 15px 20px 15px 15px;
+    margin-bottom: 3px;
+    border-bottom: 4px solid #187AF1;
+}
+
+.dept_home_box a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.6034px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.dept_home_item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.2644px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-decoration: none !important;
+    color: #000000;
+    padding: 15px 20px 15px 15px;
+    /* border-bottom: 0.715055px solid #BABABA; */
+    border-left: 3px solid #B4B4B4;
+
+}
+
+.dept_home_item:hover {
+    padding: 15px 20px 15px 15px;
+    border-left: 4px solid #187AF1;
+    background-color: #DCDCDC;
+
+}
+
+.dept_home_overview_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48.9697px;
+    line-height: 57px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #1882FF;
+    margin-bottom: 30px !important;
+}
+
+.dept_home_overview_p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.highlights{
+    margin: 40px 0px;
+}
+.highlights_components{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EDEDED;
+    margin-top: 20px;
+}
+
+
+.dept_home_highlights_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48.9697px;
+    line-height: 57px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #1882FF;
+}
+.highlights_components p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26.8153px;
+    line-height: 31px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    padding: 15px;
+    padding-right: 60% !important;
+    color: #000000;
+}
+
+.dept_home_left {
+    display: flex;
+    flex-direction: column;
+    /* margin: 2vh 0; */
+}
+
+.dept_home_left img {
+    margin: 2px 0px 2px 0px;
+    width: 100%;
+}
+
+.dept_home_box img{
+    width: 10% !important;
+}
+
+
+
+
+.dept_left_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.dept_right_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+.dept_date_discription{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.dept_single_date_discription{
+    display: flex;
+    align-items: center;
+}
+.dept_caloander_card{
+    position: relative;
+    width: 88px;
+    height: 96px;
+    background: #060606;
+    
+}
+
+.dept_calander_front_card{
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    background: #153E90;
+    margin-top: -26px;
+}
+.dept_calander_front_card_news{
+    background-color: #049906 !important;
+}
+.dept_calander_front_card p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    padding-top: 5px;
+    color: #FFFFFF;    
+}
+.dept_caloander_card_date{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42.2069px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF; 
+    position: absolute;
+    z-index: 10;
+    margin-top: -83px;
+    margin-left: 20px;
+}
+.dept_notice_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dept_notice_details{
+    /* width: 300px; */
+    padding-left: 45px;
+}
+
+.dept_notice_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+.dept_notice_details_notice_P{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #1882FF;
+    /* background-color: #1882FF; */
+}
+.dept_notice_details_p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #049906;
+    /* background-color: #049906; */
+    /* padding: 15px 40px;
+    margin-left: -15px; */
+}
+.dept_notice_view_more{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.2717px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #FFECEC;
+    background-color: #1882FF;
+    padding: 15px 40px;
+    margin-left: -15px;
+}
+.dept_latest_news_view_more{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.2717px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #FFECEC;
+    padding: 15px 40px;
+    margin-left: -15px;
+    background-color: #049906;
+}
+
+.dept_notice_right_bottom{
+    margin-bottom: 60px;
+}
+.dept_read_me{
+    display: flex;
+    align-items: center;
+    padding: 7px 0px;
+}
+
+.dept_read_me p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    margin: 0 0 0px;
+    color:red;
+    margin-right: 5px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.dept_notice_mid_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* dept home css end  */
 
 
 
 
 
 
+/* glance css start  */
+.dept_green_campus {
+    padding: 20px 0px;
+}
 
+.dept_green_campus_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.dept_green_campus_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dept_green_campus_left_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.464px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-align: center;
+}
+
+.dept_green_campus_left_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.464px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #000000;
+    text-align: center;
+}
+
+.dept_green_campus_right img {
+    height: 115px !important;
+    padding: 3px;
+}
+
+
+.dept_green_campus_left img {
+    height: 170px;
+    padding: 15px;
+}
+
+.dept_green_campus_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dept_green_campus_right img {
+    height: 100px;
+}
+
+/* glance css end  */
+
+
+
+
+
+
+/* services css start  */
+.services {
+    padding: 20px 0px;
+}
+
+.card {
+    margin: 0px 1.5%;
+}
+
+.card-body {
+    background: #F7F7F7 !important;
+    padding: 1rem !important;
+}
+
+.services_arrow_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.0268px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-top: 8px;
+}
+
+.services_arrow_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.0943px;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-top: 8px;
+}
+
+.services_card_bottom_link {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.services_card_bottom_link p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.4972px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.card-img-top {
+    height: 130px !important;
+}
+
+/* services css end  */
 
 
 /* start footer section--- */
