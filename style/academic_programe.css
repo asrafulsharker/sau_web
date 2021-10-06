@@ -603,11 +603,11 @@ p{
 
 
 /* calander css tart  */
-.support_hall_container{
+.support_calander_container{
     padding: 0 !important;
 }
 
-.support_hall{
+.support_calander{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -616,16 +616,16 @@ p{
     justify-content: center;
 }
 
-.hall_support_left{
+.calander_support_left{
     width: 48%;
     margin: 1% 1% 1% 0%;
 }
 
-.hall_support_right{
+.calander_support_right{
     width: 48%;
     margin: 1% 0% 1% 1%;
 }
-.hall_support_left_p1{
+.calander_support_left_p1{
     background: #153E90;
     font-family: Roboto;
     font-style: normal;
@@ -637,7 +637,7 @@ p{
     padding: 6%;
 }
 
-.hall_support_left_p2{
+.calander_support_left_p2{
     background: #F2F9FF;
     font-family: Roboto;
     font-style: normal;
@@ -649,7 +649,7 @@ p{
     padding: 5% 2% 4% 2%;
 }
 
-.hall_support_left_p3{
+.calander_support_left_p3{
     background: #F2F9FF;
     font-family: Roboto;
     font-style: normal;
@@ -661,7 +661,7 @@ p{
     padding: 0% 3% 5% 2%;
 }
 
-.hall_support_left_p4{
+.calander_support_left_p4{
     background: #F2F9FF;
     font-family: Roboto;
     font-style: normal;
@@ -674,7 +674,7 @@ p{
     margin-top: 10px;
 }
 
-.hall_support_left_p5{
+.calander_support_left_p5{
     background: #F2F9FF;
     font-family: Roboto;
     font-style: normal;
@@ -686,10 +686,10 @@ p{
     padding: 0% 3% 5% 2%;
 }
 
-.hall_support_diversity{
+.calander_support_diversity{
     padding: 2% 0% 0% 0%;
 }
-.hall_support_diversity_p1{
+.calander_support_diversity_p1{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -701,7 +701,7 @@ p{
     margin-top: 52px;
 }
 
-.hall_support_diversity_p2{
+.calander_support_diversity_p2{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -711,11 +711,11 @@ p{
     color: #000000;
 }
 
-.hall_support_right img{
+.calander_support_right img{
     width: 100%;
     height: 255px !important;
 }
-.hall_support_diversity_p2 a{
+.calander_support_diversity_p2 a{
     color: red;
 }
 
