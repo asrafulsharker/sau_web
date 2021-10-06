@@ -528,7 +528,8 @@ p {
     flex-wrap: wrap;
     border: 0.879205px solid #C8BCBC;
     box-sizing: border-box;
-    padding: 4%;
+    padding: 3%;
+    margin: 20px 0px;
 }
 
 .why_hall_left{
@@ -537,7 +538,7 @@ p {
 }
 
 .why_hall_left img{
-    width: 100%;
+    width: 90%;
 }
 
 .why_hall_right{
@@ -573,6 +574,208 @@ p {
     margin-top: 30px;
 }
 /* why css end  */
+
+
+/* teacher hall css start  */
+
+.teacher_hall{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-wrap: wrap;
+    border: 0.879205px solid #C8BCBC;
+    box-sizing: border-box;
+    padding: 3%;
+    margin: 20px 0px;
+}
+
+.teacher_hall_left{
+    width: 40%;
+    height: 100%;
+}
+
+.teacher_hall_left img{
+    width: 90%;
+}
+
+.teacher_hall_right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.teacher_hall_right img{
+    width: 100px;
+}
+
+.teacher_hall_right_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-bottom: 10px !important;
+}
+
+.teacher_hall_right_p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.4633px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #413D3D;
+    margin-top: 30px;
+}
+
+.hall_expert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.hall_expert_component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+.hall_expert_component_p1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17.4833px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 10px 0px !important;
+}
+
+.hall_expert_component_p2{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.1125px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.support_hall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.hall_support_left{
+    width: 48%;
+    margin: 1%;
+}
+
+.hall_support_right{
+    width: 48%;
+    margin: 1%;
+}
+.hall_support_left_p1{
+    background: #153E90;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.6946px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding: 5%;
+}
+
+.hall_support_left_p2{
+    background: #F2F9FF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2709px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #2D2D2D;
+    padding: 3% 2% 2% 2%;
+}
+
+.hall_support_left_p3{
+    background: #F2F9FF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6552px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #2D2D2D;
+    padding: 0% 3% 3% 2%;
+}
+
+.hall_support_left_p4{
+    background: #F2F9FF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2709px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #2D2D2D;
+    padding: 3% 2% 2% 2%;
+    margin-top: 10px;
+}
+
+.hall_support_left_p5{
+    background: #F2F9FF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6552px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #2D2D2D;
+    padding: 0% 3% 3% 2%;
+}
+
+.hall_support_diversity{
+    padding: 2% 0%;
+}
+.hall_support_diversity_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.6946px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-bottom: 10px !important;
+    margin-top: 40px;
+}
+
+.hall_support_diversity_p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.6552px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.hall_support_right img{
+    width: 100%;
+}
+.hall_support_diversity_p2 a{
+    color: red;
+}
+/* teacher hall css end  */
+
+
 
 /* start footer section--- */
 .footer {
