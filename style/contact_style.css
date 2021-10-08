@@ -20,6 +20,7 @@ p{
     border: 1px solid #757575;
     padding: 10px 0px;
     position: absolute;
+    height: 20vh;
     }
 .left_nav{
     flex: 5;
@@ -90,7 +91,12 @@ p{
     }
   }
 
-
+  @media screen and (max-width: 800px) {
+    .nav_main {
+        height: 14vh;
+    }
+    
+  }
   @media screen and (max-width: 600px) {
     .logo_text {
         font-size: 10.191px;
@@ -120,8 +126,31 @@ p{
     .nav_icon_3 {
         height: 30px;
     }
+    .nav_main {
+        height: 9vh;
+    }
+    .contact_cover {
+        margin-top: 9vh !important;
+    }
   }
-
+  @media screen and (max-width :500px) {
+    .nav_main {
+        height: 6vh;
+    }
+    .left_nav img {
+        height: 40px;
+    }
+    .nav_icon_main {
+        width: 35px;
+        height: 35px;
+    }
+    .nav_icon {
+        padding: 16px;
+    }
+    .nav-toggler_nav3{
+        padding: 11px;
+    }
+  }
 
   @media screen and (max-width :360px) {
     .left_nav img {
@@ -766,10 +795,13 @@ p{
 
 @media screen and (max-width :511px) {
     .contact_cover_bottom a {
-        font-size: 7.001px;
+        font-size: 5.001px;
         padding: 0px 8px;
+        margin: 8px 8px;
     }
-
+    .contact_cover {
+        margin-top: 6vh !important;
+    }
     .contact_img {
         font-size: 25.202px;
     }

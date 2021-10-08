@@ -23,6 +23,7 @@ p {
     /* border: 1px solid #757575; */
     padding: 10px 0px;
     position: absolute;
+    height: 20vh;
 }
 
 .left_nav {
