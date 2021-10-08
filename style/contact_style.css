@@ -750,7 +750,122 @@ p{
     padding: 12px 50px;
 }
 
+/* feedback responsive css start */
+@media screen and (max-width :800px) {
+    .contact_cover {
+        margin-top: 14vh;
+    }
+    .feedback_input_single_item{
+        width: 48%;
+    }
+    .contact_cover_bottom a{
+        font-size: 9.001px;
+        padding: 5px 10px;
+    }
+}
 
+@media screen and (max-width :511px) {
+    .contact_cover_bottom a {
+        font-size: 7.001px;
+        padding: 0px 8px;
+    }
+
+    .contact_img {
+        font-size: 25.202px;
+    }
+
+    .contact_img img {
+        height: 5px;
+        margin-top: 0px;
+    }
+
+    .address_a a {
+        font-size: 20.115px;
+    }
+    .address_a {
+        padding: 5px 15px;
+    }
+
+    .address_part1 {
+        font-size: 15.115px;
+        line-height: 20px;
+        margin: 20px 0px;
+    }
+
+    .address_part2 {
+        font-size: 12.115px;
+        line-height: 20px;
+        padding: 0px 4%;
+        margin: 20px 0px;
+    }
+    .address_part3 {
+        font-size: 12.115px;
+        line-height: 20px;
+        padding: 0px 4%;
+        margin: 20px 0px;
+    }
+
+    .map_a a {
+        font-size: 20.115px;
+    }
+
+    .map_a {
+        padding: 5px 15px;
+    }
+    .how_to_a a {
+        font-size: 20.115px;
+    }
+    .how_to_a{
+        padding: 5px 15px;
+    }
+    .how_to_item a {
+        font-size: 15.115px;
+    }
+    .how_to_item {
+        padding: 4px 30px;
+        margin-top: 10px;
+    }
+
+    .campus_a a {
+        font-size: 20.115px;
+    }
+    .campus_a{
+        padding: 5px 15px;
+    }
+    .feedback_a a {
+        font-size: 20.115px;
+    }
+
+    .feedback_a{
+        padding: 5px 15px;
+    }
+    .feedback_input_single_item {
+        width: 100%;
+    }
+    .form_send {
+        font-size: 15.115px;
+        padding: 3px 25px;
+    }
+    .feedback_input_single_item {
+        height: 40px;
+    }
+    .feedback_input_single_item {
+        font-size: 17.115px;
+        margin: 2px 0px;
+    }
+    .feedback_input_single_item_text_area {
+        font-size: 17.115px;
+        margin: 2px 0px;
+    }
+    .map_area {
+        margin: 8px 0px 0px 0px;
+    }
+    .campus_area {
+        margin: 8px 0px 0px 0px;
+    }
+}
+
+/* feedback responsive css end  */
 
 /* feedback css end  */
 
