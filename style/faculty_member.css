@@ -482,7 +482,20 @@ p {
 }
 
 
-
+.faculty_membar_left_top_collspase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faculty_membar_left_top_collspase p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.6034px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
 
 
 
@@ -536,11 +549,37 @@ p {
     transition: 0.5s;
 }
 
+
+
 .contentBx.active .content {
     height: 150px;
     padding: 10px;
 }
 
+
+.contentB.active .label::before {
+    content: 'x' !important;
+    z-index: 10;
+    top: 11%;
+    /* color: red; */
+    font-size: 25px;
+}
+
+.conten {
+    position: relative;
+    background-color: #ffff;
+    height: 0;
+    overflow: hidden;
+    /* transform: 0.5s; */
+    transition: 0.5s;
+}
+
+
+
+.contentB.active .conten {
+    height: 150px;
+    padding: 10px;
+}
 
 
 /* check box css start  */
