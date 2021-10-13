@@ -81,7 +81,7 @@ p {
 
 
 .nav-toggler {
-    background: #54E346 !important;
+    /* background: #54E346 !important; */
 }
 
 /* nav responsive css  */
@@ -482,12 +482,13 @@ p {
 }
 
 
-.faculty_membar_left_top_collspase{
+.faculty_membar_left_top_collspase {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.faculty_membar_left_top_collspase p{
+
+.faculty_membar_left_top_collspase p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -512,7 +513,7 @@ p {
     padding: 10px;
     color: #000000;
     cursor: pointer;
-    width: 100%;
+    /* width: 100%; */
     margin-left: 35px;
     font-family: Roboto;
     font-style: normal;
@@ -581,6 +582,9 @@ p {
     padding: 10px;
 }
 
+.card {
+    border: none !important;
+}
 
 /* check box css start  */
 
@@ -804,13 +808,11 @@ p {
 
 
 
-.faculty_member_person_main{
-
-}
+.faculty_member_person_main {}
 
 
 
-.faculty_member_person_top{
+.faculty_member_person_top {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -826,7 +828,7 @@ p {
     width: 260px;
 }
 
-.faculty_member_image__img_bottom{
+.faculty_member_image__img_bottom {
     width: 220px !important;
 }
 
@@ -862,12 +864,12 @@ p {
     border-radius: 50%;
 }
 
-.faculty_member_image__overlay--secondery{
+.faculty_member_image__overlay--secondery {
     border-radius: 50%;
     width: 220px !important;
 }
 
-.faculty_member_image__overlay > * {
+.faculty_member_image__overlay>* {
     transform: translateY(20px);
     transition: transform 0.25s;
 }
@@ -876,7 +878,7 @@ p {
     opacity: 1;
 }
 
-.faculty_member_image__overlay:hover > * {
+.faculty_member_image__overlay:hover>* {
     transform: translateY(0);
 }
 
@@ -904,16 +906,16 @@ p {
     cursor: pointer;
 }
 
-.faculty_member_image__description p{
+.faculty_member_image__description p {
     margin-right: 5px;
 }
 
 
-.faculty_member_image__description img{
+.faculty_member_image__description img {
     transform: rotate(-90deg);
 }
 
-.faculty_name_person{
+.faculty_name_person {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -922,9 +924,10 @@ p {
     letter-spacing: 0.01em;
     margin: 5px 0px;
     color: #212121;
+    text-align: center;
 }
 
-.faculty_name_position{
+.faculty_name_position {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -936,11 +939,12 @@ p {
     color: #212121;
 }
 
-.faculty_member_person_icon{
+.faculty_member_person_icon {
     margin: 10px 0px;
     display: flex;
 }
-.faculty_member_person_icon div{
+
+.faculty_member_person_icon div {
     background-color: #1882FF;
     padding: 7px 12px 9px;
     cursor: pointer;
@@ -948,12 +952,12 @@ p {
 }
 
 
-.popover{
+.popover {
     background-color: #1882FF !important;
 
 }
 
-.popover-body{
+.popover-body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -964,7 +968,8 @@ p {
 
     color: #FFFBFB;
 }
-.popover-header{
+
+.popover-header {
     background-color: #1882FF;
     border: 0px !important;
     font-family: Roboto;
@@ -977,42 +982,44 @@ p {
     color: #FFFBFB;
 }
 
-.bs-popover-auto[x-placement^="left"] .arrow::after, .bs-popover-left .arrow::after{
+.bs-popover-auto[x-placement^="left"] .arrow::after,
+.bs-popover-left .arrow::after {
     border-left-color: #187AF1 !important;
 }
 
 
 
-.bs-popover-auto[x-placement^="right"] .arrow::after, .bs-popover-right .arrow::after {
+.bs-popover-auto[x-placement^="right"] .arrow::after,
+.bs-popover-right .arrow::after {
     left: 1px;
     border-right-color: #187AF1 !important;
 }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /* Background Styles Only */
-  
-  @import url('https://fonts.googleapis.com/css?family=Raleway');
-  
-  * {
-      font-family: Raleway;
-  }
-  
-  .side-links {
+
+
+
+
+
+
+
+
+
+
+
+/* Background Styles Only */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Raleway;
+}
+
+.side-links {
     position: absolute;
     top: 15px;
     right: 15px;
-  }
-  
-  .side-link {
+}
+
+.side-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1022,29 +1029,29 @@ p {
     width: 180px;
     padding: 10px 0;
     border-radius: 10px;
-  }
-  
-  .side-link-youtube {
+}
+
+.side-link-youtube {
     background-color: red;
-  }
-  
-  .side-link-twitter {
+}
+
+.side-link-twitter {
     background-color: #1DA1F2;
-  }
-  
-  .side-link-github {
+}
+
+.side-link-github {
     background-color: #6e5494;
-  }
-  
-  .side-link-text {
+}
+
+.side-link-text {
     margin-left: 10px;
     font-size: 18px;
-  }
-  
-  .side-link-icon {
+}
+
+.side-link-icon {
     color: white;
     font-size: 30px;
-  }
+}
 
 
 
