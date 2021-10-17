@@ -444,6 +444,75 @@ p {
 /* dept css end  */
 
 
+/* welcome dean css start  */
+
+    .welcome_dean_container{
+        padding: 2vh 5vw 0vw 5vw;
+        height: 10%;
+    }
+
+    .dvm_link{
+    border-bottom: 0.5px solid #000000;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    }
+    .dvm_link p{
+        padding: 14px 0px;
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #049906;
+    }
+    .welcome_dean_right{
+        background: #0C380C;
+        padding: 2%;
+    }
+    .welcome_dean_left img{
+        width: 100%;
+        height: 100% !important;
+    }
+    .welcome_dean_main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .welcome_dean_right_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34.101px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+    .welcome_dean_right_p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin: 30px 0px !important;
+    }
+    .welcome_dean_right_p3{
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    }
+/* welcome dean css end  */
 
 
 /* dept_home css start  */
@@ -527,7 +596,7 @@ p {
 }
 
 .highlights{
-    margin: 40px 0px;
+    margin:0px 0px 40px 0px;
 }
 .highlights_components{
     display: flex;
@@ -542,11 +611,12 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 48.9697px;
-    line-height: 57px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
     letter-spacing: 0.01em;
-    text-decoration-line: underline;
-    color: #1882FF;
+    color: #000000;
+    text-align: center;
 }
 .highlights_components p{
     font-family: Roboto;
@@ -557,7 +627,7 @@ p {
     text-align: justify;
     letter-spacing: 0.01em;
     padding: 15px;
-    padding-right: 60% !important;
+    padding-right: 25% !important;
     color: #000000;
 }
 

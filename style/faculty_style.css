@@ -411,7 +411,7 @@ p {
 
 
 /* faculty css start  */
-.faculty_home_main{
+.faculty_home_main {
     padding: 0vw 5vw 0vw 5vw;
     margin-top: 20vh;
 }
@@ -530,6 +530,74 @@ p {
     height: 290px;
 }
 
+
+/* faculty home responsive  start  */
+@media screen and (max-width :880px) {
+    .faculty_home_right_t_details {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .t_details_p {
+        text-align: center;
+    }
+
+    .t_details_heading {
+        text-align: center;
+    }
+    .dropdown_single {
+        width: 100% !important;
+    }
+}
+
+/* faculty home responsive end  */
+
+/* dropdown css start  */
+.select_t {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23.8242px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.dropdown_t {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dropdown_single {
+    width: 31%;
+    border: 0.872765px solid #C8BCBC;
+    box-sizing: border-box;
+    margin: 1.1%;
+}
+
+.card-body {
+    background: #FFFFFF !important;
+
+}
+
+.card {}
+
+.dropdown_card {
+    border: none !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23.8242px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    padding: 8%;
+}
+
+/* dropdown css end  */
 .t_details {
     padding: 3%
 }
@@ -559,6 +627,60 @@ p {
     padding: 5%;
     border: 1px solid #C8BCBC;
     box-sizing: border-box;
+}
+
+
+.faculty_agriculture_item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.2644px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-decoration: none !important;
+    color: #000000;
+    padding: 15px 20px 15px 15px;
+    /* border-bottom: 0.715055px solid #BABABA; */
+    border-left: 3px solid #B4B4B4;
+
+}
+
+.faculty_agriculture_item:hover {
+    padding: 15px 20px 15px 15px;
+    border-left: 4px solid #187AF1;
+    background-color: #DCDCDC;
+
+}
+
+.faculty_membar_left {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 0;
+}
+
+.faculty_membar_left img {
+    margin: 2px 0px 2px 0px;
+}
+
+
+.faculty_membar_left_top_collspase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faculty_membar_left_top_collspase p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.6034px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.card {
+    margin: 0px 0px !important;
 }
 
 /* faculty home css end  */
@@ -674,6 +796,22 @@ p {
     height: 100px;
 }
 
+/* glance responsive css start  */
+
+@media screen and (max-width :800px) {
+    .glance_main {
+        flex-wrap: wrap !important;
+    }
+
+    .glance_right img {
+        height: 100% !important;
+        width: 45%;
+        padding: 1%;
+    }
+}
+
+/* glance responsive css end  */
+
 /* glance css end  */
 
 /* candc css start  */
@@ -687,7 +825,7 @@ p {
     width: 49%;
 }
 
-.candc_right  {
+.candc_right {
     /* background-color: red; */
     width: 49% !important;
 }
@@ -789,6 +927,11 @@ p {
     padding: 1rem !important;
 }
 
+.services_card {
+    width: 31% !important;
+    margin: 0% 1% !important;
+}
+
 .services_arrow_p1 {
     font-family: Roboto;
     font-style: normal;
@@ -831,6 +974,16 @@ p {
 .card-img-top {
     height: 130px !important;
 }
+
+/* services card responsive start  */
+@media screen and (max-width :800px) {
+    .services_card {
+        width: 100% !important;
+        margin: 0% 1% !important;
+    }
+}
+
+/* services card responsive end  */
 
 /* services css end  */
 
