@@ -514,6 +514,64 @@ p {
     }
 /* welcome dean css end  */
 
+/* our strenght css start  */
+.our_strength_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.our_strength_component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our_single_component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our_strength_single{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 7% 5%;
+}
+
+.our_single_component p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 69.5952px;
+    line-height: 82px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+    padding: 0% 15%;
+}
+
+.our_strength_single_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24.8135px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    padding: 15px 0px;
+}
+
+
+/* our strength css end  */
+
 
 /* dept_home css start  */
 
