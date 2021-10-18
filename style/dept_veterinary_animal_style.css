@@ -544,7 +544,17 @@ p {
     flex-direction: column;
     padding: 7% 5%;
 }
-
+.highlights_components:hover{
+    background-color: #049906;
+    color: #ffff;
+}
+.highlights_components:onclick {
+    background-color: #049906;
+    color: #ffff;
+}
+.highlights_components p:hover {
+    color: #ffff;
+}
 .our_single_component p{
     font-family: Roboto;
     font-style: normal;
@@ -569,7 +579,68 @@ p {
     padding: 15px 0px;
 }
 
+.highlights_collapse_component{
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+    margin-top: 20px;
+}
 
+.highlights_collapse_component a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.2003px;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #049906;
+}
+
+.highlights_collapse_component img{
+    height: 150px;
+}
+
+.highlights_collapse_component_details{
+    flex: 4;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.highlights_collapse_component_details_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27.9286px;
+    line-height: 33px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.highlights_collapse_component_details_p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20.4058px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-top: 10px;
+}
+.highlights_collapse_component_details_p3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18.4432px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-top: 10px;
+}
 /* our strength css end  */
 
 
@@ -748,7 +819,7 @@ p {
     position: absolute;
     width: 88px;
     height: 26px;
-    background: #153E90;
+    background: #049906;
     margin-top: -26px;
 }
 .dept_calander_front_card_news{
@@ -765,6 +836,7 @@ p {
     padding-top: 5px;
     color: #FFFFFF;    
 }
+
 .dept_caloander_card_date{
     font-family: Roboto;
     font-style: normal;
@@ -966,8 +1038,9 @@ p {
 }
 
 .card-body {
-    background: #F7F7F7 !important;
+    background: #0C380C !important;
     padding: 1rem !important;
+    color: #ffff !important;
 }
 
 .services_arrow_p1 {
@@ -977,7 +1050,7 @@ p {
     font-size: 19.0268px;
     line-height: 22px;
     letter-spacing: 0.06em;
-    color: #000000;
+    color: #ffff;
     margin-top: 8px;
 }
 
@@ -988,7 +1061,7 @@ p {
     font-size: 11.0943px;
     line-height: 13px;
     letter-spacing: 0.06em;
-    color: #000000;
+    color: #ffff;
     margin-top: 8px;
 }
 
@@ -1005,7 +1078,7 @@ p {
     font-size: 13.4972px;
     line-height: 16px;
     letter-spacing: 0.06em;
-    color: #000000;
+    color: #ffff;
     margin-left: 10px;
 }
 
