@@ -793,6 +793,10 @@ p {
     .testimonial_slider_main_p2 {
         margin-bottom: 5px !important;
     }
+    .testimonial_slider_main img {
+        margin-bottom: 460px !important;
+        height: 28%;
+    }
 }
 /* testimonial css end  */
 
