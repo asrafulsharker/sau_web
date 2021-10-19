@@ -493,6 +493,16 @@ p {
             line-height: 45px;
             padding: 10%;
         }
+        .card-body{
+            min-height: auto !important;
+        }
+        .fandc_main p {
+            font-size: 45px !important;
+        }
+
+        .testimonial_slider_main img {
+            margin-bottom: 600px !important;
+        }
     }
 /* inter student responsive css end  */
 
@@ -568,6 +578,12 @@ p {
     height: 130px !important;
 }
 
+@media screen and (max-width :800px) {
+    .card-body{
+        min-height: auto !important;
+    }
+}
+
 /* services css end  */
 
 
@@ -608,6 +624,19 @@ p {
     color: #FFFFFF;
     margin-left: 15px;
 }
+
+@media screen and (max-width :800px) {
+    .fandc_main p {
+        font-size: 25px !important;
+    }
+    .fandc_component p{
+        font-size: 20px !important;
+    }
+    .fandc_component img{
+        height: 15px;
+    }
+
+}
 /* fand c css end  */
 
 
@@ -633,7 +662,7 @@ p {
 }
 
 
-.testimonial_main p{ 
+.testimonial_main_p1 p{ 
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -678,6 +707,36 @@ p {
     color: #000000;
     width: 90%;
     padding-bottom: 50px;
+}
+
+.testimonial_slider_main_p2{
+    font-size: 25px !important;
+}
+.testimonial_slider_main_p3{
+    font-size: 25px !important;
+}
+
+@media screen and (max-width :800px) {
+ 
+    /* .testimonial_main p {
+        font-size: 45px !important;
+    } */
+    .testimonial_main_p1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .testimonial_slider_main img {
+        margin-bottom: 460px !important;
+    }
+    .testimonial_slider_main_p1 {
+        font-size: 35px;
+    }
+    .testimonial_slider_main_p2{
+        font-size: 20px !important;
+    }
+    .testimonial_slider_main_p3{
+        font-size: 20px !important;
+    }
 }
 /* testimonial css end  */
 
