@@ -475,6 +475,26 @@ p {
 }
 
 
+/* inter student responsive css start  */
+
+
+    @media screen and (max-width :800px) {
+        .inter_student_cover_left p {
+            font-size: 18.87px;
+        }
+        .inter_student_cover_left_component p {
+            font-size: 12.153px !important;
+        }
+        .inter_student_cover_left_component img{
+                height: 12px;
+        }
+        .inter_student_cover_right {
+            font-size: 45px;
+            line-height: 45px;
+            padding: 10%;
+        }
+    }
+/* inter student responsive css end  */
 
 /* inter student css end  */
 
