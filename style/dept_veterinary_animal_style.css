@@ -665,8 +665,17 @@ p {
     padding: 15px 20px 15px 15px;
     margin-bottom: 3px;
     border-bottom: 4px solid #187AF1;
+    color: #ffff;
 }
-
+.dept_home_box img {
+    width: 10% !important;
+    margin: 0% 10px !important;
+    cursor: pointer;
+}
+.dept_home_item a{
+    text-decoration: none;
+    color: #000;
+}
 .dept_home_box a {
     font-family: Roboto;
     font-style: normal;
