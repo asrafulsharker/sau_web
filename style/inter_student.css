@@ -504,6 +504,26 @@ p {
             margin-bottom: 600px !important;
         }
     }
+
+    @media screen and (max-width :520px) {
+        .inter_student_cover {
+           flex-wrap: wrap;
+        }
+        .inter_student_cover_left {
+            width: 100% !important;
+            background: rgba(21, 62, 144, 0.83);
+            padding: 4%;
+        }
+        .card{
+            width: 100% !important;
+            margin-top: 2% !important;
+        }
+        .inter_student_cover_right {
+            font-size: 35px;
+            line-height: 30px;
+            padding: 15%;
+        }
+    }
 /* inter student responsive css end  */
 
 /* inter student css end  */
@@ -584,6 +604,14 @@ p {
     }
 }
 
+@media screen and (max-width :520px) {
+    .card {
+        width: 100% !important;
+        margin-top: 5% !important;
+    }
+}
+
+
 /* services css end  */
 
 
@@ -634,6 +662,13 @@ p {
     }
     .fandc_component img{
         height: 15px;
+    }
+    .fandc {
+        margin: 5vh 3vw 5vh 3vw !important;
+    }
+
+    .inter_student_main {
+        margin: 20vh 3vw 0vw 3vw;
     }
 
 }
@@ -736,6 +771,27 @@ p {
     }
     .testimonial_slider_main_p3{
         font-size: 20px !important;
+    }
+}
+@media screen and (max-width :520px) {
+    .testimonial_main_p1 {
+        text-align: center;
+        font-size: 20px;
+    }
+    .testimonial_slider_main img {
+        margin-bottom: 550px !important;
+    }
+    .testimonial_slider_main_p1 {
+        font-size: 20px;
+    }
+    .testimonial_slider_main_p2 {
+        font-size: 15px !important;
+    }
+    .testimonial_slider_main_p3{
+        font-size: 15px !important;
+    }
+    .testimonial_slider_main_p2 {
+        margin-bottom: 5px !important;
     }
 }
 /* testimonial css end  */
