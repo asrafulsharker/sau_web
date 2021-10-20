@@ -2,6 +2,9 @@
     margin: 0;
     font-family: Roboto;
 }
+a{
+    text-decoration: none !important;
+}
 
 html {
     scroll-behavior: smooth;
@@ -126,6 +129,9 @@ p {
 
     .nav_icon_3 {
         height: 30px;
+    }
+    .nav_main {
+        height: 8vh;
     }
 }
 
@@ -441,6 +447,95 @@ p {
     width: 80%;
 }
 
+.sau_dialog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #141414 !important;
+}
+.sau_dialog h1{
+    color: #049906;
+}
+.sau_dialog a{
+    background: white;
+    padding: 6px 30px;
+    margin: 5px 0px;
+    text-decoration: none;
+    color: #000;
+}
+.sau_dialog a:hover{
+    color: #ffff;
+    background-color: #049906;
+}
+.mfp-close{
+    color: #ffff;
+    font-size: 50px;
+}
+.mfp-close:hover{
+    color: #049906;
+}
+.sau_library_btn{
+    position: fixed;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #007bff;
+    border: 4px solid green;
+    margin: 1%;
+    text-decoration: none !important;
+    font-weight: bold;
+    display: none;
+}
+.sau_library_btn:hover{
+    color:#ffff;
+}
+
+/* dept css responsive start  */
+
+@media screen and (max-width :520px) {
+    .dept_cover {
+        margin-top: 8vh;
+    }
+    .dept_cover_main p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .dept_cover_main img{
+        height: 6px;
+    }
+    .dvm_link p {
+        padding: 4px 0px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+    .welcome_dean_left{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .welcome_dean_left img{
+        width: 50% !important;
+    }
+    .welcome_dean_right_p1 {
+        font-size: 18px !important;
+        line-height: 3px !important;
+        padding: 20px 0px 0px !important;
+    }
+    .welcome_dean_right_p2 {
+        font-size: 12px !important;
+        line-height: 15px !important;
+        margin: 7px 0px !important;
+    }
+}
+/* dept css responsive end  */
 /* dept css end  */
 
 
@@ -511,6 +606,18 @@ p {
     line-height: 28px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
+    }
+
+    @media screen and (max-width :520px) {
+        .welcome_dean_right_p2 {
+            font-size: 12px !important;
+            line-height: 15px !important;
+            margin: 7px 0px !important;
+        }
+        .welcome_dean_right_p3 {
+            font-size: 18px;
+            line-height: 28px;
+        }
     }
 /* welcome dean css end  */
 
@@ -641,6 +748,67 @@ p {
     color: #000000;
     margin-top: 10px;
 }
+@media screen and (max-width :520px) {
+.dept_home_left {
+    display: none !important;
+}
+.our_strength_p1 {
+    font-size: 18px;
+}
+.our_single_component img{
+    height: 70px;
+}
+.our_strength_component {
+    flex-wrap: wrap;
+}
+.our_strength_single {
+    width: 100%;
+}
+.our_single_component img {
+    height: 50px;
+}
+.our_single_component p {
+    font-size: 50px;
+}
+.our_strength_single_p1 {
+    font-size: 18px;
+    padding: 0px 0px;
+}
+.our_strength_single {
+    padding: 2% 5%;
+}
+.dept_home_highlights_p1 {
+    font-size: 18px !important;
+}
+.highlights_components p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    padding-right: 0% !important;
+    padding: 9px !important;
+}
+.highlights_components img{
+    padding: 10px !important;
+}
+.dept_green_campus_main {
+    flex-wrap: wrap !important;
+}
+.card{
+    width: 100% !important;
+}
+.services {
+    padding: 10px 0px !important;
+}
+.card-img-top {
+    height: 170px !important;
+}
+.dvm_link {
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+}
+.welcome_dean_left img {
+    margin: 10px;
+}
+}
 /* our strength css end  */
 
 
@@ -688,7 +856,54 @@ p {
     margin-right: 8px;
 }
 
-.dept_home_item {
+.dept_home_left_item_top{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #000000;
+    padding: 4%;
+}
+.dept_home_left_item_top p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    width: 80%;
+}
+.dept_home_left_item_top img{
+    height: 20px !important;
+    width: 30px !important;
+}
+
+.dept_home_left_item_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.dept_home_left_item_bottom a{
+    background:#E5E5E5;
+    width: 100%;
+    text-decoration: none !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    border-bottom: 1px solid #BABABA ;
+    color: #000000;
+    padding: 8%;
+}
+.dept_home_left_item_bottom a:hover{
+    background-color: #007bff;
+    color: #ffff;
+}
+/* .dept_home_item {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -698,17 +913,17 @@ p {
     text-decoration: none !important;
     color: #000000;
     padding: 15px 20px 15px 15px;
-    /* border-bottom: 0.715055px solid #BABABA; */
+
     border-left: 3px solid #B4B4B4;
 
-}
+} */
 
-.dept_home_item:hover {
+/* .dept_home_item:hover {
     padding: 15px 20px 15px 15px;
     border-left: 4px solid #187AF1;
     background-color: #DCDCDC;
 
-}
+} */
 
 .dept_home_overview_p1{
     font-family: Roboto;
@@ -983,6 +1198,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 0% 10%;
 }
 
 .dept_green_campus_left_p1 {
@@ -1009,8 +1225,9 @@ p {
 }
 
 .dept_green_campus_right img {
-    height: 115px !important;
+    height: 140px !important;
     padding: 3px;
+ 
 }
 
 
@@ -1095,6 +1312,36 @@ p {
     height: 130px !important;
 }
 
+@media screen and (max-width :520px) {
+    .card-img-top {
+        height: 180px !important;
+    }
+    .card{
+        margin-bottom: 10px !important;
+    }
+    .sau_library_btn{
+        display: flex;
+        z-index: 1000;
+    }
+    .highlights_collapse_component img {
+        height: 70px !important;
+    }
+    .highlights_collapse_component_details_p1 {
+        font-size: 14px;
+    }
+    .highlights_collapse_component_details_p2 {
+        font-size: 12px;
+        line-height: 10px;
+        margin-top: 0px;
+    }
+    .highlights_collapse_component_details_p3 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .highlights_collapse_component a {
+        font-size: 14px;
+    }
+}
 /* services css end  */
 
 

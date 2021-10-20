@@ -32,7 +32,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Optional theme -->
 
-
+    <!-- magnific pop-up -->
+    <link rel="stylesheet" type="text/css" href="./style/magbetic_popup.css" />
     <!-- Latest compiled and minified JavaScript -->
     <link rel="stylesheet" href="./style/dept_veterinary_animal_style.css">
     <title>Dept Vet & Animal </title>
@@ -116,7 +117,7 @@
 
     <!-- dept cover start  -->
 
-    <!-- dept cover end  -->
+
 
     <section class="dept_cover">
         <div class="dept_cover_main">
@@ -124,8 +125,16 @@
             <img src="./image/contact_cover_line.png" alt="">
         </div>
     </section>
-
-
+    <!-- dept cover end  -->
+    <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+    <div id="small-dialog" class="zoom-anim-dialog mfp-hide sau_dialog">
+        <h1>SAU Library</h1>
+        <a href="">Home</a>
+        <a href="">Home</a>
+        <a href="">Home</a>
+        <a href="">Home</a>
+        <a href="">Home</a>
+    </div>
 
     <section class="welcome_dean_container">
         <div class="welcome_dean">
@@ -153,25 +162,41 @@
             </div>
         </div>
     </section>
-
+    <a href="#small-dialog" class=" popup-with-move-anim  sau_library_btn">SAU Library</a>
+    <div id="small-dialog" class="zoom-anim-dialog mfp-hide" style="border-radius: 5px;">
+        <div class="row">
+            <div class="col-md-5">
+                <img  style="height: 100%; width: 100%;" src="./images/reading.png">
+            </div>
+            <div class="col-md-7">
+                <h2>Daffodil English Olympics 2021</h2>
+                <p>It is needless to reiterate the importance of learning English in today’s world, but, unfortunately, very few people can show their proficiency in this language in Bangladesh. There is a lack of real motivation among students for improving this language, since mostly they treat it as a regular subject. So it is never too late to initiate something through which an additional motivation can be offered to the learners of Bangladesh to improve their English language skills. To do so, the Department of English of Daffodil International University is going to organize a competition of English language proficiency for students of class 9 to class 12 (including "O" and "A" level) from all over the country.
+                </p>
+                
+                <!-- <a href="#prizes" class="  btn btn-primary mr-3">Read More</a> -->
+                <a href="#registration" class="  btn btn-primary mr-3 mfp-close page-scroll ">Participate</a>
+            </div> 
+        </div>
+    </div>
     <section class="dept_home">
         <div class="dept_home_main">
             <div class="dept_home_left col-md-3">
-                <div data-toggle="collapse" href="#multiCollapseExample1" class="dept_home_box">SAU Library
-                    <img src="./image/nevigate_arrow.png" alt="">
+                <div class="dept_home_left_item">
+                    <div class="dept_home_left_item_top">
+                        <p>Navigate Faculty</p>
+                        <img src="./image/down_arrow.png" alt="">
+                    </div>
+                    <div class="dept_home_left_item_bottom">
+                        <a href="">HOME</a>
+                        <a href="">DEGREE OFFRERED</a>
+                        <a href="">FACULTY MEMBERS</a>
+                        <a href="">OFFERS</a>
+                        <a href="">BROCHURE</a>
+                        <a href="">SYLLABUS</a>
+                        <a href="">Scholarship</a>
+                        <a href="">NOTICE & ANNOUNCEMENTS</a>
+                    </div>
                 </div>
-                <div class="collapse multi-collapse" id="multiCollapseExample1">
-                <div class="dept_home_item"><a class="" href="">Home</a></div>
-                <img src="./image/faculty_member_item_line.png">
-                <div class="dept_home_item"><a class="" href="">Degree offered</a></div>
-                <img src="./image/faculty_member_item_line.png">
-                <div class="dept_home_item"><a class="" href="">Faculty Members</a></div>
-                <img src="./image/faculty_member_item_line.png">
-                <div class="dept_home_item"><a class="" href="">Offers</a></div>
-                <img src="./image/faculty_member_item_line.png">
-                <div class="dept_home_item"><a class="" href="">Brochure</a></div>
-                <img src="./image/faculty_member_item_line.png">
-            </div>
                 <!-- <p>
                     <a data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
                         aria-controls="multiCollapseExample1">
@@ -640,7 +665,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- magnetic popup  -->
+        <script src="./js/magnetic popup.min.js"></script>
+
     <script type="text/javascript">
+
         // pop bar js 
 
 
@@ -697,7 +726,39 @@
         });
 
 
+        $(document).ready(function() {
+	$('.popup-with-zoom-anim').magnificPopup({
+		type: 'inline',
 
+		fixedContentPos: false,
+		fixedBgPos: true,
+
+		overflowY: 'auto',
+
+		closeBtnInside: true,
+		preloader: false,
+		
+		midClick: true,
+		removalDelay: 300,
+		mainClass: 'my-mfp-zoom-in'
+	});
+
+	$('.popup-with-move-anim').magnificPopup({
+		type: 'inline',
+
+		fixedContentPos: false,
+		fixedBgPos: true,
+
+		overflowY: 'auto',
+
+		closeBtnInside: true,
+		preloader: false,
+		
+		midClick: true,
+		removalDelay: 300,
+		mainClass: 'my-mfp-slide-bottom'
+	});
+});
 
 
 
