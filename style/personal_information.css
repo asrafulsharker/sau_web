@@ -417,12 +417,183 @@ p {
 
 
 
+/* personal information home css start */
+.personal_information{
+    padding: 8vh 5vw 8vh 5vw;
+    margin-top: 18vh;
+}
+.personal_information_main{
+    display: flex;
+}
+.personal_information_left{
+    background-color: #F6F6F6;
+    padding: 1%;
+    height: 100%;
+}
 
+.personal_information_left_link_box{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    
+}
+.personal_information_left_link_box div{
+    border-bottom: 1px solid #BDBBBB;
+    padding: 5% 0%;
+}
+.personal_information_left_link_box a{
+    text-decoration: none;
+    color: #000;
+    padding-left: 5%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.0524px;
+    line-height: 23px;
 
+    /* identical to box height */
+    letter-spacing: 0.01em;
 
+    color: #000000;
+}
+.personal_information_left_link_box a:hover{
+    border-left: 5px solid #54E346;
+    font-weight: 500;
+}
+.t_social_icon{
+    display: flex;
+}
+.t_social_icon img{
+    border: 0.223647px solid #2F3133;
+    box-sizing: border-box;
+    padding: 1%;
+    margin: 0.3%;
+}
+.t_personal_information_main{
+    background: #F6F6F6;
+    padding: 3%;
+}
+.t_education_details_single{
+    padding: 3%;
+    border-bottom: 1px solid #DEDEDE;
+}
+.t_personal_information{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffff;
+    padding: 3%;
+    align-items: center;
+}
+.t_personal_information_right_p1{
+    font-family: Mont;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.01em;
+    color: #3D3D3D;
+}
+.t_personal_information_right_p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 134.69%;
+    letter-spacing: 0.01em;
+    color: #3D3D3D;
+}
+.t_personal_information_right_p3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 134.69%;
+    letter-spacing: 0.01em;
+    color: #3D3D3D;
+}
+.t_personal_information_right{
+    padding: 2% 5%;
+}
+.t_education_details{
+    background: #F6F6F6;
+    padding: 3%;
+}
+.t_education_details_main{
+    background-color: #ffff;
+}
+.t_education_p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.045em;
+    color: #000000;
+    padding: 5% 0% 2%;
+}
+.t_education_details_single_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 0.045em;
+    color: #000000;
+}
+.t_education_details_single_p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.045em;
+    color: #000000;
+}
+.t_education_details_single p span{
+    font-weight: bold;
+}
 
+.t_language_p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.045em;
+    color: #000000;
+    padding: 5% 0% 2%;
+}
+.t_language_details{
+    background: #F6F6F6;
+    padding: 3%;
+}
+.t_language_details_main{
+    background-color: #ffff;
+}
+.t_language_single{
+    padding: 3%;
+    border-bottom: 1px solid #DEDEDE;
+}
+.t_language_single_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+.t_language_single_p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22.3783px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
 
-
+/* personal information home css end */
 
 
 
