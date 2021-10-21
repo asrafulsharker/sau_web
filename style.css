@@ -563,6 +563,7 @@ margin-top: 60vh;
     border: 1px solid #ffff;
     border-radius: 50%;
     font-size: 15px;
+    display: none;
 }
 
 .slick-dots li button::before {
@@ -571,6 +572,7 @@ margin-top: 60vh;
     border-radius: 50%;
     color: #fff;
     font: 0px;
+    display: none;
 
 }
 
