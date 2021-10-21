@@ -416,6 +416,70 @@ p {
 /* nav css pobar end  */
 
 
+/* pop button css start  */
+
+
+.sau_dialog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #141414 !important;
+}
+.sau_dialog h1{
+    color: #049906;
+}
+.sau_dialog a{
+    background: white;
+    padding: 6px 30px;
+    margin: 5px 0px;
+    text-decoration: none;
+    color: #000;
+    width: 270px;
+    text-align: center;
+}
+.sau_dialog a:hover{
+    color: #ffff;
+    background-color: #049906;
+}
+.mfp-close{
+    color: #ffff;
+    font-size: 50px;
+}
+.mfp-close:hover{
+    color: #049906;
+}
+.sau_library_btn{
+    position: fixed;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #007bff;
+    border: 4px solid green;
+    margin: 1%;
+    text-decoration: none !important;
+    font-weight: bold;
+    display: none;
+}
+.sau_library_btn:hover{
+    color:#ffff;
+}
+
+@media screen and (max-width :520px) {
+    .sau_library_btn{
+        display: flex;
+        z-index: 1000;
+    }
+}
+/* pop button css :end */
+
 
 /* personal information home css start */
 .personal_information{
@@ -468,6 +532,10 @@ p {
     box-sizing: border-box;
     padding: 1%;
     margin: 0.3%;
+    height: 30px;
+    width: 30px;
+    padding: 18%;
+    margin: 2px;
 }
 .t_personal_information_main{
     background: #F6F6F6;
@@ -591,6 +659,66 @@ p {
     line-height: 26px;
     letter-spacing: 0.01em;
     color: #000000;
+}
+
+@media screen and (max-width :520px){
+    .personal_information_left {
+        display: none;
+        
+    }
+    .personal_information {
+        margin-top: 1vh;
+    }
+    .t_personal_information {
+        justify-content: center;
+    }
+    .t_personal_information_img{
+        height: 170px;
+    }
+    .t_personal_information_right_p1 {
+        font-size: 18px;
+    }
+    .t_personal_information_right_p2 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .t_personal_information_right_p3 {
+        font-size: 12px;
+        text-align: center;
+    }
+    .t_personal_information_right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .t_personal_information_right_p3 {
+        margin-top: 5px;
+    }
+    .t_social_icon {
+        margin-top: 5px;
+    }
+    .t_education_p {
+        font-size: 18px;
+        padding: 2% 0% 1%;
+    }
+    .t_education_details_single_p1 {
+        font-size: 18px;
+    }
+    .t_education_details_single_p2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .t_language_p {
+        font-size: 18px;
+        padding: 2% 0% 1%;
+    }
+    .t_language_single_p1 {
+        font-size: 18px;
+    }
+    .t_language_single_p2 {
+        font-size: 16px;
+    }
 }
 
 /* personal information home css end */
