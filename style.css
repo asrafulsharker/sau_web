@@ -1107,6 +1107,9 @@ button:active {
         height: 150px;
         margin-top: 10px;
     }
+    .faculty_right {
+        padding: 2% !important;
+    }
   }
   @media screen and (max-width :360px) {
     .admission_top_link a {
@@ -1575,7 +1578,11 @@ button:active {
         margin-bottom: 20px;
     }
   }
-
+  @media screen and (max-width :520px) {
+    .faculty_right {
+        padding-left: 0px;
+    }
+  }
   @media screen and (max-width :381px) {
     .faculty_right_heading {
         font-size: 11px !important;
