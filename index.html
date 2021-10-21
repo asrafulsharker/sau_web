@@ -177,13 +177,69 @@
     <section class="admission" id="admission">
         <div class="admission_main container">
             <div class="admission_top_link">
-                <a href="#">Admission</a>
+                <div id="myBtnContainer">
+                    <button href="" class=" active admission_btn" onclick="filterSelection('admission')"> Admission</button>
+                    <button class=" admission_btn" onclick="filterSelection('convocation')"> Convocation</button>
+                    <button class=" admission_btn" onclick="filterSelection('covid19')"> C-19 Update</button>
+                  </div>
+                  
+                  <div class="">
+                    <div class="filterDiv admission">
+                        <div class="admission_bottom ">
+                            <div class="admission_bottom_1 ">
+                                <p class="admission_bottom_heading">Undergraduate<br />Admission</p>
+                                <a class="admission_bottom_btn" href="">Details</a>
+                            </div>
+                            <div class="admission_bottom_1 ">
+                                <p class="admission_bottom_heading">Undergraduate<br />Admission</p>
+                                <a class="admission_bottom_btn" href="">Details</a>
+                            </div>
+                            <div class="admission_bottom_1 ">
+                                <p class="admission_bottom_heading">Undergraduate<br />Admission</p>
+                                <a class="admission_bottom_btn" href="">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filterDiv  convocation ">
+                        <div class="admission_bottom ">
+                            <div class="admission_bottom_1 ">
+                                <p class="admission_bottom_heading">Undergraduate<br />Admission</p>
+                                <a class="admission_bottom_btn" href="">Details</a>
+                            </div>
+                            <div class="admission_bottom_1 ">
+                                <p class="admission_bottom_heading">Undergraduate<br />Admission</p>
+                                <a class="admission_bottom_btn" href="">Details</a>
+                            </div>
+                            <div class="admission_bottom_1 ">
+                                <p class="admission_bottom_heading">Undergraduate<br />Admission</p>
+                                <a class="admission_bottom_btn" href="">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filterDiv covid19 ">
+                        <div class="admission_bottom ">
+                            <div class="admission_bottom_1 ">
+                                <p class="admission_bottom_heading">Undergraduate<br />Admission</p>
+                                <a class="admission_bottom_btn" href="">Details</a>
+                            </div>
+                            <div class="admission_bottom_1 ">
+                                <p class="admission_bottom_heading">Undergraduate<br />Admission</p>
+                                <a class="admission_bottom_btn" href="">Details</a>
+                            </div>
+                            <div class="admission_bottom_1 ">
+                                <p class="admission_bottom_heading">Undergraduate<br />Admission</p>
+                                <a class="admission_bottom_btn" href="">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                <!-- <a href="#">Admission</a>
                 <a href="#test">Convocation</a>
-                <a href="#">C-19 Update</a>
+                <a href="#">C-19 Update</a> -->
                 <!-- <button onclick="myFunction()">C-19 Update</button>
                 <p id="demo">This is a p element with id="demo".</p> -->
             </div>
-            <div class="admission_bottom ">
+            <!-- <div class="admission_bottom ">
                 <div class="admission_bottom_1 ">
                     <p class="admission_bottom_heading">Undergraduate<br />Admission</p>
                     <a class="admission_bottom_btn" href="">Details</a>
@@ -196,7 +252,7 @@
                     <p class="admission_bottom_heading">Undergraduate<br />Admission</p>
                     <a class="admission_bottom_btn" href="">Details</a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -945,29 +1001,17 @@
 
     <!-- affiliation end  -->
 
-    <div id="myBtnContainer">
-        <button class="btn " onclick="filterSelection('cars')"> Show all</button>
+    <!-- <div id="myBtnContainer">
         <button class="btn active" onclick="filterSelection('cars')"> Cars</button>
         <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-        <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
         <button class="btn" onclick="filterSelection('colors')"> Colors</button>
       </div>
       
       <div class="container">
         <div class="filterDiv cars">BMW</div>
         <div class="filterDiv colors fruits">Orange</div>
-        <div class="filterDiv cars">Volvo</div>
-        <div class="filterDiv colors">Red</div>
-        <div class="filterDiv cars animals">Mustang</div>
-        <div class="filterDiv colors">Blue</div>
         <div class="filterDiv animals">Cat</div>
-        <div class="filterDiv animals">Dog</div>
-        <div class="filterDiv fruits">Melon</div>
-        <div class="filterDiv fruits animals">Kiwi</div>
-        <div class="filterDiv fruits">Banana</div>
-        <div class="filterDiv fruits">Lemon</div>
-        <div class="filterDiv animals">Cow</div>
-      </div>
+      </div> -->
     <!-- footer start  -->
 
 
@@ -1317,7 +1361,7 @@
         }
 
 
-        filterSelection("cars")
+        filterSelection("admission")
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("filterDiv");

@@ -591,8 +591,18 @@ margin-top: 60vh;
     transform: rotate(-180deg);
     cursor: pointer;
 }
-
 .filterDiv {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  .admission_top_link {
+    flex-direction: column;
+}
+
+/* .filterDiv {
     float: left;
     background-color: #2196F3;
     color: #ffffff;
@@ -610,10 +620,10 @@ margin-top: 60vh;
   .container {
     margin-top: 20px;
     overflow: hidden;
-  }
+  } */
   
   /* Style the buttons */
-  .btn {
+  /* .btn {
     border: none;
     outline: none;
     padding: 12px 16px;
@@ -628,7 +638,7 @@ margin-top: 60vh;
   .btn.active {
     background-color: #666;
     color: white;
-  }
+  } */
 
 /* home responsive css start  */
 
@@ -893,6 +903,12 @@ margin-top: 60vh;
 .admission{
     margin: 80px 0px 200px 0px;
 }
+.convocation{
+    margin: 80px 0px 200px 0px;
+}
+.covid19{
+    margin: 80px 0px 200px 0px;
+}
 .admission_bottom_1{
     /* position: relative; 
     background: rgba(18, 28, 43, 0.438);
@@ -902,6 +918,7 @@ margin-top: 60vh;
     align-items: center;
     justify-content: center;
     text-align: center; */
+    width: 345px !important;
     /* background-image: url(./image/admition_img1.png); */
 }
 .admission_bottom_1::after{
@@ -921,15 +938,42 @@ margin-top: 60vh;
 }
 
 .admission_top_link a{
-    margin-left: 20px;
+    /* margin-left: 20px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     line-height: 37px;
     letter-spacing: 0.01em;
+    color: #000000; */
+}
+button:active {
+    outline: none !important;
+    border: none !important;
+}
+.admission_btn{
+    background-color: white;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 0.01em;
+    margin: 0px 10px;
     color: #000000;
 }
+.admission_btn:focus{
+ 
+    color: #000000;
+    outline: none !important;
+    border: none !important;
+    font-weight: bold;
+    border-bottom: 6px solid #1882FF !important;
+}
+/* .admission_btn{
+    outline: none !important;
+} */
 .admission_bottom {
     display: flex;
     flex-wrap: wrap;
