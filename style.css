@@ -613,6 +613,18 @@ margin-top: 60vh;
     .home_update{
         font-size: 15px;
     }
+    .home_p_text {
+        margin-top: 36vh;
+    }
+    .home_heading_text {
+        margin-top: 22vh;
+    }
+    .home_btn {
+        margin-top: 47vh;
+    }
+    .home_bottom_arrow {
+        margin-bottom: 9vh;
+    }
     
   }
 
@@ -623,9 +635,22 @@ margin-top: 60vh;
     .home_heading_text {
         font-size: 43.99px;
         line-height: 52px;
+        margin-top: 25vh !important;
     }
     .slick-dots li.slick-active button::before {
         margin-top: -22vh;
+    }
+    .home_p_text {
+        margin-top: 37vh !important;
+    }
+    .home_heading_text {
+        margin-top: 25vh !important;
+    }
+    .home_btn {
+        margin-top: 48vh !important;
+    }
+    .home_bottom_arrow {
+        margin-bottom: 9vh !important;
     }
   }
 
@@ -735,6 +760,15 @@ margin-top: 60vh;
     .home_p_text {
         font-size: 7px;
         line-height: 10px;
+    }
+    .home_btn {
+        margin-top: 35vh !important;
+    }
+    .home_p_text {
+        margin-top: 26vh !important;
+    }
+    .home_heading_text {
+        margin-top: 20vh !important;
     }
   }
 
