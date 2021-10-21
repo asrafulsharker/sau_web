@@ -1865,6 +1865,7 @@ margin-top: 60vh;
     margin-top: -134px;
     margin-left: -20px;
     cursor: pointer;
+    display: none;
 }
 .achievement_arrow_next{
     width: 70.26px;
@@ -1877,6 +1878,7 @@ margin-top: 60vh;
     margin-left: 76%;
     margin-left: 1060px;
     cursor: pointer;
+    display: none;
 }
 .achivement_text_p{
     font-family: Roboto;
@@ -1906,6 +1908,7 @@ margin-top: 60vh;
     margin-top: -134px;
     margin-left: -20px;
     cursor: pointer;
+    display: none;
 }
 .event_arrow_next {
     width: 70.26px;
@@ -1918,6 +1921,7 @@ margin-top: 60vh;
     margin-left: 76%;
     margin-left: 1060px;
     cursor: pointer;
+    display: none;
 }
 .achivement_text{
     display: flex;
@@ -2382,6 +2386,7 @@ margin-top: 60vh;
     margin-top: -85px;
     cursor: pointer;
     margin-left: -15px;
+    display: none;
 }
 .afflition_arrow_next{
     transform: rotate(-180deg);
@@ -2394,6 +2399,7 @@ margin-top: 60vh;
     margin-left: 1080px;
     margin-top: -85px;
     cursor: pointer;
+    display: none;
 }
 
 
