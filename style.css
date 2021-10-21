@@ -410,7 +410,8 @@ p{
     height: 100vh;
     /* display: block; */
     position: relative;
-    padding-top: 20vh;
+    padding-top: 10vh;
+    
     
 background: rgba(18, 28, 43, 0.82);
   }
@@ -438,6 +439,7 @@ background: rgba(18, 28, 43, 0.82);
     width: 207px;
     height: 180px;
     padding: 20px 50px;
+    position: absolute;
 }
 
 .mid_home{
@@ -457,6 +459,8 @@ background: rgba(18, 28, 43, 0.82);
     text-align: center;
     letter-spacing: 0.05em;
     color: #FFFFFF;
+    position: absolute;
+    margin-top: 30vh;
 }
 
 .home_p_text{
@@ -469,6 +473,8 @@ background: rgba(18, 28, 43, 0.82);
     letter-spacing: 0.01em;
     color: #FFF8F8;
     padding: 1% 0%;
+    position: absolute;
+    margin-top: 43vh;
 }
 
 .home_btn_one{
@@ -485,7 +491,7 @@ background: rgba(18, 28, 43, 0.82);
     padding: 20px 51px;
     text-decoration: none !important;
     margin-right: 10px;
-
+    
 }
 
 .home_btn_one:hover{
@@ -515,11 +521,16 @@ background: rgba(18, 28, 43, 0.82);
 }
 
 .home_btn{
-    padding: 50px 0px;
+    /* padding: 50px 0px; */
+    position: absolute;
+margin-top: 60vh;
 }
 .home_bottom_arrow{
     padding-top: 15vh;
     cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 8vh;
 }
 
 .home_update{
@@ -539,6 +550,10 @@ background: rgba(18, 28, 43, 0.82);
     align-items: center;
     /* margin-top: 6vh; */
     margin-top: 4vh !important;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
 }
 
 .slick-dots li.slick-active button::before {
