@@ -1110,6 +1110,23 @@ button:active {
     .faculty_right {
         padding: 2% !important;
     }
+    .convocation {
+        margin: 10px 0px 10px 0px;
+    }
+    .admission {
+        margin: 10px 0px 10px 0px;
+    }
+    .covid19 {
+        margin: 10px 0px 10px 0px;
+    }
+    .admission_btn {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0px 0px;
+    }
+    .admission_btn:focus{
+        border-bottom: 2px solid red;
+    }
   }
   @media screen and (max-width :360px) {
     .admission_top_link a {
@@ -1121,6 +1138,7 @@ button:active {
         height: 150px;
         margin-top: 10px;
     }
+
   }
 
 
@@ -1285,6 +1303,9 @@ button:active {
 
     .faculty_left {
         width: 90%;
+    }
+    .vice {
+        margin: 10px 0px;
     }
 }
 
@@ -1869,7 +1890,19 @@ button:active {
         margin-left: -15px;
     }
   }
+  @media screen and (max-width :520px) {
+    .notice {
 
+        padding: 10px 0px;
+    }
+    .notice_left {
+        padding: 5% 0%;
+    }
+    .faculty {
+        padding: 5px 0px;
+    }
+  }
+    
   @media screen and (max-width :360px) {
     .notice_left_p1 {
         font-size: 20px;
@@ -2175,6 +2208,12 @@ button:active {
         margin-top: 35px;
         padding: 3px 15px;
     }
+    .achivement {
+        padding: 0px 0px;
+    }
+    .achivement {
+        margin: 0 0px 0px 0px;
+    }
 }
 
 @media screen and (max-width :481x) {
@@ -2417,6 +2456,14 @@ button:active {
     }
 
 }
+
+@media screen and (max-width :520px) {
+    .green_campus {
+        margin: 0px 0px;
+    }
+
+}
+
 @media screen and (max-width :400px) {
     .green_campus_left a {
         margin-bottom: 12px;
@@ -2570,8 +2617,13 @@ button:active {
     .afflition_arrow_next {
         margin-left: 448px;
     }
+ 
 }
-
+@media screen and (max-width :520px) {
+    .affilition {
+        margin: 0px 0px 20px;
+    }
+}
 @media screen and (max-width :360px) {
     .afflition_text {
         margin-left: 10px;
