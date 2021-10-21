@@ -444,7 +444,7 @@ background: rgba(18, 28, 43, 0.82);
 
 .mid_home{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
     text-align: center;
