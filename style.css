@@ -27,6 +27,7 @@ p{
     display: flex;
     align-items: center;
     padding-left: 5%;
+    text-decoration: none !important;
 }
 
 .logo_text{
@@ -2622,6 +2623,9 @@ button:active {
 @media screen and (max-width :520px) {
     .affilition {
         margin: 0px 0px 20px;
+    }
+    .fandf_p {
+        font-size: 25px;
     }
 }
 @media screen and (max-width :360px) {
