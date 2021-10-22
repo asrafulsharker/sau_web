@@ -409,6 +409,59 @@ p {
 /* nav css pobar end  */
 
 
+.sau_dialog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #141414 !important;
+}
+.sau_dialog h1{
+    color: #049906;
+}
+.sau_dialog a{
+    background: white;
+    padding: 6px 30px;
+    margin: 5px 0px;
+    text-decoration: none;
+    color: #000;
+    width: 270px;
+text-align: center;
+}
+.sau_dialog a:hover{
+    color: #ffff;
+    background-color: #049906;
+}
+.mfp-close{
+    color: #ffff;
+    font-size: 50px;
+}
+.mfp-close:hover{
+    color: #049906;
+}
+.sau_library_btn{
+    position: fixed;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #007bff;
+    border: 4px solid green;
+    margin: 1%;
+    text-decoration: none !important;
+    font-weight: bold;
+    display: none;
+}
+.sau_library_btn:hover{
+    color:#ffff;
+}
+
 /* faculty css start  */
 
 /* .faculty_home_right_top_cover{
@@ -769,6 +822,92 @@ p {
 
 
 }
+
+/* resoponsive start  */
+
+@media screen and (max-width :520px) {
+    .library_home_left {
+        display: none;
+    }
+    .sau_library_btn{
+        display: flex;
+        z-index: 1000;
+    }
+    .nav_main {
+        height: 8vh;
+    }
+    .library_home {
+        margin-top: 8vh;
+    }
+    .library_home_right_top_cover {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .library_home_right_top_cover img{
+        height: 4px;
+    }
+    .why_library {
+        margin: 0px 0px;
+    }
+    .why_library_details_p1 {
+        font-size: 18px;
+        line-height: 15px;
+    }
+    .why_library_details {
+        padding: 10px 20px;
+    }
+    .why_library_details_p2 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .library_name_details {
+        flex-wrap: wrap;
+    }
+    .library_component {
+        width: 100%;
+    }
+    .library_component_p1 {
+        font-size: 18px;
+        line-height: 5px;
+    }
+    .library_component_p2 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .what_our_library {
+        flex-wrap: wrap;
+    }
+    .what_our_library {
+        margin: 10px 0px;
+    }
+    .what_our_library_left {
+        width: 100%;
+        
+    }
+    .what_our_library_right {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .teaching_diversity_left {
+        width: 100%;
+    }
+    .teaching_diversity_right {
+        width: 100%;
+    }
+    .teaching_diversity_p1 {
+        font-size: 18px;
+    }
+    .teaching_diversity {
+        margin: 10px 0px;
+    }
+    .library_person_single {
+        width: 49%;
+    }
+    .library_person_single img{
+        height: 220px;
+    }
+}
+
 /* library home css end  */
 
 

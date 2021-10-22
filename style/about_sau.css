@@ -555,6 +555,66 @@ p {
     letter-spacing: 0.01em;
     color: #413D3D;
 }
+/* responsive css start  */
+
+@media screen and (max-width :520px) {
+    .nav_main {
+        height: 8vh;
+    }
+    .about_sau {
+        margin-top: 6vh;
+    }
+    .about_link_p {
+        font-size: 18px;
+        padding: 4px 0px;
+    }
+    .about_sau_cover p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .about_sau_cover img{
+        height: 4px;
+    }
+    .about_history_details_p1 {
+        font-size: 18px;
+        line-height: 10px;
+    }
+    .about_history_details img{
+        height: 4px;
+    }
+    .about_history_details_p2 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .about_mission {
+        margin-top: 10px;
+    }
+    .about_vission {
+        margin-top: 10px;
+    }
+    .at_a_glance {
+        padding: 2vh 0;
+    }
+    .information_top p {
+        font-size: 18px;
+    }
+    .information_top img{
+height: 35px;
+margin-left: 15px;
+    }
+    .information_bottom_p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .information {
+        padding: 1vh 0;
+    }
+    .information_top img{
+        height: 35px;
+    }
+}
+
+/* responsive css end  */
 /* history css part end  */
 
 

@@ -31,7 +31,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Optional theme -->
-
+    <!-- magnific pop-up -->
+    <link rel="stylesheet" type="text/css" href="./style/magbetic_popup.css" />
 
     <!-- Latest compiled and minified JavaScript -->
     <link rel="stylesheet" href="./style/library_style.css">
@@ -116,8 +117,15 @@
     <!-- nav bar end  -->
 
 
-
-
+    <div id="small-dialog" class="zoom-anim-dialog mfp-hide sau_dialog">
+        <h1>SAU Library</h1>
+        <a href="">Home</a>
+        <a href="">Home</a>
+        <a href="">Home</a>
+        <a href="">Home</a>
+        <a href="">Home</a>
+    </div>
+    <a href="#small-dialog" class=" popup-with-move-anim  sau_library_btn">SAU Library</a>
 
     <!-- library home start  -->
 
@@ -381,6 +389,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+               <!-- magnetic popup  -->
+               <script src="./js/magnetic popup.min.js"></script>
+
     <script type="text/javascript">
         // pop bar js 
 
@@ -436,6 +447,43 @@
         $(document).ready(function () {
             $('[data-toggle="popover"]').popover();
         });
+
+
+        
+        $(document).ready(function() {
+	$('.popup-with-zoom-anim').magnificPopup({
+		type: 'inline',
+
+		fixedContentPos: false,
+		fixedBgPos: true,
+
+		overflowY: 'auto',
+
+		closeBtnInside: true,
+		preloader: false,
+		
+		midClick: true,
+		removalDelay: 300,
+		mainClass: 'my-mfp-zoom-in'
+	});
+
+	$('.popup-with-move-anim').magnificPopup({
+		type: 'inline',
+
+		fixedContentPos: false,
+		fixedBgPos: true,
+
+		overflowY: 'auto',
+
+		closeBtnInside: true,
+		preloader: false,
+		
+		midClick: true,
+		removalDelay: 300,
+		mainClass: 'my-mfp-slide-bottom'
+	});
+});
+
     </script>
 
 </body>
