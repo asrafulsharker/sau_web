@@ -127,15 +127,15 @@ p{
         height: 30px;
     }
     .nav_main {
-        height: 9vh;
+        height: 8vh;
     }
     .contact_cover {
-        margin-top: 9vh !important;
+        margin-top: 8vh !important;
     }
   }
   @media screen and (max-width :500px) {
     .nav_main {
-        height: 6vh;
+        height: 8vh;
     }
     .left_nav img {
         height: 40px;
@@ -800,7 +800,7 @@ p{
         margin: 8px 8px;
     }
     .contact_cover {
-        margin-top: 6vh !important;
+        margin-top: 8vh !important;
     }
     .contact_img {
         font-size: 25.202px;
@@ -894,6 +894,9 @@ p{
     }
     .campus_area {
         margin: 8px 0px 0px 0px;
+    }
+    .contact_cover{
+
     }
 }
 
