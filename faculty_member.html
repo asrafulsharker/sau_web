@@ -319,6 +319,7 @@
                         <p class="faculty_name_person">Abdush Sattar Chowdhury Amin</p>
                         <p class="faculty_name_position">Chairman</p>
                         <div class="faculty_member_person_icon">
+                            <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
                             <div data-toggle="popover" title="Mobile Number: 0178283279"
                                 data-content="Telephone No: 19201938" href=""><img src="./image/call_icon.png"></div>
                             <div data-toggle="popover" title="Mobile Number: 0178283279"
@@ -695,6 +696,9 @@
         $(document).ready(function () {
             $('[data-toggle="popover"]').popover();
         });
+        $('.popover-dismiss').popover({
+  trigger: 'focus'
+})
     </script>
 
 </body>
