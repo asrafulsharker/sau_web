@@ -908,13 +908,13 @@ margin-top: 60vh;
 
 /* admission css start  */
 .admission{
-    margin: 80px 0px 200px 0px;
+    margin: 30px 0px 30px 0px;
 }
 .convocation{
-    margin: 80px 0px 200px 0px;
+    margin: 30px 0px 30px 0px;
 }
 .covid19{
-    margin: 80px 0px 200px 0px;
+    margin: 30px 0px 30px 0px;
 }
 .admission_bottom_1{
     /* position: relative; 
@@ -2061,13 +2061,13 @@ button:active {
 }
 .event_slider{
     position: relative;
-    margin: 80px 0px 200px 0px;
+    margin: 30px 0px 30px 0px;
 }
 .comference{
-    margin: 80px 0px 200px 0px;
+    margin: 30px 0px 30px 0px;
 }
 .workshop{
-    margin: 80px 0px 200px 0px;
+    margin: 30px 0px 30px 0px;
 }
 #myBtnContainer{
     display: flex;
