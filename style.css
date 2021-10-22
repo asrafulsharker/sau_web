@@ -2330,6 +2330,7 @@ button:active {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .fandf_counter_p1{
@@ -2457,7 +2458,7 @@ button:active {
 }
 
 .green_campus_right img{
-    width: 25%;
+    width: 32%;
     margin: 3px;
 }
 
