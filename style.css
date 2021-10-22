@@ -1164,14 +1164,15 @@ button:active {
 }
 .vice_left{
     position: relative;
+
 }
 .vice_left img{
     position: absolute;
     margin-top: -90px;
 }
 .vice_right{
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
 }
@@ -1239,7 +1240,7 @@ button:active {
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin-left: 111px;
+        /* margin-left: 111px; */
     }
 
     .vice_right p {
@@ -1271,7 +1272,8 @@ button:active {
     }
     .vice_left img {
         margin-top: 82px;
-        margin-left: 245px;
+        /* margin-left: 245px;
+         */
     }
 
     .vice_bottom_left img{
@@ -1292,18 +1294,23 @@ button:active {
 @media screen and (max-width :600px) {
     .vice_right p {
         margin-left: -140px;
+        margin-left: auto;
+    margin-right: auto;
     }
 
     .vice_right img {
         padding-top: -9px !important;
-        margin-left: -145px;
+        /* margin-left: -145px; */
     }
 
     .vice_left img {
         margin-top: 82px;
-        margin-left: 145px;
+        /* margin-left: 145px; */
     }
-
+    .vice_left{
+        display: flex;
+        justify-content: center;
+    }
     .faculty_main_row{
         justify-content: center;
         align-items: center;
@@ -1315,21 +1322,25 @@ button:active {
     .vice {
         margin: 10px 0px;
     }
+    .vice_right{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
 @media screen and (max-width: 381px) {
     .vice_left img {
         margin-top: 82px;
-        margin-left: 70px;
+        /* margin-left: 70px; */
     }
 
     .vice_right p {
-        margin-left: -125px;
+        /* margin-left: -125px; */
     }
 
     .vice_right img {
-        margin-left: -135px;
+        /* margin-left: -135px; */
     }
 
     .vice_bottom_p1 {
@@ -1342,16 +1353,16 @@ button:active {
 
 @media screen and (max-width :360px) {
     .vice_right p {
-        margin-left: -130px;
+        /* margin-left: -130px; */
     }
 
     .vice_right img {
-        margin-left: -130px;
+        /* margin-left: -130px; */
     }
 
     .vice_left img {
         margin-top: 75px;
-        margin-left: 72px;
+        /* margin-left: 72px; */
     }
 
     .vice_left img {
