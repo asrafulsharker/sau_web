@@ -978,6 +978,7 @@ button:active {
 .admission_bottom {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .admission_bottom_1 {
     /* height: 100vh; */
@@ -2054,6 +2055,17 @@ button:active {
 }
 .event_slider{
     position: relative;
+    margin: 80px 0px 200px 0px;
+}
+.comference{
+    margin: 80px 0px 200px 0px;
+}
+.workshop{
+    margin: 80px 0px 200px 0px;
+}
+#myBtnContainer{
+    display: flex;
+    justify-content: center;
 }
 .event_arrow_prev{
     width: 70.26px;
