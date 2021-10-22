@@ -1773,9 +1773,13 @@ button:active {
     line-height: 18px;
     letter-spacing: 0.01em;
     color: #FFECEC;
-    background-color: #1882FF;
+    background-color: #1882FF !important;
     padding: 15px 40px;
     margin-left: -15px;
+    text-decoration: none !important;
+}
+.notice_view_more:hover{
+    color: #ffff;
 }
 .latest_news_view_more{
     font-family: Roboto;
@@ -1788,6 +1792,10 @@ button:active {
     padding: 15px 40px;
     margin-left: -15px;
     background-color: #049906;
+    text-decoration: none !important;
+}
+.latest_news_view_more:hover{
+    color: #ffff;
 }
 
 .notice_right_bottom{
