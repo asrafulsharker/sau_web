@@ -464,6 +464,7 @@ p {
     text-decoration: none !important;
     font-weight: bold;
     display: none;
+    font-size: 12px;
 }
 .sau_library_btn:hover{
     color:#ffff;
