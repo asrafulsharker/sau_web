@@ -602,6 +602,12 @@ margin-top: 60vh;
   .admission_top_link {
     flex-direction: column;
 }
+.sho{
+    display: block;
+}
+.filterDi{
+    display: none;
+}
 
 /* .filterDiv {
     float: left;
