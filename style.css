@@ -1761,6 +1761,10 @@ button:active {
     display: flex;
     align-items: center;
     /* justify-content: center; */
+    height: 250px;
+}
+.date_discription{
+    
 }
 
 .single_date_discription{
