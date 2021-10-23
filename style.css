@@ -1030,6 +1030,171 @@ button:active {
     margin-top: 25px;
 }
 
+.admission_bottom_1v2 {
+    /* height: 100vh; */
+    position: relative;
+    /* padding-top: 20vh; */
+    background: rgba(18, 28, 43, 0.82);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    /* margin: 0px 7px; */
+    /* width: 100px; */
+    /* width: 345px; */
+    width: 30.3%;
+    margin-right: auto;
+  }
+  
+  .admission_bottom_1v2::after {
+    content: "";
+    background: url(./image/home_img.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;   
+    background-color: cover;
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #FFFFFF;
+    /* padding: 50px 0px; */
+  }
+.admission_bottom_1v2 a{
+    background: rgba(25, 130, 254, 0.5);
+    padding: 10px 35px;
+    margin-top: 25px;
+}
+
+
+.admission_bottom_1v2 {
+    /* height: 100vh; */
+    position: relative;
+    /* padding-top: 20vh; */
+    background: rgba(18, 28, 43, 0.82);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    /* margin: 0px 7px; */
+    /* width: 100px; */
+    /* width: 345px; */
+    width: 30.3%;
+    margin-right: auto;
+  }
+  
+  .admission_bottom_1v2::after {
+    content: "";
+    background: url(./image/home_img.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;   
+    background-color: cover;
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #FFFFFF;
+    /* padding: 50px 0px; */
+  }
+.admission_bottom_1v2 a{
+    background: rgba(25, 130, 254, 0.5);
+    padding: 10px 35px;
+    margin-top: 25px;
+}
+
+
+.admission_bottom_2v2{
+    /* height: 100vh; */
+    position: relative;
+    /* padding-top: 20vh; */
+    background: rgba(18, 28, 43, 0.82);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    /* margin: 0px 7px; */
+    /* width: 100px; */
+    /* width: 345px; */
+    width: 30.3%;
+    margin-right: auto;
+  }
+  
+  .admission_bottom_2v2::after {
+    content: "";
+    background: url(./image/home_img.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;   
+    background-color: cover;
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #FFFFFF;
+    /* padding: 50px 0px; */
+  }
+.admission_bottom_2v2 a{
+    background: rgba(25, 130, 254, 0.5);
+    padding: 10px 35px;
+    margin-top: 25px;
+}
+
+.admission_bottom_3v2 {
+    /* height: 100vh; */
+    position: relative;
+    /* padding-top: 20vh; */
+    background: rgba(18, 28, 43, 0.82);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    /* margin: 0px 7px; */
+    /* width: 100px; */
+    /* width: 345px; */
+    width: 30.3%;
+    margin-right: auto;
+  }
+  
+  .admission_bottom_3v2::after {
+    content: "";
+    background: url(./image/home_img.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;   
+    background-color: cover;
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #FFFFFF;
+    /* padding: 50px 0px; */
+  }
+.admission_bottom_3v2 a{
+    background: rgba(25, 130, 254, 0.5);
+    padding: 10px 35px;
+    margin-top: 25px;
+}
 .admission_bottom_2 {
     /* height: 100vh; */
     position: relative;
@@ -1613,7 +1778,7 @@ text-decoration: none !important;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 28px;
     text-align: center;
     letter-spacing: 0.01em;
