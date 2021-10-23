@@ -1693,13 +1693,14 @@ button:active {
   .drop-down .options ul{
     background:#ECECEC none repeat scroll 0 0;               display:none;
     list-style:none; 
-    padding:0px 0px; 
+    padding: 0px 7%;
     position:absolute; 
     left:0px; 
     top:32px; 
     width:auto; 
     width: 100% !important;
     margin-top: 8% !important;
+    font-size: 12px;
   }
 
   
@@ -1714,7 +1715,7 @@ button:active {
     padding:5px; 
     display:block;
     text-decoration:none;
-    color:#3179ac;
+    color: #515151;
   }
   
   .drop-down .options ul li a:hover{
