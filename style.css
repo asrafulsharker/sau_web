@@ -1699,7 +1699,7 @@ button:active {
     top:32px; 
     width:auto; 
     width: 100% !important;
-    margin-top: 9% !important;
+    margin-top: 8% !important;
   }
 
   
@@ -1718,9 +1718,9 @@ button:active {
   }
   
   .drop-down .options ul li a:hover{
-    background:#3179ac;
+    /* background:#3179ac;
     color:#fff;
-    transition:0.2s ease;
+    transition:0.2s ease; */
   }
 
 
