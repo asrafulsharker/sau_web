@@ -1135,6 +1135,24 @@ button:active {
     color: #FFECEC;
 }
 
+.admission_bottom_btn_v2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.6086px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #FFECEC;
+}
+.admission_bottom_btn_v2{
+    background: #049906 !important;
+padding: 10px 35px;
+margin-top: 25px;
+text-decoration: none !important;
+}
+.admission_bottom_btn_v2:hover{
+    color: #ffff;
+}
 /* admission responsive css  */
 
 @media screen and (max-width: 1280px) {
