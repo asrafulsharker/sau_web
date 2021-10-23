@@ -1657,13 +1657,13 @@ button:active {
   
   .drop-down{
     width: 100%;
-    background-color: #ffff;
+    background-color: #ECECEC;
     border-radius: 10px;
     position: relative;
   }
   
   .drop-down .selected a{
-    background:#fff;
+    background:#ECECEC !important;
     display:block; 
     padding-right:20px; 
     border-radius:2px;
@@ -1690,7 +1690,7 @@ button:active {
   }
   
   .drop-down .options ul{
-    background:#fff none repeat scroll 0 0;               display:none;
+    background:#ECECEC none repeat scroll 0 0;               display:none;
     list-style:none; 
     padding:0px 0px; 
     position:absolute; 
@@ -1700,18 +1700,7 @@ button:active {
     width: 100% !important;
     margin-top: 9% !important;
   }
-  .drop-down .options ul {
-    background: #fff none repeat scroll 0 0;
-    display: none;
-    list-style: none;
-    padding: 0px 0px;
-    position: absolute;
-    left: 0px;
-    top: 32px;
-    width: auto;
-    width: 100% !important;
-    margin-top: 9% !important;
-  }
+
   
   .drop-down .selected span.value, .drop-down .options span.value{
     display: none;
