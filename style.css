@@ -1463,7 +1463,7 @@ button:active {
     background: #1882FF;
     border-radius: 17.0233px;
     padding: 16px;
-    margin-top: 8px;
+    margin-left: 75%;
 }
 
 .faculty_right_slider_one{
@@ -1656,26 +1656,33 @@ button:active {
   }
   
   .drop-down{
-    position:absolute;
-    left:42%;
-    top:40%;
+    width: 88%;
+    background-color: #ffff;
+    border-radius: 10px;
+    position: relative;
   }
   
   .drop-down .selected a{
-    background:#fff no-repeat scroll right center;
+    background:#fff;
     display:block; 
     padding-right:20px; 
-    border:1px solid #d7d7d7; 
-    width:150px;
     border-radius:2px;
     text-decoration:none;
-    color:#3179ac;
+    color: #515151;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
   }
   
   .drop-down .selected a span{
     cursor:pointer; 
     display:block; 
     padding:5px;
+    margin-left: 18px;
   }
   
   .drop-down .option{
@@ -1698,6 +1705,9 @@ button:active {
     display: none;
   }
   
+  ..drop-down .selected a{
+      background-color: #ffff;
+  }
   .drop-down .options ul li a{
     padding:5px; 
     display:block;
