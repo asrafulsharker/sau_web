@@ -1660,6 +1660,7 @@ button:active {
     background-color: #ECECEC;
     border-radius: 10px;
     position: relative;
+    cursor: pointer;
   }
   
   .drop-down .selected a{
