@@ -297,6 +297,41 @@
                         <a href="#">7 Faculties</a>
                         <a href="#">47 Departmensts</a>
                     </div>
+                                    <div class="afflition_dropdown ml-auto">
+       
+                </div>
+                    <div class="dropdown">
+                        <select class="select">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Dropdown button
+                        </button>
+                       
+                            <option value="dd">Topic</option>
+                            <option value="ddf">demo2</option>
+                            <option value="rferf">demo2</option>
+                            <option value="rewrd">demo2</option>
+                        </select>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+                      <!-- CUSTOM DROPDOWN --> 
+<!--COURTESY:"http://www.jankoatwarpspeed.com/reinventing-a-drop-down-with-css-and-jquery" -->
+
+<div class="drop-down">
+    <div class="selected">
+      <a ><span>Please select</span></a>
+    </div>
+    <div class="options">
+      <ul>
+        <li><a href="#">User1<span class="value">1</span></a></li>
+        <li><a href="#">User2<span class="value">2</span></a></li>
+        <li><a href="#">User3<span class="value">3</span></a></li>
+      </ul>
+    </div>
+  </div>
                     <div class="faculty_input">
                         <input class="facilty_input_text" type="text" placeholder="Looking for faculty?">
                         <img class="faculty_input_arrow" src="./image/faculty_bottom.png" alt="arrow">
@@ -1444,8 +1479,25 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+//TOGGLING NESTED ul
+$(".drop-down .selected a").click(function() {
+    $(".drop-down .options ul").toggle();
+});
+
+//SELECT OPTIONS AND HIDE OPTION AFTER SELECTION
+$(".drop-down .options ul li a").click(function() {
+    var text = $(this).html();
+    $(".drop-down .selected a span").html(text);
+    $(".drop-down .options ul").hide();
+}); 
 
 
+//HIDE OPTIONS IF CLICKED ANYWHERE ELSE ON PAGE
+$(document).bind('click', function(e) {
+    var $clicked = $(e.target);
+    if (! $clicked.parents().hasClass("drop-down"))
+        $(".drop-down .options ul").hide();
+});
 
 
 filterSelection1("admission")

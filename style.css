@@ -1649,6 +1649,70 @@ button:active {
 /* faculty responsive css end  */
 
 
+
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  .drop-down{
+    position:absolute;
+    left:42%;
+    top:40%;
+  }
+  
+  .drop-down .selected a{
+    background:#fff no-repeat scroll right center;
+    display:block; 
+    padding-right:20px; 
+    border:1px solid #d7d7d7; 
+    width:150px;
+    border-radius:2px;
+    text-decoration:none;
+    color:#3179ac;
+  }
+  
+  .drop-down .selected a span{
+    cursor:pointer; 
+    display:block; 
+    padding:5px;
+  }
+  
+  .drop-down .option{
+    position:relative; 
+  }
+  
+  .drop-down .options ul{
+    background:#fff none repeat scroll 0 0;               display:none;
+    list-style:none; 
+    padding:0px 0px; 
+    position:absolute; 
+    left:0px; 
+    top:32px; 
+    width:auto; 
+    min-width:170px;
+    border:1px solid #d7d7d7;
+  }
+  
+  .drop-down .selected span.value, .drop-down .options span.value{
+    display: none;
+  }
+  
+  .drop-down .options ul li a{
+    padding:5px; 
+    display:block;
+    text-decoration:none;
+    color:#3179ac;
+  }
+  
+  .drop-down .options ul li a:hover{
+    background:#3179ac;
+    color:#fff;
+    transition:0.2s ease;
+  }
+
+
+
 /* .faculty_slider_main{
     background: url(./image/admition_img1.png);
 } */
