@@ -997,7 +997,7 @@ button:active {
     justify-content: center;
     flex-direction: column;
     padding: 50px 0px;
-    margin: 0px 7px;
+    /* margin: 0px 7px; */
     /* width: 100px; */
     /* width: 345px; */
     width: 30.3%;
@@ -1038,7 +1038,7 @@ button:active {
     justify-content: center;
     flex-direction: column;
     padding: 50px 0px;
-    margin: 0px 7px;
+    /* margin: 0px 7px; */
     /* width: 100px; */
     /* width: 345px; */
     width: 30.3%;
@@ -1078,7 +1078,7 @@ button:active {
     justify-content: center;
     flex-direction: column;
     padding: 50px 0px;
-    margin: 0px 7px;
+    /* margin: 0px 7px; */
     /* width: 100px; */
     /* width: 345px; */
     width: 30.3%;
@@ -2199,6 +2199,7 @@ button:active {
 }
 .achivement_top{
     margin-bottom: 20px;
+    margin-left: 0 !important;
 }
 .achivement_slider{
     position: relative;
