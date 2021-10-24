@@ -2,7 +2,9 @@
     margin: 0;
     font-family: Roboto;
 }
-
+a{
+    text-decoration: none !important;
+}
 html {
     scroll-behavior: smooth;
 }
