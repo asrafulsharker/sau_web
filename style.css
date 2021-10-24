@@ -1311,9 +1311,24 @@ button:active {
 }
 .admission_bottom_btn_v2{
     background: #049906 !important;
-padding: 10px 35px;
-margin-top: 25px;
+padding: 10px 25px;
+margin-top: 35px;
 text-decoration: none !important;
+}
+.admission_bottom_1v2 a {
+    background: rgba(25, 130, 254, 0.5);
+    padding: 5px 25px !important;
+    margin-top: 35px !important;
+}
+.admission_bottom_2v2 a {
+    background: rgba(25, 130, 254, 0.5);
+    padding: 5px 25px !important;
+    margin-top: 35px !important;
+}
+.admission_bottom_3v2 a {
+    background: rgba(25, 130, 254, 0.5);
+    padding: 5px 25px !important;
+    margin-top: 35px !important;
 }
 .admission_bottom_btn_v2:hover{
     color: #ffff;
