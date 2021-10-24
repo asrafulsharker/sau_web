@@ -11,24 +11,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
-        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <!-- slick carousel  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- slick carousel  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/css/bootstrap.min.css"
-        integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<!-- bootstrap -4.6  -->
+    <link rel="stylesheet" href="./bootstrap-4.6.0-dist/css/bootstrap.min.css">
     <!-- Optional theme -->
 
     <!-- Latest compiled and minified JavaScript -->
@@ -40,9 +29,10 @@
     <section class="nav" id="nav">
         <div class="nav_main">
             <div class="left_nav">
-                <a class="left_nav" href="./index.html">                
+                <a class="left_nav" href="./index.html">
                     <img src="./image/sau_logo.png" alt="logo" />
-                    <p class="logo_text">SYLHET <br />AGRICULTURE<br />UNIVERSITY</p></a>
+                    <p class="logo_text">SYLHET <br />AGRICULTURE<br />UNIVERSITY</p>
+                </a>
             </div>
             <div class="right_nav">
                 <div class="nav_icon_main">
@@ -67,8 +57,15 @@
             <div class="nav_pop_bar_main col-md-8">
                 <div class="nav_pop_icon">
                     <a href="#"><img src="./image/nav_search.png"></a>
-                    <a href="#"><img src="./image/nav_ball.png"></a>
-                    <a class="nav_pop_icon_coros nav-toggler" href="#"><img src="./image/nav_coros.png"></a>
+                    <a class="nav_icon_main" href="#">
+                        <!-- <img src="./image/nav_ball.png"> -->
+                        <!-- <div class="nav_icon_main"> -->
+                            <p class="nav_icon nav_icon_2">En</p>
+                        <!-- </div> -->
+                    </a>
+                    <a class="nav_pop_icon_coros nav-toggler" href="#">
+                        <img src="./image/nav_coros.png">
+                    </a>
                 </div>
                 <div class="nav_main_options">
                     <a href="./about_sau.html">ABOUT US</a>
@@ -179,12 +176,13 @@
         <div class="admission_main container">
             <div class="admission_top_link">
                 <div id="myBtnContainer">
-                    <button href="" class=" active admission_btn" onclick="filterSelection('admission')"> Admission</button>
+                    <button href="" class=" active admission_btn" onclick="filterSelection('admission')">
+                        Admission</button>
                     <button class=" admission_btn" onclick="filterSelection('convocation')"> Convocation</button>
                     <button class=" admission_btn" onclick="filterSelection('covid19')"> C-19 Update</button>
-                  </div>
-                  
-                  <div class="admission_section">
+                </div>
+
+                <div class="admission_section">
                     <div class="filterDiv admission">
                         <div class="admission_bottom ">
                             <div class="admission_bottom_1 ">
@@ -234,7 +232,7 @@
                             </div>
                         </div>
                     </div>
-                  </div>
+                </div>
                 <!-- <a href="#">Admission</a>
                 <a href="#test">Convocation</a>
                 <a href="#">C-19 Update</a> -->
@@ -298,36 +296,43 @@
                         <a href="#">7 Faculties</a>
                         <a href="#">47 Departmensts</a>
                     </div>
-                                    <div class="afflition_dropdown ml-auto">
-       
-                </div>
+                    <div class="afflition_dropdown ml-auto">
+
+                    </div>
                     <div class="dropdown">
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
                         </div>
-                      </div>
-                      <!-- CUSTOM DROPDOWN --> 
-<!--COURTESY:"http://www.jankoatwarpspeed.com/reinventing-a-drop-down-with-css-and-jquery" -->
+                    </div>
+                    <!-- CUSTOM DROPDOWN -->
+                    <!--COURTESY:"http://www.jankoatwarpspeed.com/reinventing-a-drop-down-with-css-and-jquery" -->
 
-<div class="drop-down">
-    <div class="selected">
-      <a ><span>Looking for faculty?</span> <img class="faculty_input_arrow" src="./image/faculty_bottom.png" alt="arrow"></a>
-      
-    </div>
-    <div class="options">
-      <ul>
-        <li><a href="#">Department of computer science & engineering<span class="value">1</span></a></li>
-        <li><a href="#">Department of computer science & engineering<span class="value">2</span></a></li>
-        <li><a href="#">Department of computer science & engineering<span class="value">3</span></a></li>
-        <li><a href="#">Department of computer science & engineering<span class="value">3</span></a></li>
-        <li><a href="#">Department of computer science & engineering<span class="value">3</span></a></li>
-        <li><a href="#">Department of computer science & engineering<span class="value">3</span></a></li>
-      </ul>
-    </div>
-  </div>
+                    <div class="drop-down">
+                        <div class="selected">
+                            <a><span>Looking for faculty?</span> <img class="faculty_input_arrow"
+                                    src="./image/faculty_bottom.png" alt="arrow"></a>
+
+                        </div>
+                        <div class="options">
+                            <ul>
+                                <li><a href="#">Department of computer science & engineering<span
+                                            class="value">1</span></a></li>
+                                <li><a href="#">Department of computer science & engineering<span
+                                            class="value">2</span></a></li>
+                                <li><a href="#">Department of computer science & engineering<span
+                                            class="value">3</span></a></li>
+                                <li><a href="#">Department of computer science & engineering<span
+                                            class="value">3</span></a></li>
+                                <li><a href="#">Department of computer science & engineering<span
+                                            class="value">3</span></a></li>
+                                <li><a href="#">Department of computer science & engineering<span
+                                            class="value">3</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="faculty_right col-md-8">
 
@@ -532,7 +537,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices tellus nulla leo
                                     fames metus. Consectetur habitasse congue scelerisque nibh id mauris tristique.
                                     Fames ac, parturient ullamcorper in mus condimentum. Velit ultricies odio tempus
-                                    rhoncus ante egestas suspendisse.trtgtr trtr rtr ty5rtr rt r trr yhtr  .</p>
+                                    rhoncus ante egestas suspendisse.trtgtr trtr rtr ty5rtr rt r trr yhtr .</p>
                                 <a class="read_me">
                                     <p>Read Me</p>
                                     <img src="./image/read_arrow.png">
@@ -613,7 +618,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices tellus nulla leo
                                     fames metus. Consectetur habitasse congue scelerisque nibh id mauris tristique.
                                     Fames ac, parturient ullamcorper in mus condimentum. Velit ultricies odio tempus
-                                    rhoncus ante egestas suspendisse. htyhyth thytyht  tyhtyhty tythgt tyty.</p>
+                                    rhoncus ante egestas suspendisse. htyhyth thytyht tyhtyhty tythgt tyty.</p>
                                 <a class="read_me">
                                     <p>Read Me</p>
                                     <img src="./image/read_arrow.png">
@@ -774,11 +779,12 @@
 
     <section class="event">
         <div class="achivement_main container">
-                            <div id="myBtnContainer">
-                    <button href="" class=" active admission_btn" onclick="filterSelection('event_slider')"> Admission</button>
-                    <button class=" admission_btn" onclick="filterSelection('comference')"> Comference</button>
-                    <button class=" admission_btn" onclick="filterSelection('workshop')"> Workshop</button>
-                  </div>
+            <div id="myBtnContainer">
+                <button href="" class=" active admission_btn" onclick="filterSelection('event_slider')">
+                    Admission</button>
+                <button class=" admission_btn" onclick="filterSelection('comference')"> Comference</button>
+                <button class=" admission_btn" onclick="filterSelection('workshop')"> Workshop</button>
+            </div>
             <div class="filterDiv event_slider">
                 <!-- <div class="col-md-12 ">
                     <div class="ranking_main">
@@ -1083,12 +1089,12 @@
                 </div>
 
             </div>
-            <div class="afflition_arrow_prev">
+            <!-- <div class="afflition_arrow_prev">
                 <span><img src="./image/afflilition_arrow.png"></span>
             </div>
             <div class="afflition_arrow_next">
                 <span><img src="./image/afflilition_arrow.png"></span>
-            </div>
+            </div> -->
 
     </section>
 
@@ -1192,12 +1198,11 @@
 
     <!-- bottom footer end  -->
 
+    <!-- bootstrap 4.6  -->
+    <script src="./bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+    <!-- jqury cdn  -->
+    <script src="./js/jqury/jqury.min.js"></script>
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/js/bootstrap.min.js"
-        integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
     <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
@@ -1333,45 +1338,45 @@
             });
         });
 
-        $(function () {
-            $('.event_slider').slick({
-                // prevArrow: '.event_arrow_prev',
-                // nextArrow: '.event_arrow_next',
-                dots: false,
-                arrows: false,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                responsive: [{
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 3,
-                            infinite: true,
-                            dots: false
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 2
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                    // You can unslick at a given breakpoint now by adding:
-                    // settings: "unslick"
-                    // instead of a settings object
-                ]
-            });
-        });
+        // $(function () {
+        //     $('.event_slider').slick({
+        //         // prevArrow: '.event_arrow_prev',
+        //         // nextArrow: '.event_arrow_next',
+        //         dots: false,
+        //         arrows: false,
+        //         infinite: false,
+        //         speed: 300,
+        //         slidesToShow: 3,
+        //         slidesToScroll: 1,
+        //         responsive: [{
+        //                 breakpoint: 1024,
+        //                 settings: {
+        //                     slidesToShow: 3,
+        //                     slidesToScroll: 3,
+        //                     infinite: true,
+        //                     dots: false
+        //                 }
+        //             },
+        //             {
+        //                 breakpoint: 600,
+        //                 settings: {
+        //                     slidesToShow: 2,
+        //                     slidesToScroll: 2
+        //                 }
+        //             },
+        //             {
+        //                 breakpoint: 480,
+        //                 settings: {
+        //                     slidesToShow: 1,
+        //                     slidesToScroll: 1
+        //                 }
+        //             }
+        //             // You can unslick at a given breakpoint now by adding:
+        //             // settings: "unslick"
+        //             // instead of a settings object
+        //         ]
+        //     });
+        // });
 
         // affilition slider 
         $(function () {
@@ -1380,6 +1385,7 @@
                 // nextArrow: '.afflition_arrow_next',
                 dots: false,
                 infinite: false,
+                arrows:false,
                 speed: 300,
                 slidesToShow: 7,
                 slidesToScroll: 1,
@@ -1417,6 +1423,7 @@
         $('.faculty_slider').slick({
             dots: false,
             infinite: false,
+            arrows:false,
             speed: 300,
             slidesToShow: 3,
             slidesToScroll: 4,
@@ -1456,112 +1463,118 @@
 
 
 
-filterSelection("event_slider")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
+        filterSelection("event_slider")
 
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
 
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                    element.className += " " + arr2[i];
+                }
+            }
+        }
 
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
 
-//TOGGLING NESTED ul
-$(".drop-down .selected a").click(function() {
-    $(".drop-down .options ul").toggle();
-});
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
 
-//SELECT OPTIONS AND HIDE OPTION AFTER SELECTION
-$(".drop-down .options ul li a").click(function() {
-    var text = $(this).html();
-    $(".drop-down .selected a span").html(text);
-    $(".drop-down .options ul").hide();
-}); 
+        //TOGGLING NESTED ul
+        $(".drop-down .selected a").click(function () {
+            $(".drop-down .options ul").toggle();
+        });
 
-
-//HIDE OPTIONS IF CLICKED ANYWHERE ELSE ON PAGE
-$(document).bind('click', function(e) {
-    var $clicked = $(e.target);
-    if (! $clicked.parents().hasClass("drop-down"))
-        $(".drop-down .options ul").hide();
-});
+        //SELECT OPTIONS AND HIDE OPTION AFTER SELECTION
+        $(".drop-down .options ul li a").click(function () {
+            var text = $(this).html();
+            $(".drop-down .selected a span").html(text);
+            $(".drop-down .options ul").hide();
+        });
 
 
-filterSelection1("admission")
-function filterSelection1(a) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (a == "all") a = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(a) > -1) w3AddClass(x[i], "show");
-  }
-}
+        //HIDE OPTIONS IF CLICKED ANYWHERE ELSE ON PAGE
+        $(document).bind('click', function (e) {
+            var $clicked = $(e.target);
+            if (!$clicked.parents().hasClass("drop-down"))
+                $(".drop-down .options ul").hide();
+        });
 
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
 
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
+        filterSelection1("admission")
 
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+        function filterSelection1(a) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (a == "all") a = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(a) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                    element.className += " " + arr2[i];
+                }
+            }
+        }
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
     </script>
 </body>
 

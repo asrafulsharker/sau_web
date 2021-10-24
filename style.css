@@ -243,7 +243,7 @@ p{
     justify-content: center;
 }
 .nav_bottom_btn{
-    margin-top: 20%;
+    margin-top: 12%;
 }
 .nav_bottom_btn a{
     background: #54E346;
@@ -291,8 +291,8 @@ p{
     }
 
     .nav_pop_icon a img {
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
         padding: 9px;
         margin-left: 5px;
     }
@@ -338,8 +338,8 @@ p{
     }
 
     .nav_pop_icon a img {
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
         padding: 9px;
         margin-left: 5px;
     }
@@ -970,7 +970,7 @@ button:active {
     font-size: 32px;
     line-height: 37px;
     letter-spacing: 0.01em;
-    margin: 0px 10px;
+    margin: 0px 10px !important;
     color: #000000;
 }
 .admission_btn:focus{
@@ -1392,6 +1392,18 @@ text-decoration: none !important;
         width: 100%;
         margin-top: 5px;
     }
+.admission_bottom_1v2 {
+    width: 100%;
+    margin-top: 5px;
+}
+.admission_bottom_2v2 {
+    width: 100%;
+    margin-top: 5px;
+}
+.admission_bottom_3v2{
+    width: 100%;
+    margin-top: 5px;
+}
     .admission_btn {
         margin: 0px 8px;
     }
@@ -1982,6 +1994,7 @@ text-decoration: none !important;
     width: 100% !important;
     margin-top: 8% !important;
     font-size: 12px;
+    z-index: 100;
   }
 
   
