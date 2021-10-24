@@ -1028,8 +1028,32 @@ button:active {
     background: rgba(25, 130, 254, 0.5);
     padding: 10px 35px;
     margin-top: 25px;
+    text-decoration: none !important;
+
+}
+.admission_bottom_1 a:hover{
+    color: #ffff;
 }
 
+.admission_bottom_2 a{
+    background: rgba(25, 130, 254, 0.5);
+    padding: 10px 35px;
+    margin-top: 25px;
+    text-decoration: none !important;
+
+}
+.admission_bottom_2 a:hover{
+    color: #ffff;
+}.admission_bottom_3 a{
+    background: rgba(25, 130, 254, 0.5);
+    padding: 10px 35px;
+    margin-top: 25px;
+    text-decoration: none !important;
+
+}
+.admission_bottom_3 a:hover{
+    color: #ffff;
+}
 .admission_bottom_1v2 {
     /* height: 100vh; */
     position: relative;
