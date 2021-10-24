@@ -348,9 +348,11 @@ p {
     .nav_main_options {
         margin: 35% 0% 0% 0%;
     }
+
     .nav_main {
         height: 8vh !important;
     }
+
     .faculty_home_main {
         margin-top: 8vh !important;
     }
@@ -418,35 +420,41 @@ p {
 
 /* faculty css start  */
 
-.sau_dialog{
+.sau_dialog {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #141414 !important;
 }
-.sau_dialog h1{
+
+.sau_dialog h1 {
     color: #049906;
 }
-.sau_dialog a{
+
+.sau_dialog a {
     background: white;
     padding: 6px 30px;
     margin: 5px 0px;
     text-decoration: none;
     color: #000;
 }
-.sau_dialog a:hover{
+
+.sau_dialog a:hover {
     color: #ffff;
     background-color: #049906;
 }
-.mfp-close{
+
+.mfp-close {
     color: #ffff;
     font-size: 50px;
 }
-.mfp-close:hover{
+
+.mfp-close:hover {
     color: #049906;
 }
-.sau_library_btn{
+
+.sau_library_btn {
     position: fixed;
     overflow: hidden;
     position: fixed;
@@ -466,8 +474,9 @@ p {
     display: none;
     font-size: 12px;
 }
-.sau_library_btn:hover{
-    color:#ffff;
+
+.sau_library_btn:hover {
+    color: #ffff;
 }
 
 .faculty_home_main {
@@ -542,14 +551,15 @@ p {
 } */
 
 
-.dept_home_left_item_top{
+.dept_home_left_item_top {
     display: flex;
     align-items: center;
     /* justify-content: center; */
     background-color: #000000;
     padding: 4%;
 }
-.dept_home_left_item_top p{
+
+.dept_home_left_item_top p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -559,20 +569,22 @@ p {
     color: #FFFFFF;
     width: 80%;
 }
-.dept_home_left_item_top img{
+
+.dept_home_left_item_top img {
     height: 20px !important;
     width: 30px !important;
 }
 
-.dept_home_left_item_bottom{
+.dept_home_left_item_bottom {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
 }
-.dept_home_left_item_bottom a{
-    background:#E5E5E5;
+
+.dept_home_left_item_bottom a {
+    background: #E5E5E5;
     width: 100%;
     text-decoration: none !important;
     font-family: Roboto;
@@ -581,11 +593,12 @@ p {
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.01em;
-    border-bottom: 1px solid #BABABA ;
+    border-bottom: 1px solid #BABABA;
     color: #000000;
     padding: 8%;
 }
-.dept_home_left_item_bottom a:hover{
+
+.dept_home_left_item_bottom a:hover {
     background-color: #007bff;
     color: #ffff;
 }
@@ -654,6 +667,7 @@ p {
     .t_details_heading {
         text-align: center;
     }
+
     .dropdown_single {
         width: 100% !important;
     }
@@ -664,19 +678,23 @@ p {
     .dept_home_left_item {
         display: none !important;
     }
+
     .sau_library_btn {
         display: flex !important;
         z-index: 1000 !important;
     }
+
     .faculty_home_right_top_cover {
         font-size: 18px;
         line-height: 30px;
     }
-    .faculty_home_right_top_cover img{
+
+    .faculty_home_right_top_cover img {
         height: 4px !important;
-        
+
     }
 }
+
 /* faculty home responsive end  */
 
 /* dropdown css start  */
@@ -808,19 +826,23 @@ p {
 .card {
     margin: 0px 0px !important;
 }
+
 @media screen and (max-width :520px) {
     .faculty_home_right_t_details img {
         height: 170px !important;
     }
+
     .t_details_heading {
         font-size: 18px;
         line-height: 0px;
     }
+
     .t_details_p {
         font-size: 14px;
         line-height: 18px;
     }
 }
+
 /* faculty home css end  */
 
 
@@ -865,13 +887,16 @@ p {
     padding: 1rem;
     font-size: 1.4rem;
 }
+
 @media screen and (max-width :520px) {
     .select_t {
         font-size: 18px;
     }
-    .dropdown_select img{
+
+    .dropdown_select img {
         height: 20px;
     }
+
     .dropdown_card {
         font-size: 14px;
         line-height: 18px;
@@ -879,9 +904,11 @@ p {
     }
 
 }
+
 .dropdown_select {
     padding: 0.5rem;
 }
+
 /* collspase css end  */
 
 
@@ -1142,15 +1169,18 @@ p {
         width: 100% !important;
         margin: 1% 1% !important;
     }
+
     .services_arrow_p1 {
         font-size: 18.027px;
     }
+
     .services_card_bottom_link p {
         font-size: 14.497px;
-}
-.services_arrow_p2 {
-    font-size: 12.094px;
-}
+    }
+
+    .services_arrow_p2 {
+        font-size: 12.094px;
+    }
 }
 
 /* services card responsive end  */

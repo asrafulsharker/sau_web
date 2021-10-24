@@ -1,35 +1,39 @@
-*{
+* {
     margin: 0;
     font-family: Roboto;
 }
+
 html {
     scroll-behavior: smooth;
-  }
-p{
+}
+
+p {
     margin-top: 0;
     margin-bottom: 0rem !important;
 }
-.nav_main{
+
+.nav_main {
     display: flex;
     justify-content: center;
     overflow: hidden;
     /* position: fixed;  */
-    top: 0; 
-    width: 100%; 
+    top: 0;
+    width: 100%;
     z-index: 10;
     border: 1px solid #757575;
     padding: 10px 0px;
     position: absolute;
     height: 20vh;
-    }
-.left_nav{
+}
+
+.left_nav {
     flex: 5;
     display: flex;
     align-items: center;
     padding-left: 5%;
 }
 
-.logo_text{
+.logo_text {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -39,7 +43,8 @@ p{
     text-transform: uppercase;
     color: #54E346;
 }
-.right_nav{
+
+.right_nav {
     flex: 5;
     display: flex;
     align-items: center;
@@ -48,7 +53,7 @@ p{
     padding-right: 5%;
 }
 
-.nav_icon_main{
+.nav_icon_main {
     background-color: black;
     color: white;
     width: 85px;
@@ -61,7 +66,7 @@ p{
     margin-left: 20px;
 }
 
-.nav_icon{
+.nav_icon {
     padding: 10px;
     font-family: Roboto;
     font-style: normal;
@@ -75,24 +80,25 @@ p{
 }
 
 
-.nav-toggler{
+.nav-toggler {
     background: #54E346 !important;
 }
 
 /* nav responsive css  */
 
 @media screen and (max-width: 1280px) {
-    .left_nav img{
+    .left_nav img {
         height: 152px;
     }
+
     .logo_text {
         font-size: 29.191px;
         line-height: 30px;
     }
-  }
+}
 
 
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .logo_text {
         font-size: 10.191px;
         line-height: 10px;
@@ -121,16 +127,18 @@ p{
     .nav_icon_3 {
         height: 30px;
     }
+
     .nav_main {
         height: 8vh !important;
     }
+
     .contact_cover {
         margin-top: 8vh !important;
     }
-  }
+}
 
 
-  @media screen and (max-width :360px) {
+@media screen and (max-width :360px) {
     .left_nav img {
         height: 45px;
     }
@@ -173,33 +181,33 @@ p{
 
 /* nav popbar css start  */
 
-.nav_pop_bar{
+.nav_pop_bar {
     position: absolute;
     z-index: 100;
     width: 100%;
     height: 100vh;
-    left:  100%;
+    left: 100%;
     transition: all .5s ease;
     visibility: hidden;
     overflow: hidden;
     max-height: 0px;
 }
 
-.nav_pop_bar_main{
+.nav_pop_bar_main {
     background: #141414;
     backdrop-filter: blur(200px);
     height: 100vh;
     padding: 0px 60px;
 }
 
-.nav_pop_icon{
+.nav_pop_icon {
     display: flex;
     align-items: center;
     justify-content: end;
     padding: 50px 40px;
 }
 
-.nav_pop_icon a img{
+.nav_pop_icon a img {
     border: 1px solid #54E346;
     box-sizing: border-box;
     width: 85px;
@@ -209,13 +217,13 @@ p{
 }
 
 
-.nav_main_options{
+.nav_main_options {
     display: flex;
     flex-wrap: wrap;
     margin: 5% 0% 0% 0%;
 }
 
-.nav_main_options a{
+.nav_main_options a {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -228,13 +236,15 @@ p{
     margin-right: 40px;
     margin-top: 40px;
 }
-.nav_2ndlebel_option{
+
+.nav_2ndlebel_option {
     display: flex;
     flex-wrap: wrap;
     font-family: Roboto;
     margin: 10% 0% 0% 0%;
 }
-.nav_2ndlebel_option .nav_2ndlebel_option_add a{
+
+.nav_2ndlebel_option .nav_2ndlebel_option_add a {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -246,18 +256,22 @@ p{
     margin: 5% 0%;
     margin-right: 8px;
 }
-.nav_2ndlebel_option .nav_2ndlebel_option_add img{
+
+.nav_2ndlebel_option .nav_2ndlebel_option_add img {
     margin-right: 45px;
 }
-.nav_2ndlebel_option_add{
+
+.nav_2ndlebel_option_add {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.nav_bottom_btn{
+
+.nav_bottom_btn {
     margin-top: 12%;
 }
-.nav_bottom_btn a{
+
+.nav_bottom_btn a {
     background: #54E346;
     text-decoration: none;
     font-family: Roboto;
@@ -271,25 +285,26 @@ p{
     padding: 20px 40px;
     margin-right: 40px;
 }
-.nav_botton_btn_signin{
+
+.nav_botton_btn_signin {
     background: #404040 !important;
     color: #54E346 !important;
 }
 
-.nav_pop_bar.open{
+.nav_pop_bar.open {
     visibility: visible !important;
-    z-index: 1000 ;
-    left:  0% !important;
+    z-index: 1000;
+    left: 0% !important;
     overflow: visible;
 }
 
-.nav_pop_bar.close{
-    visibility: hidden ;
-    z-index: 0 ;
+.nav_pop_bar.close {
+    visibility: hidden;
+    z-index: 0;
 }
 
 
-.nav-toggler{
+.nav-toggler {
     cursor: pointer;
     /* z-index: 60000; */
 }
@@ -406,13 +421,14 @@ p{
 
 
 /* contact cover start css  */
-.contact_cover{
+.contact_cover {
     margin-top: 20vh;
 }
 
-.contact_cover_main{
+.contact_cover_main {
     padding: 0 !important;
 }
+
 .contact_img {
     height: 20vh;
     position: relative;
@@ -429,9 +445,9 @@ p{
     letter-spacing: 0.06em;
     padding: 15% 0%;
     color: #FFFFFF;
-  }
-  
-  .contact_img::after {
+}
+
+.contact_img::after {
     content: "";
     background: url(../image/academic_programme_cover.png);
     /* opacity: 0.5; */
@@ -440,21 +456,21 @@ p{
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;   
+    z-index: -1;
     background-color: cover;
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 
-  }
+}
 
 
-.contact_img img{
+.contact_img img {
     height: 10px;
     margin-top: 15px;
 }
 
-.contact_cover_bottom{
+.contact_cover_bottom {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -462,7 +478,7 @@ p{
 }
 
 
-.contact_cover_bottom a{
+.contact_cover_bottom a {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -488,117 +504,149 @@ p{
     .contact_img {
         font-size: 18px;
     }
+
     .contact_img img {
         height: 4px;
         margin-top: 0px;
     }
+
     .undergradute_cover_top p {
         font-size: 18px !important;
     }
+
     .undergradute_cover_top img {
         margin-top: -2px !important;
         height: 3px !important;
     }
+
     .undergradute_bottom p {
         font-size: 14px !important;
     }
+
     .undergradute_bottom ul li {
         font-size: 12px !important;
     }
-    .undergradute_bottom{
+
+    .undergradute_bottom {
         display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    .undergradute_bottom ul{
+
+    .undergradute_bottom ul {
         margin-left: -45px !important;
     }
+
     .undergradute_cover {
         border: none !important;
         box-sizing: border-box !important;
         padding: 0% !important;
     }
+
     .undergradute_cover_top {
         margin-bottom: 20px !important;
-    } 
+    }
+
     .postgradute_cover_top img {
         margin-top: -3px !important;
         height: 3px !important;
     }
+
     .postgradute_cover_top p {
         font-size: 18px !important;
     }
+
     .postgradute_bottom {
         display: flex;
         flex-wrap: wrap !important;
     }
+
     .postgradute_left {
         width: 100% !important;
     }
+
     .postgradute_right {
         width: 100% !important;
     }
+
     .postgradute_left p {
-        font-size: 14px !important; 
+        font-size: 14px !important;
     }
+
     .postgradute_item ul {
         font-size: 12px !important;
     }
+
     .postgradute_bottom {
         text-align: center;
     }
+
     .postgradute_item ul {
         margin-left: -15px !important;
     }
+
     .postgradute_right p {
         font-size: 14px !important;
     }
+
     .support_calander {
         flex-wrap: wrap !important;
     }
+
     .calander_support_left {
         width: 100% !important;
         margin: 1% 2% 1% 2% !important;
     }
+
     .calander_support_right {
         width: 100% !important;
         margin: 1% 2% 1% 2% !important;
     }
+
     .postgradute_cover {
         border: none !important;
         box-sizing: border-box !important;
         padding: 0% !important;
     }
+
     .postgradute {
         margin: 30px 0px !important;
     }
+
     .postgradute_cover_top {
         margin-bottom: 0px !important;
     }
+
     .calander_support_left_p1 {
         font-size: 14px !important;
         padding: 3% !important;
     }
+
     .calander_support_left_p2 {
         font-size: 14px !important;
         padding: 3% 2% 2% 2% !important;
     }
+
     .calander_support_left_p3 {
         padding: 0% 3% 3% 2% !important;
     }
+
     .calander_support_left_p4 {
         font-size: 14px !important;
         padding: 3% 2% 2% 2% !important;
         margin-top: 10px !important;
     }
+
     .calander_support_left_p5 {
         padding: 0% 3% 3% 2% !important;
     }
+
     .calander_support_diversity_p1 {
         font-size: 18px;
     }
 }
+
 /* contact cover end responsive css  */
 /* contact cover css end  */
 
@@ -607,15 +655,17 @@ p{
 
 /* undergradute css start  */
 
-.undergradute{
+.undergradute {
     margin: 30px 0px;
 }
-.undergradute_cover{
+
+.undergradute_cover {
     border: 1px solid #B5AEAE;
     box-sizing: border-box;
     padding: 3%;
 }
-.undergradute_cover_top p{
+
+.undergradute_cover_top p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -625,7 +675,7 @@ p{
     color: #1882FF;
 }
 
-.undergradute_cover_top{
+.undergradute_cover_top {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -633,22 +683,24 @@ p{
 }
 
 
-.undergradute_cover_top img{
+.undergradute_cover_top img {
     margin-top: 10px;
 }
-.undergradute_bottom p{
+
+.undergradute_bottom p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 27.0806px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    
+
     color: #000000;
-    
-    
+
+
 }
-.undergradute_bottom ul li{
+
+.undergradute_bottom ul li {
     font-size: 20.0806px;
 }
 
@@ -657,15 +709,17 @@ p{
 /* postgradute css start  */
 
 
-.postgradute{
+.postgradute {
     margin: 30px 0px;
 }
-.postgradute_cover{
+
+.postgradute_cover {
     border: 1px solid #B5AEAE;
     box-sizing: border-box;
     padding: 3%;
 }
-.postgradute_cover_top p{
+
+.postgradute_cover_top p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -675,7 +729,7 @@ p{
     color: #54E346;
 }
 
-.postgradute_cover_top{
+.postgradute_cover_top {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -683,10 +737,11 @@ p{
 }
 
 
-.postgradute_cover_top img{
+.postgradute_cover_top img {
     margin-top: 10px;
 }
-.postgradute_left p{
+
+.postgradute_left p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -697,10 +752,11 @@ p{
     color: #000000;
 }
 
-.postgradute_item ul{
+.postgradute_item ul {
     margin-bottom: 2px !important;
 }
-.postgradute_right p{
+
+.postgradute_right p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -710,32 +766,34 @@ p{
     margin-top: 30px;
     color: #000000;
 }
-.postgradute_left ul li{
+
+.postgradute_left ul li {
     /* font-size: 20.0806px; */
 }
 
-.postgradute_bottom{
+.postgradute_bottom {
     display: flex;
 }
 
-.postgradute_left{
+.postgradute_left {
     width: 49%;
 }
 
-.postgradute_right{
+.postgradute_right {
     width: 49%;
 }
+
 /* postgradute css end  */
 
 
 
 
 /* calander css tart  */
-.support_calander_container{
+.support_calander_container {
     padding: 0 !important;
 }
 
-.support_calander{
+.support_calander {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -744,16 +802,17 @@ p{
     justify-content: center;
 }
 
-.calander_support_left{
+.calander_support_left {
     width: 48%;
     margin: 1% 1% 1% 0%;
 }
 
-.calander_support_right{
+.calander_support_right {
     width: 48%;
     margin: 1% 0% 1% 1%;
 }
-.calander_support_left_p1{
+
+.calander_support_left_p1 {
     background: #153E90;
     font-family: Roboto;
     font-style: normal;
@@ -765,7 +824,7 @@ p{
     padding: 6%;
 }
 
-.calander_support_left_p2{
+.calander_support_left_p2 {
     background: #F2F9FF;
     font-family: Roboto;
     font-style: normal;
@@ -777,7 +836,7 @@ p{
     padding: 5% 2% 4% 2%;
 }
 
-.calander_support_left_p3{
+.calander_support_left_p3 {
     background: #F2F9FF;
     font-family: Roboto;
     font-style: normal;
@@ -789,7 +848,7 @@ p{
     padding: 0% 3% 5% 2%;
 }
 
-.calander_support_left_p4{
+.calander_support_left_p4 {
     background: #F2F9FF;
     font-family: Roboto;
     font-style: normal;
@@ -802,7 +861,7 @@ p{
     margin-top: 10px;
 }
 
-.calander_support_left_p5{
+.calander_support_left_p5 {
     background: #F2F9FF;
     font-family: Roboto;
     font-style: normal;
@@ -814,10 +873,11 @@ p{
     padding: 0% 3% 5% 2%;
 }
 
-.calander_support_diversity{
+.calander_support_diversity {
     padding: 2% 0% 0% 0%;
 }
-.calander_support_diversity_p1{
+
+.calander_support_diversity_p1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -829,7 +889,7 @@ p{
     margin-top: 52px;
 }
 
-.calander_support_diversity_p2{
+.calander_support_diversity_p2 {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -839,11 +899,12 @@ p{
     color: #000000;
 }
 
-.calander_support_right img{
+.calander_support_right img {
     width: 100%;
     height: 255px !important;
 }
-.calander_support_diversity_p2 a{
+
+.calander_support_diversity_p2 a {
     color: red;
 }
 
@@ -853,15 +914,17 @@ p{
 
 
 /* start footer section--- */
-.footer{
+.footer {
     background-color: #000;
     color: white;
     padding: 5% 0%;
 }
-.footerIcon{
+
+.footerIcon {
     margin-top: 10px;
 }
-.footerIcon i{
+
+.footerIcon i {
     /* display: flex; */
     /* align-items: flex-end; */
     text-align: right;
@@ -871,7 +934,8 @@ p{
     width: 40px;
     color: white;
 }
-.footer_1st_col p{
+
+.footer_1st_col p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -879,9 +943,10 @@ p{
     line-height: 3px;
     letter-spacing: 0.01em;
     line-height: 15px !important;
-    
+
 }
-.footer_1st_col .uName{
+
+.footer_1st_col .uName {
     font-family: Mont;
     font-style: normal;
     font-weight: 900;
@@ -891,30 +956,31 @@ p{
     text-align: center;
     color: #FFFFFF;
 }
-.footer_1st_col{
+
+.footer_1st_col {
     display: flex;
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
 
-.footer_1st_col img{
-    
+.footer_1st_col img {
+
     height: 150px;
     margin-bottom: 12px;
     height: 122px !important;
 }
 
-.footer_2nd_col{
+.footer_2nd_col {
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
     flex-direction: column;
 }
 
-.footer_2nd_col a{
+.footer_2nd_col a {
     text-decoration: none;
-    color:white;
+    color: white;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -928,10 +994,12 @@ p{
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
 }
-.footer_2nd_col{
-    padding: 0% 5% ;
+
+.footer_2nd_col {
+    padding: 0% 5%;
 }
-.footer_2nd_col .top_footer_txt{
+
+.footer_2nd_col .top_footer_txt {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -942,13 +1010,15 @@ p{
     color: #FFFFFF;
     border: 0;
 }
-.footer_3rd_col{
+
+.footer_3rd_col {
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
     flex-direction: column;
 }
-.footer_3rd_col .top_footer_txt{
+
+.footer_3rd_col .top_footer_txt {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -959,12 +1029,14 @@ p{
     color: #FFFFFF;
     border: 0;
 }
-.footer_3rd_col{
-    padding: 0% 5% ;
+
+.footer_3rd_col {
+    padding: 0% 5%;
 }
-.footer_3rd_col a{
+
+.footer_3rd_col a {
     text-decoration: none;
-    color:white;
+    color: white;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -979,12 +1051,13 @@ p{
     padding: 5px 0px;
 }
 
-.footer_4th_col{
-    padding: 0% 5% ;
+.footer_4th_col {
+    padding: 0% 5%;
 }
-.footer_4th_col a{
+
+.footer_4th_col a {
     text-decoration: none;
-    color:white;
+    color: white;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -998,14 +1071,16 @@ p{
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
 }
-.footer_4th_col{
+
+.footer_4th_col {
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
     flex-direction: column;
-    
+
 }
-.footer_4th_col .top_footer_txt{
+
+.footer_4th_col .top_footer_txt {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -1069,20 +1144,20 @@ p{
 /* footer end  */
 
 /* footer bottom start  */
-.footer_bottom{
+.footer_bottom {
     background: #1F212F;
     color: #FFFFFF;
     border-top: 0.5px solid #DFDFDF;
     padding: 20px 50px;
 }
 
-.footer_bottom_main{
+.footer_bottom_main {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer_bottom_left{
+.footer_bottom_left {
     display: flex;
     align-items: center;
     flex: 3;
@@ -1095,12 +1170,12 @@ p{
     color: #FFFFFF;
 }
 
-.footer_bottom_left a{
+.footer_bottom_left a {
     text-decoration: none;
     color: #FFFFFF;
 }
 
-.footer_bottom_right{
+.footer_bottom_right {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -1114,7 +1189,7 @@ p{
     color: #FFFFFF;
 }
 
-.footer_bottom_right a{
+.footer_bottom_right a {
     text-decoration: none;
     color: #FFFFFF;
     padding: 0px 25px;
@@ -1126,19 +1201,17 @@ p{
 
 
 @media screen and (max-width :800px) {
-    .footer_bottom_right{
+    .footer_bottom_right {
         flex-wrap: wrap;
     }
 
     .footer_bottom_left {
         font-size: 12.289px;
-      }
+    }
 
-      .footer_bottom_right_a{
+    .footer_bottom_right_a {}
 
-      }
-
-      .footer_bottom_right a {
+    .footer_bottom_right a {
         font-size: 10px;
         line-height: 12px;
         margin-top: 1px;

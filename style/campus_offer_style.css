@@ -127,11 +127,13 @@ p {
     .nav_icon_3 {
         height: 30px;
     }
+
     .nav_main {
         height: 8vh !important;
     }
+
     .why_library_cover {
-        margin-top: 8vh !important; 
+        margin-top: 8vh !important;
     }
 }
 
@@ -547,15 +549,16 @@ p {
 
 
 
-    @media screen and (max-width :520px) {
-        .why_library_img {
-            font-size: 18px !important; 
-        }
-        .why_library_img img {
-            height: 4px !important;
-            margin-top: -4px !important;
-        }
+@media screen and (max-width :520px) {
+    .why_library_img {
+        font-size: 18px !important;
     }
+
+    .why_library_img img {
+        height: 4px !important;
+        margin-top: -4px !important;
+    }
+}
 
 /* why library_css responsive end  */
 
@@ -623,34 +626,42 @@ p {
 .view_gallery:hover {
     color: #FFFFFF;
 }
+
 /* campus offer card responsive css start  */
 @media screen and (max-width :520px) {
     .why_library_main {
         flex-wrap: wrap;
     }
-    .why_library_left{
+
+    .why_library_left {
         height: 20% !important;
         width: 100%;
     }
-    .why_library_left img{
+
+    .why_library_left img {
         width: 100% !important;
         height: 20% !important;
     }
+
     .why_library_right_p1 {
         font-size: 18px !important;
     }
+
     .why_library_right_p2 {
         font-size: 12px;
         line-height: 15px;
         margin-top: 5px;
     }
+
     .campus_offer_card_component {
         width: 100% !important;
         margin: 1% 0%;
     }
+
     .campus_offer_card_component_bottom p {
         font-size: 18px;
     }
+
     .view_gallery {
         font-size: 14px;
         padding: 6px 18px;
