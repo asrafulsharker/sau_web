@@ -175,7 +175,7 @@
     <section class="admission" id="admission">
         <div class="admission_main container">
             <div class="admission_top_link">
-                <div id="myBtnContainer">
+                <div id="myBtnContainer2">
                     <button href="" class=" active admission_btn" onclick="filterSelection('admission')">
                         Admission</button>
                     <button class=" admission_btn" onclick="filterSelection('convocation')"> Convocation</button>
@@ -1499,10 +1499,10 @@
         }
 
         // Add active class to the current button (highlight it)
-        var btnContainer = document.getElementById("myBtnContainer");
-        var btns = btnContainer.getElementsByClassName("btn");
+        var btnContainer2 = document.getElementById("myBtnContainer2");
+        var btns2 = btnContainer2.getElementsByClassName("btn2");
         for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function () {
+            btns2[i].addEventListener("click", function () {
                 var current = document.getElementsByClassName("active");
                 current[0].className = current[0].className.replace(" active", "");
                 this.className += " active";
