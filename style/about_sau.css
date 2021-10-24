@@ -427,8 +427,11 @@ p {
     line-height: 28px;
     text-align: justify;
     letter-spacing: 0.01em;
-    color: #049906;
+    color: #049906 !important;
     padding: 20px 0px;
+}
+.about_link_p a{
+    color: #049906 !important;
 }
 
 .about_sau_cover {

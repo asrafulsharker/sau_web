@@ -588,6 +588,10 @@ p {
     color: #049906;
 }
 
+.dvm_link p a{
+    color: #049906;
+}
+
 .welcome_dean_right {
     background: #0C380C;
     padding: 2%;
