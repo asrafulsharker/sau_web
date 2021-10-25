@@ -416,6 +416,11 @@ p {
     height: 100vh;
     opacity: 0.5;
 } */
+
+
+#footer a{
+    color: red;
+}
 .home {
     position: relative;
 }
@@ -1833,7 +1838,7 @@ button:active {
 }
 
 .faculty_left {
-    background: #ECECEC;
+    background: #1882FF;
     border-radius: 22.5708px;
     display: flex;
     flex-direction: column;
@@ -1848,7 +1853,7 @@ button:active {
     font-size: 23.4921px;
     line-height: 32px;
     letter-spacing: 0.01em;
-    color: #153E90;
+    color: #ffff;
     /* text-align: center; */
 }
 
@@ -1882,7 +1887,7 @@ button:active {
 
 .daculty_item a {
     text-decoration: none;
-    color: #000000;
+    color: #ffff;
     margin-right: 20px;
 }
 
@@ -1901,7 +1906,7 @@ button:active {
     /* margin-left: -62px; */
     background: #1882FF;
     border-radius: 17.0233px;
-    padding: 16px;
+    padding: 13px;
     margin-left: 75%;
 }
 
@@ -2107,14 +2112,15 @@ button:active {
 
 .drop-down {
     width: 100%;
-    background-color: #ECECEC;
+    background-color: #ffff;
     border-radius: 10px;
     position: relative;
     cursor: pointer;
+    border: 1px solid #153E90;
 }
 
 .drop-down .selected a {
-    background: #ECECEC !important;
+    background: #ffff !important;
     display: block;
     padding-right: 20px;
     border-radius: 2px;
@@ -2142,7 +2148,7 @@ button:active {
 }
 
 .drop-down .options ul {
-    background: #ECECEC none repeat scroll 0 0;
+    background: #ffff none repeat scroll 0 0;
     display: none;
     list-style: none;
     padding: 0px 7%;
@@ -2154,6 +2160,10 @@ button:active {
     margin-top: 8% !important;
     font-size: 12px;
     z-index: 100;
+    border-bottom: 1px solid #153E90;
+    border-right: 1px solid #153E90;
+    border-left: 1px solid #153E90;
+    border-radius: 5px;
 }
 
 
@@ -2171,6 +2181,7 @@ button:active {
     display: block;
     text-decoration: none;
     color: #515151;
+    font-size: 18px;
 }
 
 .drop-down .options ul li a:hover {
@@ -2296,6 +2307,9 @@ button:active {
     /* background-color: #1882FF; */
 }
 
+.notice_details_notice_P2{
+    font-size: 16px;
+}
 .notice_details_p {
     font-family: Roboto;
     font-style: normal;
@@ -2488,6 +2502,17 @@ button:active {
 
     .faculty {
         padding: 5px 0px;
+    }
+    .notice_details_notice_P2{
+        font-size: 12px;
+    }
+    .latest_news_view_more{
+        font-size: 12.272px;
+    padding: 10px 20px;
+    }
+    .notice_view_more{
+        font-size: 12.272px;
+        padding: 10px 20px;
     }
 }
 
@@ -3084,6 +3109,9 @@ button:active {
     .green_campus {
         margin: 0px 0px;
     }
+    .green_campus_right img{
+        width: 46%;
+    }
 
 }
 
@@ -3146,14 +3174,16 @@ button:active {
 
 .afflition_text {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     flex-direction: column;
+    margin-left: 0% !important;
 }
 
 .afflition_text img {
     margin-top: 8px;
-    margin-left: -25px;
+    /* margin-left: -25px; */
+    height: 4px;
 }
 
 .afflitoion_slider .col-md-12 {
