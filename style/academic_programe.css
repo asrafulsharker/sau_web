@@ -448,7 +448,11 @@ p {
     padding: 15% 0%;
     color: #FFFFFF;
 }
-
+.contact_cover_top_link{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
 .contact_img::after {
     content: "";
     background: url(../image/academic_programme_cover.png);

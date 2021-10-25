@@ -1163,7 +1163,9 @@ p {
     color: #FFFFFF;
     border: 0;
 }
-
+.top_footer_txt{
+    margin-top: 20px;
+}
 .footer_3rd_col {
     display: flex;
     /* justify-content: center; */

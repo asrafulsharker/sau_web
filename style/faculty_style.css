@@ -477,13 +477,19 @@ a{
     font-size: 12px;
 }
 
+
 .sau_library_btn:hover {
     color: #ffff;
 }
 
 .faculty_home_main {
     padding: 0vw 5vw 0vw 5vw;
-    margin-top: 20vh;
+    margin-top: 18vh;
+}
+.faculty_home_top_link{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
 }
 
 .faculty_home_main_option {

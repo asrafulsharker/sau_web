@@ -433,6 +433,16 @@ p {
 .about_link_p a{
     color: #049906 !important;
 }
+.about_sau_top_link{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px 0px;
+    
+}
+.about_sau_top_link a{
+    color: #049906 !important;
+}
 
 .about_sau_cover {
     background-image: url(../image/contact_cover.png);
