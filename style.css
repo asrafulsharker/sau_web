@@ -418,9 +418,7 @@ p {
 } */
 
 
-#footer a{
-    color: red;
-}
+
 .home {
     position: relative;
 }
@@ -616,6 +614,15 @@ p {
 
 .filterDiv {
     display: none;
+}
+.filterDiv2 {
+    display: none;
+}
+.filterDivevent{
+    display: none;
+}
+.show2 {
+    display: block;
 }
 
 .show {
@@ -955,8 +962,51 @@ p {
 
 
 /* home css end  */
-
 /* admission css start  */
+
+
+.admission {
+    padding: 10px 0px 90px 0px;
+}
+.event_filter {
+    margin: 30px 0px 30px 0px;
+}
+.event_slider {
+    position: relative;
+    margin: 30px 0px 30px 0px;
+}
+.admission_filter {
+    margin: 30px 0px 30px 0px;
+}
+.comference {
+    margin: 30px 0px 30px 0px;
+}
+
+.workshop {
+    margin: 30px 0px 30px 0px;
+}
+
+#myBtnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#eventmyBtnContainer{
+    display: flex;
+    justify-content: center;
+}
+.admission_btn{
+    background: #fff;
+    border: none;
+    font-size: 23px;
+    margin: 0px 20px;
+    border-bottom: 3px solid #ffff;
+}
+.admission_btn:focus{
+    font-weight: bold;
+    border-bottom: 3px solid #1882FF;
+}
+
 .admission {
     margin: 30px 0px 30px 0px;
 }
@@ -2672,12 +2722,16 @@ button:active {
 .event {
     padding: 10px 0px 90px 0px;
 }
-
+.event_filter {
+    margin: 30px 0px 30px 0px;
+}
 .event_slider {
     position: relative;
     margin: 30px 0px 30px 0px;
 }
-
+.admission_filter {
+    margin: 30px 0px 30px 0px;
+}
 .comference {
     margin: 30px 0px 30px 0px;
 }
@@ -2689,6 +2743,22 @@ button:active {
 #myBtnContainer {
     display: flex;
     justify-content: center;
+}
+
+#eventmyBtnContainer{
+    display: flex;
+    justify-content: center;
+}
+.event_btn{
+    background: #fff;
+    border: none;
+    font-size: 23px;
+    margin: 0px 20px;
+    border-bottom: 3px solid #ffff;
+}
+.event_btn:focus{
+    font-weight: bold;
+    border-bottom: 3px solid #1882FF;
 }
 
 .event_arrow_prev {
@@ -2718,6 +2788,149 @@ button:active {
     display: none;
 }
 
+
+.event_bottom_1 {
+    /* height: 100vh; */
+    position: relative;
+    /* padding-top: 20vh; */
+    background: rgba(18, 28, 43, 0.82);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    /* margin: 0px 7px; */
+    /* width: 100px; */
+    /* width: 345px; */
+    width: 30.3%;
+    margin-right: auto;
+}
+
+.event_bottom_1::after {
+    content: "";
+    background: url(./image/admition_img1.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    background-color: cover;
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    /* padding: 50px 0px; */
+}
+
+.event_bottom_2 {
+    /* height: 100vh; */
+    position: relative;
+    /* padding-top: 20vh; */
+    background: rgba(18, 28, 43, 0.82);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    /* margin: 0px 7px; */
+    /* width: 100px; */
+    /* width: 345px; */
+    width: 30.3%;
+
+}
+
+.event_bottom_2::after {
+    content: "";
+    background: url(./image/admition_img1.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    background-color: cover;
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    /* padding: 50px 0px; */
+}
+.event_bottom_3 {
+    /* height: 100vh; */
+    position: relative;
+    /* padding-top: 20vh; */
+    background: rgba(18, 28, 43, 0.82);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    /* margin: 0px 7px; */
+    /* width: 100px; */
+    /* width: 345px; */
+    width: 30.3%;
+    margin-left: auto;
+}
+
+.event_bottom_3::after {
+    content: "";
+    background: url(./image/admition_img1.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    background-color: cover;
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    /* padding: 50px 0px; */
+}
+
+.event_bottom_1 a {
+    background: rgba(25, 130, 254, 0.5);
+    padding: 10px 35px;
+    margin-top: 25px;
+    text-decoration: none !important;
+
+}
+
+.event_bottom_1 a:hover {
+    color: #ffff;
+}
+
+.event_bottom_2 a {
+    background: rgba(25, 130, 254, 0.5);
+    padding: 10px 35px;
+    margin-top: 25px;
+    text-decoration: none !important;
+
+}
+
+.event_bottom_2 a:hover {
+    color: #ffff;
+}
+
+.event_bottom_3 a {
+    background: rgba(25, 130, 254, 0.5);
+    padding: 10px 35px;
+    margin-top: 25px;
+    text-decoration: none !important;
+
+}
+
+.event_bottom_3 a:hover {
+    color: #ffff;
+}
 .achivement_text {
     display: flex;
     align-items: center;
