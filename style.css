@@ -296,7 +296,52 @@ p {
 
 
 /* nav popbar responsive css start  */
-
+@media screen and (max-width :800px) {
+    .nav_main {
+        height: 20vh;
+    }
+    .left_nav img {
+        height: 100px;
+    }
+    .logo_text {
+        font-size: 16.191px;
+        line-height: 18px;
+    }
+    .mujib_logo {
+        margin: 0px !important;
+    }
+    .home_heading_text {
+        font-size: 28.99px !important;
+        line-height: 30px !important;
+    }
+    .home_p_text {
+        font-size: 12px !important;
+        line-height: 16px !important;
+        margin-top: 35vh !important;
+    }
+    .home_arrow_prev {
+        margin-top: -63vh;
+    }
+    home_arrow_next {
+        margin-top: -63vh;
+    }
+    .home_btn_one {
+        font-size: 14.012px !important;
+        line-height: 22px !important;
+        padding: 10px 28px !important;
+    }
+    .home_btn {
+        margin-top: 52vh !important;
+    }
+    .home_btn_two {
+        font-size: 14.012px !important;
+        line-height: 22px !important;
+        padding: 10px 28px !important;
+    }
+    .home_btn {
+        margin-top: 52vh !important;
+    }
+}
 @media screen and (max-width :550px) {
     .nav_pop_icon {
         padding: 8px 0px;
@@ -687,9 +732,6 @@ p {
         padding: 2px 0px;
     }
 
-    .home_bottom_arrow {
-        padding-top: 10vh !important;
-    }
 
     .slick-dots li.slick-active button::before {
         margin-top: -28vh;
@@ -712,14 +754,14 @@ p {
     }
 
     .home_bottom_arrow {
-        margin-bottom: 9vh;
+        margin-bottom: 13vh !important;
     }
 
 }
 
 @media screen and (max-width: 1280px) {
     .home_bottom_arrow {
-        padding-top: 5vh !important;
+        margin-bottom: 13vh !important;
     }
 
     .home_heading_text {
@@ -752,15 +794,21 @@ p {
 
 @media screen and (max-width: 1024px) {
     .mujib_logo {
-        margin-top: -100px;
+        margin-top: 4vh !important;
     }
 
     .home_bottom_arrow {
-        padding-top: 31vh !important;
+        margin-bottom: 13vh !important;
     }
 
     .home_heading_text {
         margin-top: 12vh;
+        font-size: 35.99px;
+line-height: 34px;
+    }
+    .home_p_text {
+        font-size: 14px;
+        line-height: 18px;
     }
 
     .home_update {
@@ -853,18 +901,22 @@ p {
     }
 
     .mujib_logo {
-        margin-top: -80px;
-        margin-left: 155px;
+        margin-top: -5px !important;
+        margin-left: 155px !important;
     }
 
     .home_heading_text {
-        font-size: 20.99px;
-        line-height: 20px;
+        font-size: 20.99px !important;
+        line-height: 20px !important;
     }
+    /* .home_heading_text {
+        font-size: 20.99px !important;
+        line-height: 22px !important;
+    } */
 
     .home_p_text {
-        font-size: 7px;
-        line-height: 10px;
+        font-size: 7px !important;
+        line-height: 10px !important;
     }
 
     .home_btn {
@@ -1032,7 +1084,7 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center; */
-    width: 345px !important;
+    /* width: 345px !important; */
     /* background-image: url(./image/admition_img1.png); */
 }
 
@@ -3373,6 +3425,8 @@ button:active {
 
 .afflition_top {
     margin-bottom: 20px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
 }
 
 .afflition_text_p {
@@ -3399,6 +3453,21 @@ button:active {
     height: 4px;
 }
 
+.affilition_mid{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.affilition_mid_single{
+
+}
+.affilition_mid_single_left{
+    margin-right: auto;
+}
+.affilition_mid_single_right{
+    margin-left: auto;
+}
 .afflitoion_slider .col-md-12 {
     display: flex;
     align-items: center;
@@ -3415,7 +3484,23 @@ button:active {
     padding: 25px;
     height: 140px;
     width: 145px;
-
+    margin: 7px;
+}
+.afflition_slider_component_left{
+    border: 1px solid #A6A6A6;
+    box-sizing: border-box;
+    padding: 25px;
+    height: 140px;
+    width: 145px;
+    margin: 0px;
+}
+.afflition_slider_component_right{
+    border: 1px solid #A6A6A6;
+    box-sizing: border-box;
+    padding: 25px;
+    height: 140px;
+    width: 145px;
+    margin: 0px;
 }
 
 .afflition_arrow_prev {
@@ -3453,8 +3538,30 @@ button:active {
         padding: 15px;
         height: 70px;
         width: 70px;
+        /* margin: 1% !important; */
     }
-
+    .affilition_mid{
+        align-items: center;
+        justify-content: center;
+    }
+    .afflition_slider_component_left{
+        padding: 15px;
+        height: 70px;
+        width: 70px;
+        /* margin: 1% !important; */
+    }
+    .afflition_slider_component_right{
+        padding: 15px;
+        height: 70px;
+        width: 70px;
+        /* margin: 1% !important; */
+    }
+    .affilition_mid_single_left{
+        margin: 1% !important;
+    }
+    .affilition_mid_single_right{
+        margin: 1% !important;
+    }
     .afflition_text_p {
         font-size: 20px;
         line-height: 8px;
@@ -3502,6 +3609,7 @@ button:active {
     .fandf_p {
         font-size: 25px;
     }
+
 }
 
 @media screen and (max-width :360px) {

@@ -967,7 +967,7 @@ a{
 }
 
 .glance_right img {
-    height: 115px !important;
+    height: 160px !important;
     padding: 3px;
 }
 
@@ -980,8 +980,9 @@ a{
 .glance_right {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     flex-wrap: wrap;
+    width: 70% !important;
 }
 
 .glance_right img {
@@ -999,6 +1000,15 @@ a{
         height: 100% !important;
         width: 45%;
         padding: 1%;
+    }
+}
+@media screen and (max-width :520px) {
+    .glance_right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100% !important;
     }
 }
 
