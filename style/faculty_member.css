@@ -6,9 +6,11 @@
 html {
     scroll-behavior: smooth;
 }
-a{
+
+a {
     text-decoration: none !important;
 }
+
 p {
     margin-top: 0;
     margin-bottom: 0rem !important;
@@ -18,11 +20,9 @@ p {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    /* position: fixed;  */
     top: 0;
     width: 100%;
     z-index: 10;
-    /* border: 1px solid #757575; */
     padding: 10px 0px;
     position: absolute;
     height: 20vh;
@@ -61,7 +61,6 @@ p {
     width: 85px;
     height: 85px;
     border: 1px solid #54E346;
-    /* padding: 10; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,10 +80,6 @@ p {
     cursor: pointer;
 }
 
-
-.nav-toggler {
-    /* background: #54E346 !important; */
-}
 
 /* nav responsive css  */
 
@@ -162,8 +157,6 @@ p {
     }
 
 }
-
-
 
 
 /* nav responsive css end  */
@@ -300,7 +293,6 @@ p {
 
 .nav-toggler {
     cursor: pointer;
-    /* z-index: 60000; */
 }
 
 
@@ -404,9 +396,6 @@ p {
 
 /* nav popbar responsive css end  */
 
-/* .nav_pop_icon_coros{
-    z-index: -10;
-} */
 
 /* nav css pobar end  */
 
@@ -461,7 +450,6 @@ p {
     text-decoration: none !important;
     color: #000000;
     padding: 15px 20px 15px 15px;
-    /* border-bottom: 0.715055px solid #BABABA; */
     border-left: 3px solid #B4B4B4;
 
 }
@@ -504,20 +492,15 @@ p {
 
 
 
-.accordion {
-    /* max-width: 400px; */
-}
 
 .contentBx {
     position: relative;
-    /* margin: 10px 20px; */
 }
 
 .label {
     padding: 10px;
     color: #000000;
     cursor: pointer;
-    /* width: 100%; */
     margin-left: 35px;
     font-family: Roboto;
     font-style: normal;
@@ -541,7 +524,6 @@ p {
     content: 'x' !important;
     z-index: 10;
     top: 11%;
-    /* color: red; */
     font-size: 25px;
 }
 
@@ -550,10 +532,8 @@ p {
     background-color: #ffff;
     height: 0;
     overflow: hidden;
-    /* transform: 0.5s; */
     transition: 0.5s;
 }
-
 
 
 .contentBx.active .content {
@@ -575,7 +555,6 @@ p {
     background-color: #ffff;
     height: 0;
     overflow: hidden;
-    /* transform: 0.5s; */
     transition: 0.5s;
 }
 
@@ -608,9 +587,6 @@ p {
 }
 
 .toggle__input {
-    /*
-    The pattern by Sara Soueidan https://www.sarasoueidan.com/blog/inclusively-hiding-and-styling-checkboxes-and-radio-buttons/
-    */
     width: var(--uiToggleSize);
     height: var(--uiToggleSize);
     opacity: 0;
@@ -621,9 +597,6 @@ p {
     margin: 0;
 }
 
-/*
-  1. Calculation of the gap for the custom checkbox
-  */
 
 .toggle__label {
     display: inline-flex;
@@ -635,9 +608,6 @@ p {
     cursor: pointer;
 }
 
-/*
-  1. Ems helps to calculate size of the checkbox
-  */
 
 .toggle__label::after {
     content: "";
@@ -672,12 +642,6 @@ p {
     color: #000000;
 }
 
-/*
-  The arrow size and position depends from sizes of square because I needed an arrow correct positioning from the top left corner of the element toggle
-  
-  1. Ems helps to calculate size and position of the arrow
-  */
-
 .toggle__label::before {
     content: "";
     width: 0;
@@ -709,12 +673,6 @@ p {
     border-bottom-width: var(--uiToggleArrowWidth);
 }
 
-/*
-  States
-  */
-
-/* focus state */
-
 .toggle:focus-within {
     outline: var(--toggleOutlineWidthFocus, 3px) solid var(--toggleOutlineColorFocus, currentColor);
     outline-offset: var(--toggleOutlineOffsetFocus, 5px);
@@ -728,23 +686,13 @@ p {
     user-select: none;
 }
 
-/*
-  =====
-  PRESENTATION STYLES
-  =====
-  */
 
-/* 
-  The demo skin
-  */
 
 .toggle__label::after {
     border-radius: var(--toggleBorderRadius, 2px);
 }
 
-/* 
-  The animation of switching states
-  */
+
 
 .toggle__input:not(:disabled)~.toggle__label::before {
     will-change: width, height;
@@ -761,24 +709,12 @@ p {
     transition: background-color .2s ease-out;
 }
 
-/*
-  =====
-  SETTINGS
-  =====
-  */
 
 .page__custom-settings {
     --toggleColor: #187AF1;
     --toggleOutlineColorFocus: #fff;
     --toggleSize: 2rem;
 }
-
-
-/*
-  =====
-  DEMO
-  =====
-  */
 
 
 
@@ -798,23 +734,9 @@ p {
 }
 
 
-
-
-
 /* checkbox css end  */
 
-
-
 /* faculty mamber css end */
-
-
-
-
-
-
-.faculty_member_person_main {}
-
-
 
 .faculty_member_person_top {
     display: flex;
@@ -823,8 +745,6 @@ p {
     flex-direction: column;
     padding: 2vh;
 }
-
-
 
 
 .faculty_member_image {
@@ -864,7 +784,6 @@ p {
 }
 
 .faculty_member_image__overlay--primary {
-    /* background: #009578; */
     border-radius: 50%;
 }
 
@@ -1000,15 +919,6 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* Background Styles Only */
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
@@ -1058,14 +968,6 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
 /* start footer section--- */
 .footer {
     background-color: #000;
@@ -1078,8 +980,6 @@ p {
 }
 
 .footerIcon i {
-    /* display: flex; */
-    /* align-items: flex-end; */
     text-align: right;
     padding: 11px;
     border: 1px solid white;
@@ -1112,7 +1012,6 @@ p {
 
 .footer_1st_col {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -1126,8 +1025,6 @@ p {
 
 .footer_2nd_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -1139,10 +1036,7 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
-    /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -1159,17 +1053,16 @@ p {
     font-size: 22.2887px;
     line-height: 26px;
     letter-spacing: 0.01em;
-
     color: #FFFFFF;
     border: 0;
 }
-.top_footer_txt{
+
+.top_footer_txt {
     margin-top: 20px;
 }
+
 .footer_3rd_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -1180,7 +1073,6 @@ p {
     font-size: 22.2887px;
     line-height: 26px;
     letter-spacing: 0.01em;
-
     color: #FFFFFF;
     border: 0;
 }
@@ -1197,10 +1089,7 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
-    /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -1218,10 +1107,7 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
-    /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -1229,10 +1115,7 @@ p {
 
 .footer_4th_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
-
 }
 
 .footer_4th_col .top_footer_txt {
@@ -1242,7 +1125,6 @@ p {
     font-size: 22.2887px;
     line-height: 26px;
     letter-spacing: 0.01em;
-
     color: #FFFFFF;
     border: 0;
 }
@@ -1292,8 +1174,6 @@ p {
 }
 
 /* footer responsive css end  */
-
-
 
 
 /* footer end  */

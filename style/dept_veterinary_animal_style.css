@@ -20,7 +20,6 @@ p {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    /* position: fixed;  */
     top: 0;
     width: 100%;
     z-index: 10;
@@ -63,7 +62,6 @@ p {
     width: 85px;
     height: 85px;
     border: 1px solid #54E346;
-    /* padding: 10; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,9 +82,6 @@ p {
 }
 
 
-.nav-toggler {
-    /* background: #54E346 !important; */
-}
 
 /* nav responsive css  */
 
@@ -410,9 +405,6 @@ p {
 
 /* nav popbar responsive css end  */
 
-/* .nav_pop_icon_coros{
-    z-index: -10; 
-} */
 
 /* nav css pobar end  */
 
@@ -425,11 +417,8 @@ p {
 .dept_cover {
     background-image: url(../image/inter_student_covewr.png);
     background-position: center;
-    /* Center the image */
     background-repeat: no-repeat;
-    /* Do not repeat the image */
     background-size: cover;
-    /* Resize the background image to cover the entire container */
     margin-top: 20vh;
 }
 
@@ -588,7 +577,7 @@ p {
     color: #049906;
 }
 
-.dvm_link p a{
+.dvm_link p a {
     color: #049906;
 }
 
@@ -876,7 +865,6 @@ p {
 
 
 .dept_home {
-    /* margin-top: 20vh; */
     padding: 2vh 5vw 0vw 5vw;
 }
 
@@ -922,7 +910,6 @@ p {
 .dept_home_left_item_top {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     background-color: #000000;
     padding: 4%;
 }
@@ -971,27 +958,6 @@ p {
     color: #ffff;
 }
 
-/* .dept_home_item {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15.2644px;
-    line-height: 18px;
-    letter-spacing: 0.01em;
-    text-decoration: none !important;
-    color: #000000;
-    padding: 15px 20px 15px 15px;
-
-    border-left: 3px solid #B4B4B4;
-
-} */
-
-/* .dept_home_item:hover {
-    padding: 15px 20px 15px 15px;
-    border-left: 4px solid #187AF1;
-    background-color: #DCDCDC;
-
-} */
 
 .dept_home_overview_p1 {
     font-family: Roboto;
@@ -1057,7 +1023,6 @@ p {
 .dept_home_left {
     display: flex;
     flex-direction: column;
-    /* margin: 2vh 0; */
 }
 
 .dept_home_left img {
@@ -1095,7 +1060,6 @@ p {
 .dept_date_discription {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .dept_single_date_discription {
@@ -1157,7 +1121,6 @@ p {
 }
 
 .dept_notice_details {
-    /* width: 300px; */
     padding-left: 45px;
 }
 
@@ -1181,7 +1144,6 @@ p {
     letter-spacing: 0.01em;
     text-decoration-line: underline;
     color: #1882FF;
-    /* background-color: #1882FF; */
 }
 
 .dept_notice_details_p {
@@ -1193,9 +1155,6 @@ p {
     letter-spacing: 0.01em;
     text-decoration-line: underline;
     color: #049906;
-    /* background-color: #049906; */
-    /* padding: 15px 40px;
-    margin-left: -15px; */
 }
 
 .dept_notice_view_more {
@@ -1256,11 +1215,6 @@ p {
 
 
 /* dept home css end  */
-
-
-
-
-
 
 /* glance css start  */
 .dept_green_campus {
@@ -1329,10 +1283,6 @@ p {
 }
 
 /* glance css end  */
-
-
-
-
 
 
 /* services css start  */
@@ -1446,8 +1396,6 @@ p {
 }
 
 .footerIcon i {
-    /* display: flex; */
-    /* align-items: flex-end; */
     text-align: right;
     padding: 11px;
     border: 1px solid white;
@@ -1480,7 +1428,6 @@ p {
 
 .footer_1st_col {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -1494,8 +1441,6 @@ p {
 
 .footer_2nd_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -1507,10 +1452,7 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
-    /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -1527,15 +1469,12 @@ p {
     font-size: 22.2887px;
     line-height: 26px;
     letter-spacing: 0.01em;
-
     color: #FFFFFF;
     border: 0;
 }
 
 .footer_3rd_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -1563,10 +1502,7 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
-    /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -1584,10 +1520,7 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
-    /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -1595,8 +1528,6 @@ p {
 
 .footer_4th_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 
 }
@@ -1608,7 +1539,6 @@ p {
     font-size: 22.2887px;
     line-height: 26px;
     letter-spacing: 0.01em;
-
     color: #FFFFFF;
     border: 0;
 }
@@ -1658,8 +1588,6 @@ p {
 }
 
 /* footer responsive css end  */
-
-
 
 
 /* footer end  */

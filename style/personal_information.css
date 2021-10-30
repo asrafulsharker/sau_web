@@ -2,9 +2,11 @@
     margin: 0;
     font-family: Roboto;
 }
-a{
+
+a {
     text-decoration: none !important;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -18,7 +20,6 @@ p {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    /* position: fixed;  */
     top: 0;
     width: 100%;
     z-index: 10;
@@ -62,7 +63,6 @@ p {
     width: 85px;
     height: 85px;
     border: 1px solid #54E346;
-    /* padding: 10; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,15 +164,8 @@ p {
 
 }
 
-
-
-
 /* nav responsive css end  */
-
-
 /* nav css end  */
-
-
 
 /* nav popbar css start  */
 
@@ -301,7 +294,6 @@ p {
 
 .nav-toggler {
     cursor: pointer;
-    /* z-index: 60000; */
 }
 
 
@@ -412,10 +404,6 @@ p {
 
 
 /* nav popbar responsive css end  */
-
-/* .nav_pop_icon_coros{
-    z-index: -10; 
-} */
 
 /* nav css pobar end  */
 
@@ -531,10 +519,7 @@ p {
     font-weight: 400;
     font-size: 20.0524px;
     line-height: 23px;
-
-    /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #000000;
 }
 
@@ -790,8 +775,6 @@ p {
 }
 
 .footerIcon i {
-    /* display: flex; */
-    /* align-items: flex-end; */
     text-align: right;
     padding: 11px;
     border: 1px solid white;
@@ -824,7 +807,6 @@ p {
 
 .footer_1st_col {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -838,8 +820,6 @@ p {
 
 .footer_2nd_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -851,10 +831,8 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
     /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -875,14 +853,13 @@ p {
     color: #FFFFFF;
     border: 0;
 }
-.top_footer_txt{
+
+.top_footer_txt {
     margin-top: 20px;
 }
 
 .footer_3rd_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -931,10 +908,8 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
     /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -942,8 +917,6 @@ p {
 
 .footer_4th_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 
 }

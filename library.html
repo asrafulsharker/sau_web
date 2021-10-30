@@ -46,7 +46,7 @@
     <section class="nav" id="nav">
         <div class="nav_main">
             <div class="left_nav">
-                <a class="left_nav" href="./index.html">                
+                <a class="left_nav" href="./index.html">
                     <img src="./image/sau_logo.png" alt="logo" />
                     <p class="logo_text">SYLHET <br />AGRICULTURE<br />UNIVERSITY</p>
                 </a>
@@ -272,16 +272,7 @@
     <!-- library home end  -->
 
 
-
-
-
-
-
-
-
     <!-- footer start -->
-
-
     <section class="footer ">
         <div class="footerBg container">
             <div class="row">
@@ -391,8 +382,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-               <!-- magnetic popup  -->
-               <script src="./js/magnetic popup.min.js"></script>
+    <!-- magnetic popup  -->
+    <script src="./js/magnetic popup.min.js"></script>
 
     <script type="text/javascript">
         // pop bar js 
@@ -407,13 +398,6 @@
             navToggler.classList.toggle("active");
             const nav = document.querySelector(".nav_pop_bar");
             nav.classList.toggle("open");
-            // if(nav.classList.contains("open")){
-            //     nav.style.maxHeight = nav.scrollHeight + "px";
-            // }
-            // else{
-            //     nav.removeAttribute('style');
-            // }
-            // nav.classList.toggle("close");
         }
 
 
@@ -425,13 +409,6 @@
             navTogglerCoros.classList.toggle("active");
             const nav = document.querySelector(".nav_pop_bar");
             nav.classList.toggle("open");
-            // if(nav.classList.contains("close")){
-            //     nav.style.maxHeight = nav.scrollHeight + "px";
-            // }
-            // else{
-            //     nav.removeAttribute('style');
-            // }
-            // nav.classList.toggle("open");
             nav.removeAttribute('style');
         }
 
@@ -451,41 +428,32 @@
         });
 
 
-        
-        $(document).ready(function() {
-	$('.popup-with-zoom-anim').magnificPopup({
-		type: 'inline',
 
-		fixedContentPos: false,
-		fixedBgPos: true,
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: 'auto',
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
 
-		overflowY: 'auto',
-
-		closeBtnInside: true,
-		preloader: false,
-		
-		midClick: true,
-		removalDelay: 300,
-		mainClass: 'my-mfp-zoom-in'
-	});
-
-	$('.popup-with-move-anim').magnificPopup({
-		type: 'inline',
-
-		fixedContentPos: false,
-		fixedBgPos: true,
-
-		overflowY: 'auto',
-
-		closeBtnInside: true,
-		preloader: false,
-		
-		midClick: true,
-		removalDelay: 300,
-		mainClass: 'my-mfp-slide-bottom'
-	});
-});
-
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: 'auto',
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
     </script>
 
 </body>

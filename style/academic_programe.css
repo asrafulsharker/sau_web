@@ -6,9 +6,11 @@
 html {
     scroll-behavior: smooth;
 }
-a{
+
+a {
     text-decoration: none !important;
 }
+
 p {
     margin-top: 0;
     margin-bottom: 0rem !important;
@@ -412,9 +414,6 @@ p {
 
 /* nav popbar responsive css end  */
 
-/* .nav_pop_icon_coros{
-    z-index: -10; 
-} */
 
 /* nav css pobar end  */
 
@@ -448,11 +447,13 @@ p {
     padding: 15% 0%;
     color: #FFFFFF;
 }
-.contact_cover_top_link{
+
+.contact_cover_top_link {
     display: flex;
     align-items: center;
     padding: 10px 0px;
 }
+
 .contact_img::after {
     content: "";
     background: url(../image/academic_programme_cover.png);
@@ -700,7 +701,6 @@ p {
     font-size: 27.0806px;
     line-height: 36px;
     letter-spacing: 0.06em;
-
     color: #000000;
 
 
@@ -965,7 +965,6 @@ p {
 
 .footer_1st_col {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -979,8 +978,6 @@ p {
 
 .footer_2nd_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -992,10 +989,8 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
     /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -1012,7 +1007,6 @@ p {
     font-size: 22.2887px;
     line-height: 26px;
     letter-spacing: 0.01em;
-
     color: #FFFFFF;
     border: 0;
 }
@@ -1031,7 +1025,6 @@ p {
     font-size: 22.2887px;
     line-height: 26px;
     letter-spacing: 0.01em;
-
     color: #FFFFFF;
     border: 0;
 }
@@ -1048,10 +1041,8 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
     /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -1069,10 +1060,8 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
     /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -1080,10 +1069,7 @@ p {
 
 .footer_4th_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
-
 }
 
 .footer_4th_col .top_footer_txt {
@@ -1093,7 +1079,6 @@ p {
     font-size: 22.2887px;
     line-height: 26px;
     letter-spacing: 0.01em;
-
     color: #FFFFFF;
     border: 0;
 }

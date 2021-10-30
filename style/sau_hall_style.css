@@ -6,9 +6,11 @@
 html {
     scroll-behavior: smooth;
 }
-a{
+
+a {
     text-decoration: none !important;
 }
+
 p {
     margin-top: 0;
     margin-bottom: 0rem !important;
@@ -18,7 +20,6 @@ p {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    /* position: fixed;  */
     top: 0;
     width: 100%;
     z-index: 10;
@@ -61,7 +62,6 @@ p {
     width: 85px;
     height: 85px;
     border: 1px solid #54E346;
-    /* padding: 10; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,10 +81,6 @@ p {
     cursor: pointer;
 }
 
-
-.nav-toggler {
-    /* background: #54E346 !important; */
-}
 
 /* nav responsive css  */
 
@@ -164,14 +160,9 @@ p {
 }
 
 
-
-
 /* nav responsive css end  */
 
-
 /* nav css end  */
-
-
 
 /* nav popbar css start  */
 
@@ -404,18 +395,12 @@ p {
 
 /* nav popbar responsive css end  */
 
-/* .nav_pop_icon_coros{
-    z-index: -10;
-} */
 
 /* nav css pobar end  */
 
 
 /* faculty css start  */
 
-/* .faculty_home_right_top_cover{
-    background-image: url();
-} */
 
 
 
@@ -458,7 +443,6 @@ p {
     text-decoration: none !important;
     color: #000000;
     padding: 15px 20px 15px 15px;
-    /* border-bottom: 0.715055px solid #BABABA; */
     border-left: 3px solid #B4B4B4;
 
 }
@@ -473,7 +457,6 @@ p {
 .hall_home_left {
     display: flex;
     flex-direction: column;
-    /* margin: 2vh 0; */
 }
 
 .hall_home_left img {
@@ -507,7 +490,6 @@ p {
 .hall_home_right_top_cover::after {
     content: "";
     background: url(../image/faculty_home_right_top_cover.png);
-    /* opacity: 0.5; */
     top: 0;
     left: 0;
     bottom: 0;
@@ -526,8 +508,6 @@ p {
 
 .why_hall {
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
     flex-wrap: wrap;
     border: 0.879205px solid #C8BCBC;
     box-sizing: border-box;
@@ -584,8 +564,6 @@ p {
 
 .teacher_hall {
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
     flex-wrap: wrap;
     border: 0.879205px solid #C8BCBC;
     box-sizing: border-box;
@@ -798,8 +776,6 @@ p {
 }
 
 .footerIcon i {
-    /* display: flex; */
-    /* align-items: flex-end; */
     text-align: right;
     padding: 11px;
     border: 1px solid white;
@@ -832,7 +808,6 @@ p {
 
 .footer_1st_col {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -846,8 +821,6 @@ p {
 
 .footer_2nd_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -859,10 +832,7 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
-    /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -886,8 +856,6 @@ p {
 
 .footer_3rd_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -915,10 +883,7 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
-    /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -936,10 +901,7 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
-    /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 1px solid #968787;
     padding: 5px 0px;
@@ -947,8 +909,6 @@ p {
 
 .footer_4th_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 
 }

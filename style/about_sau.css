@@ -3,9 +3,10 @@
     font-family: Roboto;
 }
 
-a{
+a {
     text-decoration: none !important;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -19,7 +20,6 @@ p {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    /* position: fixed;  */
     top: 0;
     width: 100%;
     z-index: 10;
@@ -62,7 +62,6 @@ p {
     width: 85px;
     height: 85px;
     border: 1px solid #54E346;
-    /* padding: 10; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -405,9 +404,6 @@ p {
 
 /* nav popbar responsive css end  */
 
-/* .nav_pop_icon_coros{
-    z-index: -10; 
-} */
 
 /* nav css pobar end  */
 
@@ -430,24 +426,25 @@ p {
     color: #049906 !important;
     padding: 20px 0px;
 }
-.about_link_p a{
+
+.about_link_p a {
     color: #049906 !important;
 }
-.about_sau_top_link{
+
+.about_sau_top_link {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     padding: 10px 0px;
-    
+
 }
-.about_sau_top_link a{
+
+.about_sau_top_link a {
     color: #049906 !important;
 }
 
 .about_sau_cover {
     background-image: url(../image/contact_cover.png);
     background-position: center;
-    /* background-repeat: no-repeat; */
     background-size: cover;
     width: 100%;
     display: flex;
@@ -513,9 +510,6 @@ p {
 }
 
 .about_history_details {
-    /* border: 1px solid #C8BCBC;
-    box-sizing: border-box;
-    padding: 1%; */
     padding: 3%;
 }
 
@@ -650,13 +644,6 @@ p {
 /* history css part end  */
 
 
-
-
-
-
-
-
-
 /* start footer section--- */
 .footer1 {
     background-color: #000 !important;
@@ -669,8 +656,6 @@ p {
 }
 
 .footerIcon i {
-    /* display: flex; */
-    /* align-items: flex-end; */
     text-align: right;
     padding: 11px;
     border: 1px solid white;
@@ -703,7 +688,6 @@ p {
 
 .footer_1st_col {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -717,8 +701,6 @@ p {
 
 .footer_2nd_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -730,8 +712,6 @@ p {
     font-weight: normal;
     font-size: 16.4344px;
     line-height: 19px;
-
-    /* identical to box height */
     letter-spacing: 0.01em;
 
     color: #E2E2E2;
@@ -757,8 +737,6 @@ p {
 
 .footer_3rd_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -818,8 +796,6 @@ p {
 
 .footer_4th_col {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 
 }
