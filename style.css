@@ -809,20 +809,37 @@ p {
         margin-top: -22vh;
     }
 
-    .home_p_text {
-        margin-top: 37vh !important;
-    }
 
     .home_heading_text {
-        margin-top: 25vh !important;
+        margin-top: 18vh !important;
     }
 
     .home_btn {
         margin-top: 48vh !important;
     }
-
+    .home_p_text {
+        margin-top: 33vh!important;
+    }
+    .home_btn_one {
+        padding: 10px 30px;
+    }
+    .home_btn_two {
+        padding: 10px 30px;
+    }
     .home_bottom_arrow {
-        margin-bottom: 9vh !important;
+        margin-bottom: 14vh!important;
+    }
+    .home_bottom_arrow {
+        margin-bottom: 14vh!important;
+    }
+    .nav_main_options {
+        margin: 0% 0% 0% 0% !important;
+    }
+    .nav_main_options a{
+        margin-top: 25px !important;
+    }
+    .nav_2ndlebel_option {
+        margin: 5% 0% 0% 0% !important;
     }
 }
 
