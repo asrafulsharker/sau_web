@@ -3,10 +3,6 @@
     font-family: Roboto;
 }
 
-a {
-    text-decoration: none !important;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -20,13 +16,13 @@ p {
     display: flex;
     justify-content: center;
     overflow: hidden;
+    /* position: fixed;  */
     top: 0;
     width: 100%;
     z-index: 10;
     border: 1px solid #757575;
     padding: 10px 0px;
     position: absolute;
-    height: 20vh;
 }
 
 .left_nav {
@@ -34,6 +30,7 @@ p {
     display: flex;
     align-items: center;
     padding-left: 5%;
+    text-decoration: none !important;
 }
 
 .logo_text {
@@ -62,6 +59,7 @@ p {
     width: 85px;
     height: 85px;
     border: 1px solid #54E346;
+    /* padding: 10; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,9 +76,7 @@ p {
     text-align: center;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    cursor: pointer;
 }
-
 
 
 /* nav responsive css  */
@@ -104,7 +100,7 @@ p {
     }
 
     .left_nav img {
-        height: 65px;
+        height: 65px !important;
     }
 
     .nav_icon_main {
@@ -126,16 +122,12 @@ p {
     .nav_icon_3 {
         height: 30px;
     }
-
-    .nav_main {
-        height: 8vh;
-    }
 }
 
 
 @media screen and (max-width :360px) {
     .left_nav img {
-        height: 45px;
+        height: 45px !important;
     }
 
     .left_nav img {
@@ -171,8 +163,6 @@ p {
 
 
 /* nav css end  */
-
-
 
 /* nav popbar css start  */
 
@@ -215,7 +205,7 @@ p {
 .nav_main_options {
     display: flex;
     flex-wrap: wrap;
-    margin: 5% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
 }
 
 .nav_main_options a {
@@ -236,7 +226,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     font-family: Roboto;
-    margin: 10% 0% 0% 0%;
+    margin: 5% 0% 0% 0%;
 }
 
 .nav_2ndlebel_option .nav_2ndlebel_option_add a {
@@ -263,7 +253,7 @@ p {
 }
 
 .nav_bottom_btn {
-    margin-top: 12%;
+    margin-top: 8%;
 }
 
 .nav_bottom_btn a {
@@ -303,9 +293,85 @@ p {
     cursor: pointer;
     /* z-index: 60000; */
 }
-
+@media screen and (max-width :1024px) {
+    .nav_main_options {
+        margin: 0% 0% 0% 0% !important;
+    }
+    .nav_main_options a {
+        margin-top: 5px !important;
+    }
+    .nav_2ndlebel_option .nav_2ndlebel_option_add a {
+        margin: 0% 0% !important;
+    }
+    .nav_bottom_btn a {
+        padding: 10px 30px;
+    }
+    .nav_bottom_btn {
+        margin-top: 8% !important;
+    }
+    .nav_2ndlebel_option .nav_2ndlebel_option_add img {
+        margin-left: 5px;
+    }
+}
 
 /* nav popbar responsive css start  */
+@media screen and (max-width :800px) {
+    .nav_main {
+        height: 20vh;
+    }
+
+    .left_nav img {
+        height: 100px;
+    }
+
+    .logo_text {
+        font-size: 16.191px;
+        line-height: 18px;
+    }
+
+    .mujib_logo {
+        margin: 0px !important;
+    }
+
+    .home_heading_text {
+        font-size: 28.99px !important;
+        line-height: 30px !important;
+    }
+
+    .home_p_text {
+        font-size: 12px !important;
+        line-height: 16px !important;
+        margin-top: 35vh !important;
+    }
+
+    .home_arrow_prev {
+        margin-top: -63vh;
+    }
+
+    home_arrow_next {
+        margin-top: -63vh;
+    }
+
+    .home_btn_one {
+        font-size: 14.012px !important;
+        line-height: 22px !important;
+        padding: 10px 28px !important;
+    }
+
+    .home_btn {
+        margin-top: 52vh !important;
+    }
+
+    .home_btn_two {
+        font-size: 14.012px !important;
+        line-height: 22px !important;
+        padding: 10px 28px !important;
+    }
+
+    .home_btn {
+        margin-top: 52vh !important;
+    }
+}
 
 @media screen and (max-width :550px) {
     .nav_pop_icon {
@@ -313,8 +379,8 @@ p {
     }
 
     .nav_pop_icon a img {
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
         padding: 9px;
         margin-left: 5px;
     }
@@ -360,8 +426,8 @@ p {
     }
 
     .nav_pop_icon a img {
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
         padding: 9px;
         margin-left: 5px;
     }
@@ -405,6 +471,9 @@ p {
 
 /* nav popbar responsive css end  */
 
+/* .nav_pop_icon_coros{
+    z-index: -10; 
+} */
 
 /* nav css pobar end  */
 
