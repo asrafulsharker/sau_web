@@ -100,7 +100,7 @@ p {
     }
 
     .left_nav img {
-        height: 65px;
+        height: 65px !important;
     }
 
     .nav_icon_main {
@@ -127,7 +127,7 @@ p {
 
 @media screen and (max-width :360px) {
     .left_nav img {
-        height: 45px;
+        height: 45px !important;
     }
 
     .left_nav img {
@@ -777,11 +777,11 @@ p {
     }
 
     .home_p_text {
-        margin-top: 36vh;
+        margin-top: 34vh;
     }
 
     .home_heading_text {
-        margin-top: 22vh;
+        margin-top: 18vh;
     }
 
     .home_btn {
@@ -1015,8 +1015,8 @@ p {
 
 @media screen and (max-width: 445px) {
     .mujib_logo {
-        margin-top: -80px;
-        margin-left: 125px;
+        /* margin-top: -80px !important; */
+        margin-left: 125px !important;
     }
 }
 
@@ -1579,11 +1579,11 @@ button:active {
         line-height: 12px;
     }
 
-    .admission_bottom_1 a {
+    /* .admission_bottom_1 a {
         padding: 5px 20px;
         margin-top: 10px;
         font-size: 10px;
-    }
+    } */
 }
 
 
@@ -1625,6 +1625,54 @@ button:active {
 
     .admission_btn {
         margin: 0px 8px;
+    }
+
+
+
+
+    .event_top_link a {
+        font-size: 14px;
+    }
+
+    .event_bottom_1 {
+        width: 100% !important;
+        /* height: 150px; */
+        margin-top: 10px !important;
+    }
+
+    .event_bottom_2 {
+        width: 100% !important;
+        margin-top: 5px;
+    }
+    .event_bottom_3 {
+        width: 100% !important;
+        margin-top: 5px;
+    }
+
+    .event_bottom_1v2 {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .event_bottom_2v2 {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .event_bottom_3v2 {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .event_btn {
+        margin: 0px 8px !important;
+    }
+    .event_btn {
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+    .event_filter {
+        margin: 5px 0px 5px 0px !important;
     }
 
     .faculty_right {
@@ -2277,10 +2325,9 @@ button:active {
 .date_discription {
     display: flex;
     align-items: center;
-    height: 250px;
+    height: 150px;
 }
 
-.date_discription {}
 
 .single_date_discription {
     display: flex;
@@ -2627,7 +2674,9 @@ button:active {
     margin: 90px 0px 10px 0px;
 }
 
-
+.achivement_bottom_btn{
+    background-color: #049906!important;
+}
 .select {
     padding: 8px 12px;
     color: #3333;
