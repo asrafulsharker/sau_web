@@ -751,6 +751,11 @@ p {
     width: 33%;
 }
 
+.hall_expert_component img{
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+}
+
 .hall_expert_component_p1 {
     font-style: normal;
     font-weight: 800;
@@ -881,6 +886,22 @@ p {
 
 .hall_support_diversity_p2 a {
     color: red;
+}
+
+@media screen and (max-width :550px) {
+    .hall_expert_component {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .hall_expert_component img{
+        height: 270px;
+        width: 260px;
+         margin-top: 10px;
+    }
+
+    .hall_expert{
+        flex-wrap: wrap;
+    }
 }
 
 /* teacher hall css end  */
