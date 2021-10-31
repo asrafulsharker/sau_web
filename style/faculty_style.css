@@ -377,7 +377,9 @@ p {
     .nav_pop_icon {
         padding: 8px 0px;
     }
-
+    .nav_main {
+        height: 8vh;
+    }
     .nav_pop_icon a img {
         width: 45px;
         height: 45px;
@@ -415,9 +417,34 @@ p {
     }
 
     .nav_main_options {
-        margin: 35% 0% 0% 0%;
+        margin: 35% 0% 0% 0% !important;
     }
-
+    .nav_main_options a {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .nav_2ndlebel_option {
+        margin: 14% 0% 0% 0% !important;
+    }
+    .nav_2ndlebel_option .nav_2ndlebel_option_add a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .nav_bottom_btn a {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+    .nav_bottom_btn {
+        margin-top: 30% !important;
+    }
+    .faculty_home_main {
+        padding: 0vw 5vw 0vw 5vw;
+        margin-top: 4vh;
+    }
+    .faculty_home_main {
+        padding: 0vw 5vw 0vw 5vw;
+        margin-top: 4vh!important;
+    }
 }
 
 @media screen and (max-width :360px) {
@@ -576,7 +603,8 @@ p {
 .faculty_home_top_link {
     display: flex;
     align-items: center;
-    padding: 10px 0px;
+    padding: 40px 0px 15px ;
+
 }
 
 .faculty_home_main_option {
@@ -657,7 +685,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 37px;
     letter-spacing: 0.06em;
     color: #FFFFFF;

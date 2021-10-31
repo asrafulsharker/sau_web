@@ -432,9 +432,26 @@ p {
     }
 
     .nav_main_options {
-        margin: 35% 0% 0% 0%;
+        margin: 35% 0% 0% 0% !important;
     }
-
+    .nav_main_options a {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .nav_2ndlebel_option {
+        margin: 14% 0% 0% 0% !important;
+    }
+    .nav_2ndlebel_option .nav_2ndlebel_option_add a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .nav_bottom_btn a {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+    .nav_bottom_btn {
+        margin-top: 30% !important;
+    }
 }
 
 @media screen and (max-width :360px) {
