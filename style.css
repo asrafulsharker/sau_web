@@ -293,7 +293,26 @@ p {
     cursor: pointer;
     /* z-index: 60000; */
 }
-
+@media screen and (max-width :1024px) {
+    .nav_main_options {
+        margin: 0% 0% 0% 0% !important;
+    }
+    .nav_main_options a {
+        margin-top: 5px !important;
+    }
+    .nav_2ndlebel_option .nav_2ndlebel_option_add a {
+        margin: 0% 0% !important;
+    }
+    .nav_bottom_btn a {
+        padding: 10px 30px;
+    }
+    .nav_bottom_btn {
+        margin-top: 8% !important;
+    }
+    .nav_2ndlebel_option .nav_2ndlebel_option_add img {
+        margin-left: 5px;
+    }
+}
 
 /* nav popbar responsive css start  */
 @media screen and (max-width :800px) {
@@ -630,6 +649,7 @@ p {
     bottom: 0;
     text-align: center;
     width: 100%;
+    z-index: 1000;
 }
 
 .slick-dots li.slick-active button::before {
@@ -817,7 +837,7 @@ p {
     }
 
     .home_heading_text {
-        margin-top: 12vh;
+        margin-top: 18vh !important;
         font-size: 35.99px;
         line-height: 34px;
     }
@@ -830,6 +850,22 @@ p {
     .home_update {
         font-size: 11px;
         margin-top: 3vh !important;
+      
+    }
+    /* .home_heading_text {
+        margin-top: 20vh !important;
+    } */
+    .home_p_text {
+        margin-top: 32vh!important;
+    }
+    .home_btn_one {
+        padding: 10px 30px;
+    }
+    .home_btn_two {
+        padding: 10px 30px;
+    }
+    .home_bottom_arrow {
+        margin-bottom: 16vh !important;
     }
 }
 
@@ -842,6 +878,7 @@ p {
     .home_update {
         font-size: 9px;
     }
+
 }
 
 
