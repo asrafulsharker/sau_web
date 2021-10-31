@@ -884,6 +884,9 @@ p {
     .home_bottom_arrow {
         margin-bottom: 16vh !important;
     }
+    .nav_main_options a {
+        margin-top: 2px!important;
+    }
 }
 
 
